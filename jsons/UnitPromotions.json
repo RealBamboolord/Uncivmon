@@ -42,7 +42,22 @@
 	},
   {
 		"name": "Grass",
-		"uniques": ["Water","[+50]% Strength <vs [Water] units>","[+50]% Strength <vs [Ground] units>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>"],
+		"uniques": ["Grass","[+50]% Strength <vs [Water] units>","[+50]% Strength <vs [Ground] units>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Electric",
+		"uniques": ["Electric","[+50]% Strength <vs [Flying] units>","[+50]% Strength <vs [Water] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Ice",
+		"uniques": ["Ice","[+50]% Strength <vs [Grass] units> <when attacking>","[+50]% Strength <vs [Ground] units> <when attacking>","[+50]% Strength <vs [Flying] units> <when attacking>","[+50]% Strength <vs [Dragon] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Fighting",
+		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
 		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
 	},
   
