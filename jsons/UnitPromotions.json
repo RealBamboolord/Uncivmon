@@ -38,7 +38,12 @@
   {
 		"name": "Water",
 		"uniques": ["Water","[+50]% Strength <vs [Fire] units>","[+50]% Strength <vs [Ground] units> <when attacking>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>","[+50]% Strength <vs [Water] units> <when defending>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Grass",
+		"uniques": ["Water","[+50]% Strength <vs [Water] units>","[+50]% Strength <vs [Ground] units>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
 	},
   
   ]
