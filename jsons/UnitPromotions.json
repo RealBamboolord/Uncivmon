@@ -59,6 +59,56 @@
 		"name": "Fighting",
 		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
 		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},,
+  {
+		"name": "Poison",
+		"uniques": ["Poison","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Fairy] units>","[+50]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Poison] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Fighting",
+		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Fighting",
+		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Fighting",
+		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Fighting",
+		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Fighting",
+		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Fighting",
+		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Fighting",
+		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Fighting",
+		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
+	},
+  {
+		"name": "Fighting",
+		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"]
 	},
   
   ]
