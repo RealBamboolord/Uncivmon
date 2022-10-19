@@ -1,5 +1,9 @@
 [
     {
+        "name": "Test",
+        "movementType": "Land"
+    },
+    {
         "name": "Civilian",
         "movementType": "Land"
     },
