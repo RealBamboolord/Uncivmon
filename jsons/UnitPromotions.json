@@ -114,7 +114,7 @@
 	},
   {
 		"name": "Steel",
-		"uniques": ["Steel","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Ice] units>","[+50]% Strength <vs [Fairy] units>","[+50]% Strength <vs [Normal] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>","[+50]% Strength <vs [Flying] units> <when defending>","[+50]% Strength <vs [Psychic] units> <when defending>","[+50]% Strength <vs [Dragon] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>",],
+		"uniques": ["Steel","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Ice] units>","[+50]% Strength <vs [Fairy] units>","[+50]% Strength <vs [Normal] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>","[+50]% Strength <vs [Flying] units> <when defending>","[+50]% Strength <vs [Psychic] units> <when defending>","[+50]% Strength <vs [Dragon] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>","[+90]% Strength <vs [Poison] units> <when defending>"],
 		"unitTypes": ["Test"]
 	},
   {
