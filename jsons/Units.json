@@ -9,4 +9,38 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Bulbasaur",
+		"unitType": "Sword", 
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 7,
+		"range": 1,
+		"promotions": ["Grass","Poison"],
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Pokemon],
+		"replacementTextForUniques": "Unbuildable",
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Charmander",
+		"unitType": "Sword", 
+		"movement": 2,
+		"strength": 11,
+		"promotions": ["Fire"],
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Pokemon],
+		"replacementTextForUniques": "Unbuildable",
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Squirtle",
+		"unitType": "Sword", 
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 8,
+		"range": 2,
+		"promotions": ["Water"],
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Pokemon],
+		"replacementTextForUniques": "Unbuildable",
+		"attackSound": "cannon"
+	},
 ]
