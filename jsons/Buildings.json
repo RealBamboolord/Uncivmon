@@ -1,0 +1,45 @@
+[
+	{
+		"name": "Choose Bulbasaur",
+		"isWonder": true,
+		"cost": 15,
+		"uniques": ["Gain a free [Starter Wonder] [in all cities]", "Free [Bulbasaur] appears", 
+					"Only available <in cities without a [Starter Wonder]>"],
+		"replacementTextForUniques": "Unlock Bulbasaur",
+		"civilopediaText": [
+			{"text":"Choose your starter Pokémon"}
+        ]
+	},
+	{
+		"name": "Choose Charmander",
+		"isWonder": true,
+		"cost": 15,
+		"uniques": ["Gain a free [Starter Wonder] [in all cities]", "Free [Charmander] appears", 
+					"Only available <in cities without a [Starter Wonder]>"],
+		"replacementTextForUniques": "Unlock Charmander",
+		"civilopediaText": [
+			{"text":"Choose your starter Pokémon"}
+        ]
+	},
+	{
+		"name": "Choose Squirtle",
+		"isWonder": true,
+		"cost": 15,
+		"uniques": ["Gain a free [Starter Wonder] [in all cities]", "Free [Squirtle] appears", 
+					"Only available <in cities without a [Starter Wonder]>"],
+		"replacementTextForUniques": "Unlock Squirtle",
+		"civilopediaText": [
+			{"text":"Choose your starter Pokémon"}
+        ]
+	},
+	{
+		"name": "Starter Wonder",
+		"uniques": ["Unbuildable", "Unsellable"],
+		"replacementTextForUniques": "Unbuildable",
+	},
+  
+  
+  
+  
+  
+  ]
