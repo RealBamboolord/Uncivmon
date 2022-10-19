@@ -1,0 +1,12 @@
+[
+{
+		"name": "Test",
+		"unitType": "Test",
+		"movement": 2,
+		"strength": 35,
+		"cost": 5,
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+]
