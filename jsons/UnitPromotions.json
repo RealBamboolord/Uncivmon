@@ -32,7 +32,7 @@
 	},
   {
 		"name": "Normal",
-		"uniques": ["Normal"],
+		"uniques": ["Normal","[+90]% Strength <vs [Ghost] units> <when defending>"],
 		"unitTypes": ["Test"]
 	},
   {
