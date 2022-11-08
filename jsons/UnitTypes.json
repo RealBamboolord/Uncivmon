@@ -4,9 +4,34 @@
         "movementType": "Land"
     },
     {
+        "name": "Bulbasaur",
+        "movementType": "Land"
+    },
+    {
+        "name": "Squirtle",
+        "movementType": "Land"
+    },
+    {
+        "name": "Charmander",
+        "movementType": "Land"
+    },
+    {
+        "name": "Charizard",
+        "movementType": "Land"
+    },
+    {
+        "name": "Trainer",
+        "movementType": "Land"
+    },
+    {
+        "name": "Pokeball",
+        "movementType": "Land"
+    },
+    {
         "name": "Civilian",
         "movementType": "Land"
     },
+/////////Trash////////
     {
         "name": "Sword",
         "movementType": "Land"
