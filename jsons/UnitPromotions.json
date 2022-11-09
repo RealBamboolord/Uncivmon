@@ -3,104 +3,144 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer","Pokeball",/*"","","","","","","","","","",""*/]
+		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer","Pokeball",/*"","","","","","","","","","",""*/],
+		"row": 1,
+        	"column": 1
 	},
   /////Types/////
   {
 		"name": "Fire",
 		"uniques": ["Fire","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Ice] units>","[+50]% Strength <vs [Bug] units>","[+50]% Strength <vs [Steel] units>","[+50]% Strength <vs [Fairy] units> <when defending>","[+50]% Strength <vs [Fire] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 1,
+        	"column": 3
 	},
   {
 		"name": "Normal",
 		"uniques": ["Normal","[+90]% Strength <vs [Ghost] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 2,
+        	"column": 3
 	},
   {
 		"name": "Water",
 		"uniques": ["Water","[+50]% Strength <vs [Fire] units>","[+50]% Strength <vs [Ground] units> <when attacking>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>","[+50]% Strength <vs [Water] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 3,
+        	"column": 3
 	},
   {
 		"name": "Grass",
 		"uniques": ["Grass","[+50]% Strength <vs [Water] units>","[+50]% Strength <vs [Ground] units>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 4,
+        	"column": 3
 	},
   {
 		"name": "Electric",
 		"uniques": ["Electric","[+50]% Strength <vs [Flying] units>","[+50]% Strength <vs [Water] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 5,
+        	"column": 3
 	},
   {
 		"name": "Ice",
 		"uniques": ["Ice","[+50]% Strength <vs [Grass] units> <when attacking>","[+50]% Strength <vs [Ground] units> <when attacking>","[+50]% Strength <vs [Flying] units> <when attacking>","[+50]% Strength <vs [Dragon] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 6,
+        	"column": 3
 	},
   {
 		"name": "Fighting",
 		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 7,
+        	"column": 3
 	},
   {
 		"name": "Poison",
 		"uniques": ["Poison","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Fairy] units>","[+50]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Poison] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 8,
+        	"column": 3
         },
   {
 		"name": "Ground",
 		"uniques": ["Ground","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Poison] units>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Fire] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when attacking>","[+90]% Strength <vs [Electric] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 9,
+        	"column": 3
         },
   {
 		"name": "Flying",
 		"uniques": ["Flying","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Fighting] units>","[+50]% Strength <vs [Bug] units>","[+90]% Strength <vs [Ground] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 10,
+        	"column": 3
 	},
   {
 		"name": "Psychic",
 		"uniques": ["Psychic","[+50]% Strength <vs [Fighting] units>","[+50]% Strength <vs [Poison] units> <when attacking>","[+50]% Strength <vs [Psychic] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 11,
+        	"column": 3
 	},
   {
 		"name": "Bug",
 		"uniques": ["Bug","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Dark] units> <when attacking>","[+50]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ground] units> <when defending>","[+50]% Strength <vs [Fairy] units> <when attacking>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 12,
+        	"column": 3
 	},
   {
 		"name": "Rock",
 		"uniques": ["Rock","[+50]% Strength <vs [Fire] units>","[+50]% Strength <vs [Flying] units>","[+50]% Strength <vs [Normal] units> <when defending>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when attacking>","[+50]% Strength <vs [Poison] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 13,
+        	"column": 3
 	},
   {
 		"name": "FloatingGhost",
 		"uniques": [
-"Ghost","[+90]% Strength <vs [Normal] units> <when defending>","[+90]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ghost] units> <when attacking>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Poison] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>",
- "No defensive terrain bonus","All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"],
-		"unitTypes": ["Test"]
+			"Ghost","[+90]% Strength <vs [Normal] units> <when defending>","[+90]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ghost] units> <when attacking>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Poison] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>",
+ 			"No defensive terrain bonus","All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"],
+		"unitTypes": ["Test"],
+		"row": 14,
+        	"column": 1
 	},
   {
 		"name": "StridingGhost",
 		"uniques": ["Ghost","[+90]% Strength <vs [Normal] units> <when defending>","[+90]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ghost] units> <when attacking>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Poison] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 14,
+        	"column": 3
 	},
   {
 		"name": "Dragon",
 		"uniques": ["Dragon","[+50]% Strength <vs [Fire] units> <when defending>","[+50]% Strength <vs [Water] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Dragon] units> <when attacking>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 15,
+        	"column": 3
 	},
   {
 		"name": "Dark",
 		"uniques": ["Dark","[+50]% Strength <vs [Ghost] units>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+90]% Strength <vs [Psychic] units> <when defending>","[+50]% Strength <vs [Dark] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 16,
+        	"column": 3
 	},
   {
 		"name": "Steel",
 		"uniques": ["Steel","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Ice] units>","[+50]% Strength <vs [Fairy] units>","[+50]% Strength <vs [Normal] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>","[+50]% Strength <vs [Flying] units> <when defending>","[+50]% Strength <vs [Psychic] units> <when defending>","[+50]% Strength <vs [Dragon] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>","[+90]% Strength <vs [Poison] units> <when defending>"],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 17,
+        	"column": 3
 	},
   {
 		"name": "Fairy",
 		"uniques": ["Fairy","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Fighting] units>","[+50]% Strength <vs [Dragon] units> <when attacking>","[+90]% Strength <vs [Dragon] units> <when defending>",],
-		"unitTypes": ["Test"]
+		"unitTypes": ["Test"],
+		"row": 18,
+        	"column": 3
 	},
   ]
