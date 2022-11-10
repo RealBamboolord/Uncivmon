@@ -332,20 +332,6 @@
 			"Grants 500 Gold to the first civilization to discover it"],
 		"weight": 2
 	},
-	{ // This will count as "Fresh water" in civ 6
-		"name": "Fountain of Youth",
-		"type": "NaturalWonder",
-		"happiness": 10,
-		"overrideStats": true,
-		"occursOn": ["Plains"],
-		"turnsInto": "Plains",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
-			"Tile provides yield without assigned population"],
-		"weight": 1
-	},
 	{
 		"name": "Grand Mesa",
 		"type": "NaturalWonder",
@@ -436,24 +422,10 @@
 	},
 	// G&K Wonders
 	{
-		"name": "Mount Kailash",
-		"type": "NaturalWonder",
-		"faith": 6,
-		"happiness": 2,
-		"occursOn": ["Plains","Grassland"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
-			"Must be adjacent to [0] to [1] [Desert] tiles",
-			"Must be adjacent to [4] to [6] [Elevated] tiles"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
 		"name": "Mount Sinai",
 		"type": "NaturalWonder",
-		"faith": 8,
+		"science": 3,
+		"culture": 3,
 		"occursOn": ["Desert","Plains"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
@@ -469,7 +441,7 @@
 		"name": "Sri Pada",
 		"type": "NaturalWonder",
 		"food": 2,
-		"faith": 4,
+		"culture": 2,
 		"happiness": 2,
 		"occursOn": ["Plains","Grassland"],
 		"uniques": ["Must be adjacent to [0] [Tundra] tiles",
@@ -481,23 +453,6 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-	{
-		"name": "Uluru",
-		"type": "NaturalWonder",
-		"food": 2,
-		"faith": 6,
-		"occursOn": ["Plains","Desert"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Grassland] tiles",
-			"Must be adjacent to [0] [Tundra] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
-			"Must be adjacent to [3] to [6] [Plains] tiles"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-/*
 	// BNW wonders
 	{
 		"name": "King Solomon's Mines",
@@ -523,20 +478,4 @@
 		"uniques": ["Fresh water","Must be adjacent to [0] [Coast] tiles"],
 		"weight": 10
 	},
-	{
-		"name": "Mount Kilimanjaro",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"occursOn": ["Plains","Grassland"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [2] to [6] [Hill] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles",
-			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
-		"weight": 10
-	}
-*/
 ]
