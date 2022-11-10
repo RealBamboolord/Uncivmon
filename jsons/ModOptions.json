@@ -1,4 +1,4 @@
-{buildingsToRemove:[United Nations]
-  
-    //"isBaseRuleset": true,
+{
+  "isBaseRuleset": true,
+  "uniques": ["Disable religion"],
   }
