@@ -7,6 +7,10 @@
 		"row": 0,
         	"column": 0
 	},
+	{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"]
+	},
   /////Types/////
   {
 		"name": "Fire",
