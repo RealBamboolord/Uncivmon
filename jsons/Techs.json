@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Ancient era",
+		"era": "Beginnings",
 		"techCost": 20,
 		"buildingCost": 40,
 		"techs": [
@@ -15,7 +15,7 @@
 	},
 	{
 		"columnNumber": 1,
-		"era": "Ancient era",
+		"era": "Beginnings",
 		"techCost": 35,
 		"buildingCost": 60,
 		"wonderCost": 185,
@@ -49,7 +49,7 @@
 	},
 	{
 		"columnNumber": 2,
-		"era": "Ancient era",
+		"era": "Beginnings",
 		"techCost": 55,
 		"buildingCost": 75,
 		"wonderCost": 185,
@@ -100,7 +100,7 @@
 	},
 	{
 		"columnNumber": 3,
-		"era": "Classical era",
+		"era": "Beginnings",
 		"techCost": 105000,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -135,7 +135,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Classical era",
+		"era": "Beginnings",
 		"techCost": 175000,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -175,7 +175,7 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Medieval era",
+		"era": "Beginnings",
 		"techCost": 275000,
 		"buildingCost": 120,
 		"wonderCost": 300,
