@@ -69,4 +69,18 @@
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
 	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence", "Can construct [Citadel]",
+			"Can construct [Customs house]", "Can construct [Academy]", "Can construct [Landmark]", "Can construct [Manufactory]", "Great Person - [Gold]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [80]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", 
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 ]
