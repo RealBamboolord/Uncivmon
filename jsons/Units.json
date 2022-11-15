@@ -76,6 +76,7 @@
 		"requiredTech": "First Bugs",
 		"movement": 2,
 		"strength": 5,
+		"upgradesTo": "Metapod",
 		"promotions": ["Bug"],
 		"attackSound": "cannon"
 	},
@@ -86,6 +87,7 @@
 		"requiredTech": "First Bugs",
 		"movement": 2,
 		"strength": 12,
+		"upgradesTo": "Butterfree",
 		"promotions": ["Bug"],
 		"uniques": ["Cannot move", "Never appears as a Barbarian unit", "[-66]% Strength <when attacking>","[+50]% XP gained from combat"],
 		"attackSound": "cannon"
@@ -101,7 +103,6 @@
 		"range": 1,
 		"promotions": ["Bug","Flying"],
 		"uniques": ["Never appears as a Barbarian unit"],
-		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
 	},
 	/* Great people */
