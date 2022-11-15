@@ -34,9 +34,19 @@
         "uniques": ["Pokémon"]
     },
     {
+        "name": "Butterfree",
+        "movementType": "Land",
+        "uniques": ["Pokémon","No defensive terrain bonus", "All tiles cost 1 movement", "Ignores Zone of Control"]
+    },
+    {
         "name": "Weedle",
         "movementType": "Land",
         "uniques": ["Pokémon"]
+    },
+    {
+        "name": "Beedrill",
+        "movementType": "Land",
+        "uniques": ["Pokémon", "No defensive terrain bonus", "All tiles cost 1 movement", "Ignores Zone of Control"]
     },
     {
         "name": "Trainer",
