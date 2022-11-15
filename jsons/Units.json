@@ -94,7 +94,7 @@
 	},
 	{
 		"name": "Butterfree",
-		"unitType": "Squirtle",
+		"unitType": "Butterfree",
 		"cost": 130, 
 		"requiredTech": "Forests",
 		"movement": 4,
