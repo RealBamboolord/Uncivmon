@@ -5,26 +5,45 @@
     },
     {
         "name": "Bulbasaur",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
     },
     {
         "name": "Squirtle",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
     },
     {
         "name": "Charmander",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
     },
     {
         "name": "Charizard",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
+        "name": "Cocoon",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
+        "name": "Caterpie",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
+        "name": "Weedle",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
     },
     {
         "name": "Trainer",
         "movementType": "Land"
     },
     {
-        "name": "Pokeball",
+        "name": "Pokéball",
         "movementType": "Land"
     },
     {
