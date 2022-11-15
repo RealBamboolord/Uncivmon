@@ -102,7 +102,7 @@
 		"rangedStrength": 20,
 		"range": 1,
 		"promotions": ["Bug","Flying"],
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "cannon"
 	},
 	/* Great people */
