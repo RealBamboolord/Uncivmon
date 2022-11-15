@@ -8,7 +8,7 @@
 			{
 				"name": "Starter Choosing",
 				"row": 4,
-				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"quote": "Quote",
 				"uniques": ["Starting tech"]
 			}
 		]
@@ -25,19 +25,19 @@
 				"row": 1,
 				"prerequisites": ["Starter Choosing"],
 				"uniques": ["Reveals the entire map"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+				"quote": "Quote",
 			},
 			{
 				"name": "Route 1",
 				"row": 4,
 				"prerequisites": ["Starter Choosing"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+				"quote": "Quote",
 			},
 			{
 				"name": "Open PC",
 				"row": 8,
 				"prerequisites": ["Starter Choosing"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+				"quote": "Quote",
 			},
 		]
 	},
@@ -49,41 +49,41 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Pokémarts",
-				"row": 10,
-				"prerequisites": ["Open PC"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+				"name": "Pokédex",
+				"row": 1,
+				"prerequisites": ["Get The Map"],
+				"quote": "Quote",
 			},
 			{
-				"name": "Pokémarts",
-				"row": 10,
-				"prerequisites": ["Open PC"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+				"name": "First Bugs",
+				"row": 6,
+				"prerequisites": ["Route 1"],
+				"quote": "Quote",
 			},
 			{
 				"name": "Pokémarts",
 				"row": 8,
-				"prerequisites": ["Open PC"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+				"prerequisites": ["Open PC", "Route 1"],
+				"quote": "Quote",
 			},
 			{
 				"name": "Pokéballs",
 				"row": 10,
 				"prerequisites": ["Open PC"],
 				"uniques": ["Only available <after discovering [Pokémarts]>"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+				"quote": "Quote",
 			},
 			{
 				"name": "Optics",
 				"cost": 85,
 				"row": 12,
 				"uniques": ["Enables embarkation for land units"],
-				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+				"quote": "Quote",
 			},
 			{
 				"name": "Writing",
 				"row": 13,
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+				"quote": "Quote",
 			},
 		]
 	},
@@ -95,20 +95,35 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Horseback Riding",
-				"row": 5,
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+				"name": "Tech Name",
+				"row": 1,
+				"prerequisites": ["Route 1","Pokédex"],
+				"quote": "Quote",
 			},
 			{
-				"name": "Mathematics",
+				"name": "Side Routes",
+				"row": 2,
+				"prerequisites": ["Route 1"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Forests",
+				"row": 4,
+				"prerequisites": ["Route 1","First Bugs"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Tech Name",
 				"row": 7,
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"prerequisites": ["Pokémarts"],
+				"quote": "Quote",
 			},
 			{
-				"name": "Construction",
-				"row": 9,
-				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
-			}
+				"name": "Tech Name",
+				"row": 8,
+				"prerequisites": ["Pokémarts","Pokéballs"],
+				"quote": "Quote",
+			},
 		]
 	},
 	{
