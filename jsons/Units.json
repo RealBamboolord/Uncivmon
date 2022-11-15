@@ -89,7 +89,7 @@
 		"strength": 12,
 		"upgradesTo": "Butterfree",
 		"promotions": ["Bug"],
-		"uniques": ["Cannot move", "Never appears as a Barbarian unit", "[-66]% Strength <when attacking>","[+50]% XP gained from combat"],
+		//"uniques": ["Cannot move", "Never appears as a Barbarian unit", "[-66]% Strength <when attacking>","[+50]% XP gained from combat"],
 		"attackSound": "cannon"
 	},
 	{
