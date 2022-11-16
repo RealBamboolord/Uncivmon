@@ -105,6 +105,41 @@
 		"uniques": ["Never appears as a Barbarian unit","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "cannon"
 	},
+	{
+		"name": "Weedle",
+		"unitType": "Weedle",
+		"cost": 15,
+		"requiredTech": "First Bugs",
+		"movement": 2,
+		"strength": 5,
+		"upgradesTo": "Metapod",
+		"promotions": ["Bug","Poison"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Kakuna",
+		"unitType": "Cocoon",
+		"cost": 30, 
+		"requiredTech": "First Bugs",
+		"movement": 2,
+		"strength": 12,
+		"upgradesTo": "Beedrill",
+		"promotions": ["Bug","Poison"],
+		"uniques": ["Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Beedrill",
+		"unitType": "Beedrill",
+		"cost": 130, 
+		"requiredTech": "Forests",
+		"movement": 4,
+		"strength": 15,
+		"promotions": ["Bug","Poison"],
+		"uniques": ["[+33]% Strength <when attacking>","[+33]% Strength <vs [Ranged] units> <when defending>",
+                    "[+15]% Strength <when adjacent to a [Weedle] unit>","Weedle"],
+		"attackSound": "cannon"
+	},
 	/* Great people */
 
 	{
