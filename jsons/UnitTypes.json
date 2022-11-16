@@ -49,6 +49,16 @@
         "uniques": ["Pokémon", "No defensive terrain bonus", "All tiles cost 1 movement", "Ignores Zone of Control"]
     },
     {
+        "name": "Rattata",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
+        "name": "Pidgey",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
         "name": "Trainer",
         "movementType": "Land"
     },
