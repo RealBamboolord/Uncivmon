@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer","Pokeball",/*"","","","","","","","","","",""*/],
+		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer","Pokéball",/*"","","","","","","","","","",""*/],
 		"row": 0,
         	"column": 0
 	},
