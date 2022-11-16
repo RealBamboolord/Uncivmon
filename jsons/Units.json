@@ -140,6 +140,43 @@
                     "[+15]% Strength <when adjacent to a [Weedle] unit>","Weedle","Unbuildable"],
 		"attackSound": "cannon"
 	},
+	{
+		"name": "Rattata",
+		"unitType": "Rattata",
+		"cost": 25,
+		"requiredTech": "Route 1",
+		"movement": 3,
+		"strength": 7,
+		//"upgradesTo": "Metapod",
+		"uniques": ["[+50]% to Flank Attack bonuses","[-33]% Strength <when defending>","Never appears as a Barbarian unit"]
+		"promotions": ["Normal","Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Pidgey",
+		"unitType": "Pidgey",
+		"cost": 30,
+		"requiredTech": "Route 1",
+		"movement": 3,
+		"strength": 7,
+		//"upgradesTo": "Metapod",
+		"promotions": ["Normal","Flying"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Spearow",
+		"unitType": "Spearow",
+		"uniqueTo": "Barbarians",
+		"replaces": "Pidgey",
+		"movement": 3,
+		"strength": 9,
+		"cost": 40,
+		"requiredTech": "Route 1",
+		"promotions": ["Normal","Flying"],
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
 	/* Great people */
 
 	{
