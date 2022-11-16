@@ -59,6 +59,11 @@
         "uniques": ["Pokémon"]
     },
     {
+        "name": "Spearow",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
         "name": "Trainer",
         "movementType": "Land"
     },
