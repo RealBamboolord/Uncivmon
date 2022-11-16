@@ -89,7 +89,7 @@
 		"strength": 12,
 		"upgradesTo": "Butterfree",
 		"promotions": ["Bug"],
-		//"uniques": ["Cannot move", "Never appears as a Barbarian unit", "[-66]% Strength <when attacking>","[+50]% XP gained from combat"],
+		"uniques": ["Cannot move", "Never appears as a Barbarian unit", "[-66]% Strength <when attacking>","[+50]% XP gained from combat"],
 		"attackSound": "cannon"
 	},
 	{
@@ -125,7 +125,7 @@
 		"strength": 12,
 		"upgradesTo": "Beedrill",
 		"promotions": ["Bug","Poison"],
-		"uniques": ["Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle"],
+		"uniques": ["Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle","Unbuildable"],
 		"attackSound": "cannon"
 	},
 	{
@@ -137,7 +137,7 @@
 		"strength": 15,
 		"promotions": ["Bug","Poison"],
 		"uniques": ["[+33]% Strength <when attacking>","[+33]% Strength <vs [Ranged] units> <when defending>",
-                    "[+15]% Strength <when adjacent to a [Weedle] unit>","Weedle"],
+                    "[+15]% Strength <when adjacent to a [Weedle] unit>","Weedle","Unbuildable"],
 		"attackSound": "cannon"
 	},
 	/* Great people */
