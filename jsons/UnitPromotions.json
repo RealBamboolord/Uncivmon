@@ -10,7 +10,73 @@
 	{
 		"name": "Ignore terrain cost",
 		"uniques": ["Ignores terrain cost"]
+		"row": 1,
+        	"column": 0
 	},
+  /////Levels/////
+	{
+		"name": "Level 1-5",
+		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer",/*"","","","","","","","","","",""*/],
+		"row": 0,
+        	"column": 2
+	},
+	{
+		"name": "Level 6-10",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer",/*"","","","","","","","","","",""*/],
+		"row": 0,
+        	"column": 2
+	},
+	{
+		"name": "Level 11-15",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer",/*"","","","","","","","","","",""*/],
+		"row": 0,
+        	"column": 2
+	},
+	{
+		"name": "Level 16-20",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer",/*"","","","","","","","","","",""*/],
+		"row": 0,
+        	"column": 2
+	},
+	{
+		"name": "Level 21-25",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer",/*"","","","","","","","","","",""*/],
+		"row": 0,
+        	"column": 2
+	},
+	{
+		"name": "Level 26-30",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer",/*"","","","","","","","","","",""*/],
+		"row": 0,
+        	"column": 2
+	},
+	{
+		"name": "Level 31-35",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer",/*"","","","","","","","","","",""*/],
+		"row": 0,
+        	"column": 2
+	},
+	{
+		"name": "Level 36-40",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer",/*"","","","","","","","","","",""*/],
+		"row": 0,
+        	"column": 2
+	},
+	
+	
+	
+	
+	
+	
+	
   /////Types/////
   {
 		"name": "Fire",
@@ -104,7 +170,7 @@
         	"column": 1
 	},
   {
-		"name": "FloatingGhost",
+		"name": "Ghost_Float",
 		"uniques": [
 			"Ghost","[+90]% Strength <vs [Normal] units> <when defending>","[+90]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ghost] units> <when attacking>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Poison] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>",
  			"No defensive terrain bonus","All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"],
@@ -113,7 +179,7 @@
         	"column": 0
 	},
   {
-		"name": "StridingGhost",
+		"name": "Ghost_Walk",
 		"uniques": ["Ghost","[+90]% Strength <vs [Normal] units> <when defending>","[+90]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ghost] units> <when attacking>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Poison] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>"],
 		"unitTypes": ["Test"],
 		"row": 34,
