@@ -26,49 +26,49 @@
 		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
 		"row": 0,
-        	"column": 2
+        	"column": 4
 	},
 	{
 		"name": "Level 11-15",
 		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
 		"row": 0,
-        	"column": 2
+        	"column": 5
 	},
 	{
 		"name": "Level 16-20",
 		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
 		"row": 0,
-        	"column": 2
+        	"column": 6
 	},
 	{
 		"name": "Level 21-25",
 		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
 		"row": 0,
-        	"column": 2
+        	"column": 7
 	},
 	{
 		"name": "Level 26-30",
 		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
 		"row": 0,
-        	"column": 2
+        	"column": 8
 	},
 	{
 		"name": "Level 31-35",
 		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
 		"row": 0,
-        	"column": 2
+        	"column": 9
 	},
 	{
 		"name": "Level 36-40",
 		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
 		"row": 0,
-        	"column": 2
+        	"column": 10
 	},
 	
 	
