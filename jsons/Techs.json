@@ -95,7 +95,7 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Tech Name",
+				"name": "Pokémon Centers",
 				"row": 1,
 				"prerequisites": ["Route 1","Pokédex"],
 				"quote": "Quote",
