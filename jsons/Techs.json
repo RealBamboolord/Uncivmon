@@ -129,7 +129,47 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Beginnings",
+		"era": "First Gym",
+		"techCost": 105000,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Union Room",
+				"row": 1,
+				"prerequisites": ["Pokémon Centers"],
+				"quote": "Quote",
+			},
+			{
+				"name": "2",
+				"row": 2,
+				//"prerequisites": ["Route 1"],
+				"quote": "Quote",
+			},
+			{
+				"name": "First Gym",
+				"row": 4,
+				"prerequisites": ["Forests","Trainer School"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Pokémon Museum",
+				"row": 7,
+				"prerequisites": ["Trainer School"],
+				"quote": "Quote",
+			},
+			{
+				"name": "6",
+				"row": 8,
+				//"prerequisites": ["Pokémarts","Pokéballs"],
+				"uniques": ["Free [Weedle] appears","[3] free [Pokéball] units appear"],
+				"quote": "Quote",
+			},
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "First Gym",
 		"techCost": 175000,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -163,8 +203,8 @@
 		]
 	},
 	{
-		"columnNumber": 5,
-		"era": "Beginnings",
+		"columnNumber": 6,
+		"era": "First Gym",
 		"techCost": 275000,
 		"buildingCost": 120,
 		"wonderCost": 300,
