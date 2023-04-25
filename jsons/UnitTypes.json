@@ -69,6 +69,15 @@
     },
     {
         "name": "Pokéball",
+        "uniques": [
+		"No defensive terrain bonus",
+		"Ignores Zone of Control",
+		"Can only attack [{Pokémon} {Barbarian}] units",
+		"Self-destructs when attacking",
+		"May attack when embarked",
+		"[-75]% maintenance costs",
+		"[-3] Sight"
+	]
         "movementType": "Land"
     },
     {

@@ -1,4 +1,5 @@
 [
+//Civilians
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -28,10 +29,21 @@
 		"movement": 20,
 		"strength": 995,
 		"cost": 5,
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Test2",
+		"unitType": "Test",
+		"movement": 2,
+		"strength": 5,
+		"cost": 5,
+		"uniques": ["Never appears as a Barbarian Unit","Only available <in cities with a [Choose Bulbasaur]>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+//Pokemon
 	{
 		"name": "Bulbasaur",
 		"unitType": "Bulbasaur", 
@@ -81,6 +93,19 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Wild Caterpie",
+		"unitType": "Caterpie",
+		"uniqueTo": "Barbarians",
+		"replaces": "Caterpie",
+		"cost": 15,
+		"movement": 2,
+		"strength": 5,
+		"upgradesTo": "Metapod",
+		"uniques": ["Will not be displayed in Civilopedia"],
+		"promotions": ["Bug"],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Metapod",
 		"unitType": "Cocoon",
 		"cost": 30, 
@@ -112,7 +137,20 @@
 		"requiredTech": "First Bugs",
 		"movement": 2,
 		"strength": 5,
-		"upgradesTo": "Metapod",
+		"upgradesTo": "Kakuna",
+		"promotions": ["Bug","Poison"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Wild Weedle",
+		"unitType": "Weedle",
+		"uniqueTo": "Barbarians",
+		"replaces": "Weedle",
+		"cost": 15,
+		"movement": 2,
+		"strength": 5,
+		"upgradesTo": "Kakuna",
+		"uniques": ["Will not be displayed in Civilopedia"],
 		"promotions": ["Bug","Poison"],
 		"attackSound": "cannon"
 	},
@@ -126,6 +164,19 @@
 		"upgradesTo": "Beedrill",
 		"promotions": ["Bug","Poison"],
 		"uniques": ["Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle","Unbuildable"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Wild Kakuna",
+		"unitType": "Cocoon",
+		"uniqueTo": "Barbarians",
+		"replaces": "Kakuna",
+		"cost": 30, 
+		"movement": 2,
+		"strength": 12,
+		"upgradesTo": "Beedrill",
+		"promotions": ["Bug","Poison"],
+		"uniques": ["Will not be displayed in Civilopedia","Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle"],
 		"attackSound": "cannon"
 	},
 	{
@@ -171,10 +222,23 @@
 		"movement": 3,
 		"strength": 9,
 		"cost": 40,
-		"requiredTech": "Route 1",
 		"promotions": ["Normal","Flying"],
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+
+//Single Use Units
+	{
+		"name": "Pokeball",
+		"unitType": "Pokéball",
+		"cost": 30,
+		"requiredTech": "Pokéballs",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 5,
+		//"upgradesTo": "Metapod",
+		"uniques": ["[-75]% Strength <when defending>","[+100]% Strength <when attacking> <vs [Wounded] units>","Never appears as a Barbarian unit","May capture killed [Pokémon] units <with [50]% chance>"]
 		"attackSound": "nonmetalhit"
 	},
 	/* Great people */
@@ -182,7 +246,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -194,14 +258,14 @@
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence", "Can construct [Citadel]",
-			"Can construct [Customs house]", "Can construct [Academy]", "Can construct [Landmark]", "Can construct [Manufactory]", "Great Person - [Gold]", "Unbuildable"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [80]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", 
+		"uniques": ["Empire enters a [80]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", 
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},

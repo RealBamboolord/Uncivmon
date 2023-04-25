@@ -5,4 +5,10 @@
 		"greatPersonPoints": {"Great Merchant":3},
 		"color": [255,215,0]
 	},
+	{
+		"name":"Lab Assistant",
+		"science":2,
+		"greatPersonPoints": {"Great Merchant":3},
+		"color": [255,215,0]
+	},
 ]

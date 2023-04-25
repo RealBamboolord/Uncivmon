@@ -5,212 +5,156 @@
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer","Pokéball",/*"","","","","","","","","","",""*/],
 		"row": 0,
-        	"column": 0
+        	"column": 1
 	},
 	{
 		"name": "Ignore terrain cost",
-		"uniques": ["Ignores terrain cost"]
-		"row": 1,
-        	"column": 0
-	},
-  /////Levels/////
-	{
-		"name": "Level 1-5",
-		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
+		"uniques": ["Ignores terrain cost"],
 		"row": 0,
         	"column": 2
 	},
-	{
-		"name": "Level 6-10",
-		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
-		"row": 0,
-        	"column": 4
-	},
-	{
-		"name": "Level 11-15",
-		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
-		"row": 0,
-        	"column": 5
-	},
-	{
-		"name": "Level 16-20",
-		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
-		"row": 0,
-        	"column": 6
-	},
-	{
-		"name": "Level 21-25",
-		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
-		"row": 0,
-        	"column": 7
-	},
-	{
-		"name": "Level 26-30",
-		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
-		"row": 0,
-        	"column": 8
-	},
-	{
-		"name": "Level 31-35",
-		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
-		"row": 0,
-        	"column": 9
-	},
-	{
-		"name": "Level 36-40",
-		//"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow",],
-		"row": 0,
-        	"column": 10
-	},
-	
-	
-	
-	
-	
-	
-	
   /////Types/////
   {
-		"name": "Fire",
-		"uniques": ["Fire","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Ice] units>","[+50]% Strength <vs [Bug] units>","[+50]% Strength <vs [Steel] units>","[+50]% Strength <vs [Fairy] units> <when defending>","[+50]% Strength <vs [Fire] units> <when defending>"],
-		"unitTypes": ["Test"],
-		"row": 21,
-        	"column": 1
+		"name": "Types",
+		"uniques": ["Only available <before discovering [Starter Choosing]>"],
+		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard"],
+		"replacementTextForUniques": "Not for picking",
+		"row": 2,
+        	"column": 0
 	},
   {
 		"name": "Normal",
 		"uniques": ["Normal","[+90]% Strength <vs [Ghost] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 22,
-        	"column": 1
-	},
-  {
-		"name": "Water",
-		"uniques": ["Water","[+50]% Strength <vs [Fire] units>","[+50]% Strength <vs [Ground] units> <when attacking>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>","[+50]% Strength <vs [Water] units> <when defending>"],
-		"unitTypes": ["Test"],
-		"row": 23,
+		"row": 2,
         	"column": 1
 	},
   {
 		"name": "Grass",
 		"uniques": ["Grass","[+50]% Strength <vs [Water] units>","[+50]% Strength <vs [Ground] units>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 24,
-        	"column": 1
+		"row": 2,
+        	"column": 2
+	},
+  {
+		"name": "Fire",
+		"uniques": ["Fire","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Ice] units>","[+50]% Strength <vs [Bug] units>","[+50]% Strength <vs [Steel] units>","[+50]% Strength <vs [Fairy] units> <when defending>","[+50]% Strength <vs [Fire] units> <when defending>"],
+		"unitTypes": ["Test"],
+		"row": 2,
+        	"column": 3
+	},
+  {
+		"name": "Water",
+		"uniques": ["Water","[+50]% Strength <vs [Fire] units>","[+50]% Strength <vs [Ground] units> <when attacking>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>","[+50]% Strength <vs [Water] units> <when defending>"],
+		"unitTypes": ["Test"],
+		"row": 2,
+        	"column": 4
 	},
   {
 		"name": "Electric",
 		"uniques": ["Electric","[+50]% Strength <vs [Flying] units>","[+50]% Strength <vs [Water] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 25,
-        	"column": 1
+		"row": 2,
+        	"column": 5
 	},
   {
 		"name": "Ice",
 		"uniques": ["Ice","[+50]% Strength <vs [Grass] units> <when attacking>","[+50]% Strength <vs [Ground] units> <when attacking>","[+50]% Strength <vs [Flying] units> <when attacking>","[+50]% Strength <vs [Dragon] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 26,
-        	"column": 1
+		"row": 2,
+        	"column": 6
 	},
   {
 		"name": "Fighting",
 		"uniques": ["Fighting","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Normal] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 27,
-        	"column": 1
+		"row": 2,
+        	"column": 7
 	},
   {
 		"name": "Poison",
 		"uniques": ["Poison","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Fairy] units>","[+50]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Poison] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 28,
-        	"column": 1
+		"row": 2,
+        	"column": 8
         },
   {
 		"name": "Ground",
 		"uniques": ["Ground","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Poison] units>","[+50]% Strength <vs [Steel] units> <when attacking>","[+50]% Strength <vs [Fire] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when attacking>","[+90]% Strength <vs [Electric] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 29,
-        	"column": 1
+		"row": 2,
+        	"column": 9
         },
   {
 		"name": "Flying",
 		"uniques": ["Flying","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Fighting] units>","[+50]% Strength <vs [Bug] units>","[+90]% Strength <vs [Ground] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 30,
-        	"column": 1
+		"row": 2,
+        	"column": 10
 	},
   {
 		"name": "Psychic",
 		"uniques": ["Psychic","[+50]% Strength <vs [Fighting] units>","[+50]% Strength <vs [Poison] units> <when attacking>","[+50]% Strength <vs [Psychic] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 31,
-        	"column": 1
+		"row": 2,
+        	"column": 11
 	},
   {
 		"name": "Bug",
 		"uniques": ["Bug","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Dark] units> <when attacking>","[+50]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ground] units> <when defending>","[+50]% Strength <vs [Fairy] units> <when attacking>"],
 		"unitTypes": ["Test"],
-		"row": 32,
-        	"column": 1
+		"row": 2,
+        	"column": 12
 	},
   {
 		"name": "Rock",
 		"uniques": ["Rock","[+50]% Strength <vs [Fire] units>","[+50]% Strength <vs [Flying] units>","[+50]% Strength <vs [Normal] units> <when defending>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when attacking>","[+50]% Strength <vs [Poison] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 33,
-        	"column": 1
+		"row": 2,
+        	"column": 13
 	},
   {
-		"name": "Ghost_Float",
+		"name": "FloatingGhost",
 		"uniques": [
 			"Ghost","[+90]% Strength <vs [Normal] units> <when defending>","[+90]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ghost] units> <when attacking>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Poison] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>",
  			"No defensive terrain bonus","All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"],
 		"unitTypes": ["Test"],
-		"row": 34,
-        	"column": 0
+		"row": 2,
+        	"column": 14
 	},
   {
-		"name": "Ghost_Walk",
+		"name": "StridingGhost",
 		"uniques": ["Ghost","[+90]% Strength <vs [Normal] units> <when defending>","[+90]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ghost] units> <when attacking>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Poison] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 34,
-        	"column": 1
+		"row": 2,
+        	"column": 15
 	},
   {
 		"name": "Dragon",
 		"uniques": ["Dragon","[+50]% Strength <vs [Fire] units> <when defending>","[+50]% Strength <vs [Water] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Dragon] units> <when attacking>"],
 		"unitTypes": ["Test"],
-		"row": 35,
-        	"column": 1
+		"row": 2,
+        	"column": 16
 	},
   {
 		"name": "Dark",
 		"uniques": ["Dark","[+50]% Strength <vs [Ghost] units>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+90]% Strength <vs [Psychic] units> <when defending>","[+50]% Strength <vs [Dark] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 36,
-        	"column": 1
+		"row": 2,
+        	"column": 17
 	},
   {
 		"name": "Steel",
 		"uniques": ["Steel","[+50]% Strength <vs [Rock] units>","[+50]% Strength <vs [Ice] units>","[+50]% Strength <vs [Fairy] units>","[+50]% Strength <vs [Normal] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>","[+50]% Strength <vs [Bug] units> <when defending>","[+50]% Strength <vs [Flying] units> <when defending>","[+50]% Strength <vs [Psychic] units> <when defending>","[+50]% Strength <vs [Dragon] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>","[+90]% Strength <vs [Poison] units> <when defending>"],
 		"unitTypes": ["Test"],
-		"row": 37,
-        	"column": 1
+		"row": 2,
+        	"column": 18
 	},
   {
 		"name": "Fairy",
 		"uniques": ["Fairy","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Fighting] units>","[+50]% Strength <vs [Dragon] units> <when attacking>","[+90]% Strength <vs [Dragon] units> <when defending>",],
 		"unitTypes": ["Test"],
-		"row": 38,
-        	"column": 1
+		"row": 2,
+        	"column": 19
 	},
   ]

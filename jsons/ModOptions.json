@@ -1,4 +1,14 @@
 {
-  "isBaseRuleset": true,
-  "uniques": ["Disable religion"],
-  }
+	"isBaseRuleset":true,
+	"uniques": [
+		"Disable religion"
+	],
+	"constants": {
+        "maxXPfromBarbarians":150,
+        "cityStrengthBase":4,
+        "cityStrengthPerPop":0.1,
+	"cityStrengthFromTechsExponent":1,
+	"cityStrengthFromTechsMultiplier":8,
+		"unitUpgradeCost":{}
+	}
+}

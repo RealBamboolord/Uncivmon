@@ -1,4 +1,16 @@
 [
+	//No Tech Requirement
+	{
+		"name": "Temple of Artemis",
+		"culture": 1,
+		"cost": 140,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
+            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson",
+		"requiredTech": "Guilds"
+	},
 	{
 		"name": "Choose Bulbasaur",
 		"isWonder": true,
@@ -37,7 +49,7 @@
 		"uniques": ["Unbuildable", "Unsellable"],
 		"replacementTextForUniques": "Unbuildable",
 	},
-  {
+  	{
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
@@ -54,8 +66,10 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured",
+			"Human building"]
 	},
+
 	// Column 1
 	{
 		"name": "Granary",
@@ -65,35 +79,77 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"Human building"],
+		"requiredTech": "Open PC"
 	},
+	//Column 2
 	{
-		"name": "Temple of Artemis",
-		"culture": 1,
-		"cost": 140,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
-            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
-		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
-	},
-	{
-		"name": "Library",
-		"cost": 60,
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Writing"
+		"name": "Potion",
+		"cost": 25,
+		"uniques": [
+			"[Pokémon] Units adjacent to this city heal [+5] HP per turn when healing",
+			"Only available <in cities with a [Pokemart]>",
+			"PKMN building"],
+		"requiredTech": "Pokémarts"
 	},
 	{
 		"name": "Market",
 		"gold": 2,
 		"cost": 60,
 		"specialistSlots": {"Merchant": 1},
+		"uniques": ["Only available <in cities without a [Pokemart]>","Human building"],
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Pokémarts"
 	},
-  
-  
-  
+	{
+		"name": "Pokemart",
+		"gold": 1,
+		"happiness": 1,
+		"cost": 60,
+		"specialistSlots": {"Merchant": 1},
+		"uniques": [
+			"Enables construction of [Item] buildings",
+			"Only available <in cities without a [Market]>",
+			"PKMN building"],
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 10},
+		"requiredTech": "Pokémarts"
+	}
+	{
+		"name": "Professor's Lab",
+		"isNationalWonder": true,
+		"production": 1,
+		"science": 2,
+		"cost": 100,
+		"specialistSlots": {"Lab Assistant": 2},
+		"uniques": ["[+10]% [Science] [in all cities]","New [Pokémon] units start with [10] Experience [in all cities]"]
+		"requiredTech": "Pokedex"
+	},
+	{
+		"name": "Pokedex",
+		"isNationalWonder": true,
+		"cost": 150,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enables collecting caught Pokémon Data",
+			"Earn [10]% of killed [Pokémon] unit's [Strength] as [Science]",
+			"[+20]% XP gained from combat",
+			"Hidden when [Pokedex] Victory is disabled",
+			"Only available <if [Professor's Lab] is constructed>"
+			]
+		"requiredTech": "Pokedex"
+	},
+
+	//Column 3
+	{
+		"name": "University",
+		"cost": 60,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+			"Human building"],
+		"requiredTech": "Education"
+	},
   ]

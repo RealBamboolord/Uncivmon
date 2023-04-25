@@ -8,7 +8,7 @@
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 1,
-        "startingMilitaryUnit": "Test",
+        "startingMilitaryUnit": "Caterpie",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
@@ -31,12 +31,12 @@
         "iconRGB": [255, 87, 35]
     },
     {
-        "name": "First Gym",
+        "name": "Classical era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 2,
-        "startingMilitaryUnit": "Test",
+        "startingMilitaryUnit": "Caterpie",
         "startingGold": 10,
         "startingCulture": 100,
         "settlerPopulation": 1,
@@ -66,7 +66,7 @@
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "Test",
+        "startingMilitaryUnit": "Caterpie",
         "startingGold": 25,
         "startingCulture": 200,
         "settlerPopulation": 1,
