@@ -161,6 +161,30 @@
 	{
 	"name": "Cocoon Spinning",
 	"uniques": ["This Unit upgrades for free including special upgrades","Heal this unit by [30] HP", "Doing so will consume this opportunity to choose a Promotion"],
+	"prerequisites": ["Tackle","Poison Sting"],
 	"unitTypes": ["Caterpie","Weedle"],
+	},
+	{
+	"name": "Power Evolution",
+	"uniques": ["This Unit upgrades for free including special upgrades","Heal this unit by [30] HP", "Doing so will consume this opportunity to choose a Promotion"],
+	"prerequisites": ["Tackle","Harden"],
+	"unitTypes": ["Cocoon"],
+	},
+	
+	// Normal Attacks g
+	{
+	"name": "Tackle",
+	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
+	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey"],
+	},
+	{
+	"name": "Poison Sting",
+	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
+	"unitTypes": ["Weedle","Beedrill"],
+	},
+	{
+	"name": "Harden",
+	"uniques": ["[+15]% Strength <when defending>"],
+	"unitTypes": ["Cocoon"],
 	},
   ]
