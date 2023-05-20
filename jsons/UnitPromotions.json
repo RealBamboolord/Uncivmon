@@ -157,16 +157,10 @@
 		"row": 2,
         	"column": 19
 	},
-//       {
-
-		"name": "Cocoon Spinning",
-	"uniques": ["Fairy","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Fighting] units>","[+50]% Strength <vs [Dragon] units> <when attacking>","[+90]% Strength <vs [Dragon] units> <when defending>",],
-
-		"unitTypes": ["Test"],
-
-		"row": 2,
-
-        	"column": 19
-
+// Special/Evolution Promotions
+	{
+	"name": "Cocoon Spinning",
+	"uniques": ["This Unit upgrades for free including special upgrades","Heal this unit by [30] HP", "Doing so will consume this opportunity to choose a Promotion"],
+	"unitTypes": ["Caterpie","Weedle"],
 	},
   ]
