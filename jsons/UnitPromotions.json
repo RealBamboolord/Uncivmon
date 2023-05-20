@@ -157,4 +157,16 @@
 		"row": 2,
         	"column": 19
 	},
+//       {
+
+		"name": "Cocoon Spinning",
+	"uniques": ["Fairy","[+50]% Strength <vs [Dark] units>","[+50]% Strength <vs [Fighting] units>","[+50]% Strength <vs [Dragon] units> <when attacking>","[+90]% Strength <vs [Dragon] units> <when defending>",],
+
+		"unitTypes": ["Test"],
+
+		"row": 2,
+
+        	"column": 19
+
+	},
   ]
