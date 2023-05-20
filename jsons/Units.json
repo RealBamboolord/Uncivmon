@@ -39,7 +39,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 5,
-		"uniques": ["Never appears as a Barbarian Unit","Only available <in cities with a [Choose Bulbasaur]>"],
+		"uniques": ["Never appears as a Barbarian unit","Only available <in cities with a [Choose Bulbasaur]>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
