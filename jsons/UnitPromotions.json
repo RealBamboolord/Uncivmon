@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Trainer","Pokéball",/*"","","","","","","","","","",""*/],
+		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow","Sandshrew","Pikachu","Ekans","Pokéball",/*"","","","","","","","","","",""*/],
 		"row": 0,
         	"column": 1
 	},
@@ -178,13 +178,41 @@
 	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey"],
 	},
 	{
+	"name": "Scratch",
+	"uniques": ["[+15]% Strength <when attacking>","[-15]% Strength <when attacking> <vs [Ghost] units>"],
+	"unitTypes": ["Charmander","Charizard","Sandshrew"],
+	},
+	{
 	"name": "Poison Sting",
-	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
-	"unitTypes": ["Weedle","Beedrill"],
+	"uniques": ["[+15]% Strength <vs [Wounded] units>","[-15]% Strength <vs [{Wounded} {Steel}] units>"],
+	"unitTypes": ["Weedle","Beedrill","Ekans","Sandshrew"],
+	"prerequisites": ["Tackle","Scratch","Harden","Defense Curl","Withdraw","Poison"],
 	},
 	{
 	"name": "Harden",
-	"uniques": ["[+15]% Strength <when defending>"],
+	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
 	"unitTypes": ["Cocoon"],
+	},
+	{
+	"name": "Defense Curl",
+	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
+	"unitTypes": ["Sandshrew"],
+	},
+	{
+	"name": "Withdraw",
+	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
+	"unitTypes": ["Squirtle"],
+	},
+	{
+	"name": "Ember",
+	"uniques": ["[+10]% Strength <vs [Grass] units>","[+10]% Strength <vs [Ice] units>","[+10]% Strength <vs [Bug] units>","[+10]% Strength <vs [Steel] units>"],
+	"unitTypes": ["Charmander", "Charizard"],
+	"prerequisites": ["Fire"],
+	},
+	{
+	"name": "Smokescreen",
+	"uniques": ["May withdraw before melee ([25]%)"],
+	"unitTypes": ["Charmander", "Charizard"],
+	"prerequisites": ["Scratch","Ember"],
 	},
   ]
