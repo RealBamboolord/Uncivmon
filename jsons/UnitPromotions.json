@@ -223,31 +223,31 @@
 	},
 	{
 	"name": "Vine Whip",
-	"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>",],
+	"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>"],
 	"unitTypes": ["Bulbasaur"],
 	"prerequisites": ["Tackle","Wrap","Leech Seed"],
 	},
 	{
 	"name": "Water Gun",
-	"uniques": ["[+15]% Strength <vs [Fire] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>",],
+	"uniques": ["[+15]% Strength <vs [Fire] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>"],
 	"unitTypes": ["Squirtle"],
 	"prerequisites": ["Tackle","Withdraw","Bubble","Scratch"],
 	},
 	{
 	"name": "Bubble",
-	"uniques": ["[+20]% to Flank Attack bonuses","[+10]% Strength <vs [Fire] units>","[+10]% Strength <vs [Ground] units>","[+10]% Strength <vs [Rock] units>",],
+	"uniques": ["[+20]% to Flank Attack bonuses","[+10]% Strength <vs [Fire] units>","[+10]% Strength <vs [Ground] units>","[+10]% Strength <vs [Rock] units>"],
 	"unitTypes": ["Squirtle"],
 	"prerequisites": ["Water"],
 	},
 	{
 	"name": "Bite",
-	"uniques": ["[+15]% Strength <when attacking>","[+15]% Strength <vs [Psychic] units> <when attacking>","[+15]% Strength <vs [Ghost] units> <when attacking>",],
+	"uniques": ["[+15]% Strength <when attacking>","[+15]% Strength <vs [Psychic] units> <when attacking>","[+15]% Strength <vs [Ghost] units> <when attacking>"],
 	"unitTypes": ["Squirtle","Rattata","Ekans"],
 	"prerequisites": ["Quick Attack","Water Gun","Poison Sting"],
 	},
 	{
 	"name": "Energy Focus",
-	"uniques": ["[+45]% Strength <with [20]% chance>",],
+	"uniques": ["[+45]% Strength <with [20]% chance>"],
 	"unitTypes": ["Rattata"],
 	"prerequisites": ["Normal"],
 	},
@@ -268,5 +268,4 @@
 	"unitTypes": ["Pikachu"],
 	"prerequisites": ["Electric"],
 	},
-	//
   ]
