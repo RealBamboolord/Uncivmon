@@ -215,4 +215,28 @@
 	"unitTypes": ["Charmander", "Charizard"],
 	"prerequisites": ["Scratch","Ember"],
 	},
+	{
+	"name": "Leech Seed",
+	"uniques": ["Unit will heal every turn, even if it performs an action","[-5]% Strength for enemy [Pokémon] units in adjacent [Land] tiles"],
+	"unitTypes": ["Bulbasaur"],
+	"prerequisites": ["Grass"],
+	},
+	{
+	"name": "Vine Whip",
+	"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>",],
+	"unitTypes": ["Bulbasaur"],
+	"prerequisites": ["Tackle","Wrap","Leech Seed"],
+	},
+	{
+	"name": "Water Gun",
+	"uniques": ["[+15]% Strength <vs [Fire] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>",],
+	"unitTypes": ["Squirtle"],
+	"prerequisites": ["Tackle","Withdraw","Bubble","Scratch"],
+	},
+	{
+	"name": "Bubble",
+	"uniques": ["[+20]% to Flank Attack bonuses","[+10]% Strength <vs [Fire] units>","[+10]% Strength <vs [Ground] units>","[+10]% Strength <vs [Rock] units>",],
+	"unitTypes": ["Squirtle"],
+	"prerequisites": ["Tackle","Withdraw","Bubble","Scratch"],
+	},
   ]
