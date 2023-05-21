@@ -237,6 +237,35 @@
 	"name": "Bubble",
 	"uniques": ["[+20]% to Flank Attack bonuses","[+10]% Strength <vs [Fire] units>","[+10]% Strength <vs [Ground] units>","[+10]% Strength <vs [Rock] units>",],
 	"unitTypes": ["Squirtle"],
-	"prerequisites": ["Tackle","Withdraw","Bubble","Scratch"],
+	"prerequisites": ["Water"],
+	},
+	{
+	"name": "Bite",
+	"uniques": ["[+15]% Strength <when attacking>","[+15]% Strength <vs [Psychic] units> <when attacking>","[+15]% Strength <vs [Ghost] units> <when attacking>",],
+	"unitTypes": ["Squirtle","Rattata","Ekans"],
+	"prerequisites": ["Quick Attack","Water Gun","Poison Sting"],
+	},
+	{
+	"name": "Energy Focus",
+	"uniques": ["[+45]% Strength <with [20]% chance>",],
+	"unitTypes": ["Rattata"],
+	"prerequisites": ["Normal"],
+	},
+	{
+	"name": "Quick Attack",
+	"uniques": ["Can move after attacking","[+25]% XP gained from combat"],
+	"unitTypes": ["Rattata","Pikachu","Pidgey"],
+	"prerequisites": ["Tackle","Energy Focus","Thunder Shock"],
+	},
+	{
+	"name": "Wrap",
+	"uniques": ["Earn [10]% of the damage done to [Pokémon] units as [Gold]","Earn [10]% of the damage done to [Pokémon] units as [Science]","[+15]% Strength <when adjacent to a [{Melee} {Pokémon}] unit>"],
+	"unitTypes": ["Ekans"],
+	},
+	{
+	"name": "Thundershock",
+	"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Flying] units>","[+5]% Strength <when attacking>","[-5]% Strength <when attacking> <vs [Ground] units>"],
+	"unitTypes": ["Pikachu"],
+	"prerequisites": ["Electric"],
 	},
   ]
