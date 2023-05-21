@@ -100,6 +100,7 @@
 			{
 				"name": "Side Routes",
 				"row": 2,
+				"cost": 85,
 				"prerequisites": ["Route 1"],
 				"quote": "Quote",
 			},
