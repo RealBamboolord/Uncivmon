@@ -248,8 +248,8 @@
 	{
 	"name": "Energy Focus",
 	"uniques": ["[+45]% Strength <with [20]% chance>"],
-	"unitTypes": ["Rattata"],
-	"prerequisites": ["Normal"],
+	"unitTypes": ["Rattata","Beedrill"],
+	"prerequisites": ["Normal","Poison Sting"],
 	},
 	{
 	"name": "Quick Attack",
