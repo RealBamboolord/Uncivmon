@@ -1,4 +1,5 @@
 [
+	//list: "Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow","Sandshrew","Pikachu","Ekans",
     {
         "name": "Test",
         "movementType": "Land"
@@ -60,6 +61,21 @@
     },
     {
         "name": "Spearow",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
+        "name": "Sandshrew",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
+        "name": "Pikachu",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
+        "name": "Ekans",
         "movementType": "Land",
         "uniques": ["Pokémon"]
     },
