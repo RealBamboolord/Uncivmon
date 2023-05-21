@@ -192,6 +192,17 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Pidgey",
+		"unitType": "Pidgey",
+		"cost": 30,
+		"requiredTech": "Route 1",
+		"movement": 3,
+		"strength": 7,
+		//"upgradesTo": "Metapod",
+		"promotions": ["Normal","Flying"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Rattata",
 		"unitType": "Rattata",
 		"cost": 25,
@@ -201,17 +212,6 @@
 		//"upgradesTo": "Metapod",
 		"uniques": ["[+50]% to Flank Attack bonuses","[-33]% Strength <when defending>","Never appears as a Barbarian unit"]
 		"promotions": ["Normal","Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Pidgey",
-		"unitType": "Pidgey",
-		"cost": 30,
-		"requiredTech": "Route 1",
-		"movement": 3,
-		"strength": 7,
-		//"upgradesTo": "Metapod",
-		"promotions": ["Normal","Flying"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -225,6 +225,38 @@
 		"promotions": ["Normal","Flying"],
 		//"obsoleteTech": "Metal Casting",
 		//"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Sandshrew",
+		"unitType": "Sandshrew",
+		"cost": 35, 
+		"movement": 2,
+		"strength": 10,
+		"promotions": ["Ground"],
+		//"uniques": [""],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Pikachu",
+		"unitType": "Pikachu",
+		"cost": 40, 
+		"movement": 3,
+		"strength": 5,
+		"rangedStrength": 8,
+		"range": 2,
+		"promotions": ["Electric"],
+		"uniques": ["Limited to [2] per Civilization", "Starter Pokemon"],
+		"attackSound": "Pika"
+	},
+	{
+		"name": "Ekans",
+		"unitType": "Ekans",
+		"cost": 35, 
+		"movement": 2,
+		"strength": 10,
+		"promotions": ["Poison"],
+		//"uniques": [""],
 		"attackSound": "nonmetalhit"
 	},
 
