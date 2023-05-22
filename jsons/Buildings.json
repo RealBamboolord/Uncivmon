@@ -90,7 +90,7 @@
 		"uniques": [
 			"[Pokémon] Units adjacent to this city heal [+5] HP per turn when healing",
 			"Only available <in cities with a [Pokemart]>",
-			"PKMN building"],
+			"Item building"],
 		"requiredTech": "Pokémarts"
 	},
 	{
