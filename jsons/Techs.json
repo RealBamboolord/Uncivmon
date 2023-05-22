@@ -86,7 +86,7 @@
 	{
 		"columnNumber": 3,
 		"era": "Beginnings",
-		"techCost": 105000,
+		"techCost": 85,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -112,15 +112,21 @@
 				"quote": "Quote",
 			},
 			{
-				"name": "Tech Name1",
+				"name": "Pokemon Centers",
 				"row": 7,
 				"prerequisites": ["Pokémarts"],
 				"quote": "Quote",
 			},
 			{
-				"name": "Tech Name2",
+				"name": "Territory Function",
 				"row": 8,
-				"prerequisites": ["Pokémarts","Pokéballs"],
+				"prerequisites": ["Pokedex","Pokéballs"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Basic Fishing",
+				"row": 11,
+				"prerequisites": ["Pokéballs","Optics"],
 				"quote": "Quote",
 			},
 		]
