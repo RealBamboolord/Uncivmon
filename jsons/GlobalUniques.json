@@ -6,6 +6,9 @@
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
         "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
         "Cannot build [Settler] units <when below [-10] Happiness>",
-        "Rebel units may spawn <when below [-20] Happiness>"
+        "Rebel units may spawn <when below [-20] Happiness>",
+        
+        
+        "[5] HP when healing <if [Pokemon Center] is constructed> <for [Pokémon] units> <in [City center] tiles>"
         ]
 }
