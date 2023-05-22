@@ -120,6 +120,9 @@
 			{
 				"name": "Territory Function",
 				"row": 8,
+				"uniques": [
+            				"[+10]% Strength <vs [Barbarian] units>",
+            				"Notified of new Barbarian encampments"],
 				"prerequisites": ["Pokedex","Pokéballs"],
 				"quote": "Quote",
 			},
