@@ -17,7 +17,7 @@
 		"columnNumber": 1,
 		"era": "Beginnings",
 		"techCost": 35,
-		"buildingCost": 60,
+		"buildingCost": 55,
 		"wonderCost": 185,
 		"techs": [
 			{
@@ -46,7 +46,7 @@
 		"columnNumber": 2,
 		"era": "Beginnings",
 		"techCost": 55,
-		"buildingCost": 75,
+		"buildingCost": 70,
 		"wonderCost": 185,
 		"techs": [
 			{
@@ -87,7 +87,7 @@
 		"columnNumber": 3,
 		"era": "Beginnings",
 		"techCost": 85,
-		"buildingCost": 100,
+		"buildingCost": 90,
 		"wonderCost": 250,
 		"techs": [
 			{
