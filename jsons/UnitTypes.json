@@ -99,6 +99,7 @@
     {
         "name": "Throwing Pokéball",
         "uniques": [
+		"Pokéball",
 		"Can only attack [{Pokémon} {Barbarian}] units",
 		"Self-destructs when attacking",
 		"[-50]% maintenance costs",
