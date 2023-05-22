@@ -21,27 +21,8 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"uniques": ["May create improvements on water resources"]
-	},
-	{
-		"name": "Test",
-		"unitType": "Test",
-		"movement": 20,
-		"strength": 995,
-		"cost": 5,
-		"uniques": ["Never appears as a Barbarian unit","Unbuildable"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Test2",
-		"unitType": "Test",
-		"movement": 2,
-		"strength": 5,
-		"cost": 5,
-		"uniques": ["Never appears as a Barbarian unit","Only available <in cities with a [Choose Bulbasaur]>"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
+		"uniques": ["May create improvements on water resources"],
+		"requiredTech": "Basic Fishing"
 	},
 //Pokemon
 	{
@@ -272,10 +253,69 @@
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 5,
-		//"upgradesTo": "Metapod",
 		"uniques": ["[-75]% Strength <when defending>","[+100]% Strength <when attacking> <vs [Wounded] units>","Never appears as a Barbarian unit","May capture killed [Pokémon] units <with [50]% chance>"]
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Throwing Pokeball",
+		"unitType": "Throwing Pokéball",
+		"cost": 40,
+		"requiredTech": "Territory Function",
+		"movement": 1,
+		"strength": 4,
+		"rangedStrength": 6,
+		"range": 3,
+		"uniques": ["[+100]% Strength <when attacking> <vs [Wounded] units>","May capture killed [Pokémon] units <with [60]% chance>"]
+		"attackSound": "nonmetalhit"
+	},
+//Trainer Units
+	/*
+	{
+		"name": "Template",
+		"unitType": "Trainer",
+		"cost": x,
+		"requiredTech": "techname",
+		"movement": x,
+		"strength": x,
+		"rangedStrength": x,
+		"range": x,
+		"uniques": ["Limited to [x] per Civilization","Never appears as a Barbarian unit","[+x]% Strength bonus for [PKMN name] units within [x] tiles","Can carry [x] [Pokéball] units"]
+		"attackSound": "nonmetalhit"
+	},
+	*/
+	{
+		"name": "Youngster",
+		"unitType": "Trainer",
+		"cost": 70,
+		"requiredTech": "Side Routes",
+		"movement": 2,
+		"strength": 7,
+		"uniques": ["Can only attack [Trainer] units","Limited to [6] per Civilization","Never appears as a Barbarian unit","[+30]% Strength bonus for [Rattata] units within [2] tiles","Can carry [1] [Pokéball] units"]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Bug Catcher",
+		"unitType": "Trainer",
+		"cost": 75,
+		"requiredTech": "Forests",
+		"movement": 2,
+		"strength": 7,
+		"uniques": ["Can only attack [Trainer] units","Limited to [5] per Civilization","Never appears as a Barbarian unit","[+20]% Strength bonus for [Bug] units within [2] tiles","Can carry [1] [Pokéball] units"]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Fisherman",
+		"unitType": "Trainer",
+		"cost": 75,
+		"requiredTech": "Basic Fishing",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 2,
+		"uniques": ["Can only attack [Water] tiles","Limited to [4] per Civilization","Never appears as a Barbarian unit","[+20]% Strength bonus for [Magikarp] units within [2] tiles","[+10]% Strength bonus for [Water] units within [2] tiles","Can carry [2] [Pokéball] units"]
+		"attackSound": "nonmetalhit"
+	},
+	
 	/* Great people */
 
 	{
