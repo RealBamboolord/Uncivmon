@@ -171,7 +171,7 @@
 	"unitTypes": ["Cocoon"],
 	},
 	
-	// Normal Attacks g
+// Normal Attacks
 	{
 	"name": "Tackle",
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
@@ -267,5 +267,36 @@
 	"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Flying] units>","[+5]% Strength <when attacking>","[-5]% Strength <when attacking> <vs [Ground] units>"],
 	"unitTypes": ["Pikachu"],
 	"prerequisites": ["Electric"],
+	},
+
+//Trainers
+	{
+	"name": "Backpack I",
+	"uniques": ["Can carry [1] extra [Pokéball] units"],
+	"unitTypes": ["Trainer"],
+	},
+	{
+	"name": "Backpack II",
+	"uniques": ["Can carry [1] extra [Pokéball] units"],
+	"unitTypes": ["Trainer"],
+	"prerequisites": ["Backpack I"],
+	},
+	{
+	"name": "Backpack III",
+	"uniques": ["Can carry [1] extra [Pokéball] units","All adjacent units heal [5] HP when healing"],
+	"unitTypes": ["Trainer"],
+	"prerequisites": ["Backpack II"],
+	},
+	{
+	"name": "Repel I",
+	"uniques": ["[+10]% Strength <vs [Barbarian] units>","[-10]% Strength for enemy [Barbarian] units in adjacent [Land] tiles","Only available <if [Pokemart] is constructed>"],
+	"unitTypes": ["Trainer"],
+	"prerequisites": ["Backpack I"],
+	},
+	{
+	"name": "Repel II",
+	"uniques": ["[+10]% Strength <vs [Barbarian] units>","[-20]% Strength for enemy [Barbarian] units in adjacent [Land] tiles"],
+	"unitTypes": ["Trainer"],
+	"prerequisites": ["Repel I"],
 	},
   ]
