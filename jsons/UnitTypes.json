@@ -97,6 +97,15 @@
         "movementType": "Land"
     },
     {
+        "name": "Throwing Pokéball",
+        "uniques": [
+		"Can only attack [{Pokémon} {Barbarian}] units",
+		"Self-destructs when attacking",
+		"[-50]% maintenance costs",
+	]
+        "movementType": "Air"
+    },
+    {
         "name": "Civilian",
         "movementType": "Land"
     },
