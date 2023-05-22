@@ -74,7 +74,6 @@
 	{
 		"name": "Granary",
 		"food": 2,
-		"cost": 50,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
@@ -86,7 +85,7 @@
 	//Column 2
 	{
 		"name": "Potion",
-		"cost": 25,
+		"cost": 30,
 		"uniques": [
 			"[Pokémon] Units adjacent to this city heal [+5] HP per turn when healing",
 			"Only available <in cities with a [Pokemart]>",
@@ -96,7 +95,6 @@
 	{
 		"name": "Market",
 		"gold": 2,
-		"cost": 60,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": ["Only available <in cities without a [Pokemart]>","Human building"],
 		"hurryCostModifier": 25,
@@ -107,7 +105,6 @@
 		"name": "Pokemart",
 		"gold": 1,
 		"happiness": 1,
-		"cost": 60,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 			"Enables construction of [Item] buildings",
@@ -124,7 +121,7 @@
 		"science": 2,
 		"cost": 100,
 		"specialistSlots": {"Lab Assistant": 2},
-		"uniques": ["[+10]% [Science] [in all cities]","New [Pokémon] units start with [10] Experience [in all cities]"]
+		"uniques": ["[+10]% [Science] [in all cities]","New [Pokémon] units start with [10] Experience [in all cities]","Only available <in cities without a [Pokémon Trainer School]>"]
 		"requiredTech": "Pokedex"
 	},
 	{
@@ -145,11 +142,47 @@
 	//Column 3
 	{
 		"name": "University",
-		"cost": 60,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+1 Science] per [2] population [in this city]",
 			"Human building"],
 		"requiredTech": "Education"
+	},
+	{
+		"name": "Pokemon Center",
+		"hurryCostModifier": 25,
+		"culture": 1,
+		"happiness": 2,
+		"uniques": ["Units in cities cost no Maintenance", "All Pokémon heal 5 extra HP in City centers if you own at least one of this building",
+			"[Pokémon] Units adjacent to this city heal [+5] HP per turn when healing",
+			"PKMN building"],
+		"requiredTech": "Pokemon Centers"
+	},
+	{
+		"name": "Pokémon Trainer School",
+		"isNationalWonder": true,
+		"cost": 120,
+		"culture": 2,
+		"gold": 1,
+		"specialistSlots": {"Pokémon Teacher": 2},
+		"uniques": ["[+10]% [Culture] [in all cities]",
+			    "New [Trainer] units start with [15] Experience [in all cities]",
+			    "Only available <in cities without a [Professor's Lab]>",
+			"Trainer building"],
+		"requiredTech": "Pokemon Centers"
+	},
+	{
+		"name": "Teachy TV",
+		"isWonder": true,
+		"culture": 1,
+		"science": 1,
+		"specialistSlots": {"Pokémon Teacher": 1},
+		"uniques": [
+			"Free Technology",
+			"[+1 Gold] from every [Pokémon Teacher]",
+			"[Gold] cost of purchasing [Pokéball] units [-25]%"
+			   ],
+		"greatPersonPoints": {"Great Merchant": 1},
+		"requiredTech": "Territory Function"
 	},
   ]
