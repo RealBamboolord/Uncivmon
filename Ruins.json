@@ -1,0 +1,35 @@
+[
+    {
+        "name": "discover cultural artifacts",
+        "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
+        "uniques": ["Gain [20] [Culture]"],
+        "color": "#cf8ff7"
+    },
+    {
+        "name": "your exploring unit receives training",
+        "notification": "An ancient tribe trained us in their ways of combat!",
+        "uniques": ["This Unit gains [10] XP", "Only available <after [10] turns>"]
+    },
+    {
+        "name": "a stash of gold",
+        "notification": "We have found a stash of [goldAmount] Gold in the ruins!",
+        "uniques": ["Gain [50]-[100] [Gold]"],
+        "color": "#ffeb7f"
+    },
+    {
+        "name": "survivors (adds population to a city)",
+        "notification": "We have found survivors in the ruins! Population added to [cityName].",
+        "uniques": ["[+1] population in a random city"],
+		    "color": "#81c784"
+    },
+    {
+        "name": "reveal nearby Ancient ruins",
+        "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
+        "uniques": ["Reveal up to [All] [Ancient ruins] within a [15] tile radius"]
+    },
+    {
+        "name": "reveal City ruins",
+        "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
+        "uniques": ["Reveal up to [All] [City ruins] within a [35] tile radius", "Only available <after [130] turns>"]
+    },
+  ]
