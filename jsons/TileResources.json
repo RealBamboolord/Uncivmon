@@ -502,4 +502,43 @@
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
 					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
 	}
+
+// Stockpiled mod resources
+	
+  	{
+		"name": "Helix Fossil",
+   		"revealedBy": "Archaeology",
+		"resourceType": "Strategic",
+		"production": 1,
+    		"uniques": [
+      		"Stockpiled"
+    		]
+	},
+  	{
+		"name": "Dome Fossil",
+   		"revealedBy": "Archaeology",
+		"resourceType": "Strategic",
+		"production": 1,
+    		"uniques": [
+      		"Stockpiled"
+    		]
+	},
+  	{
+		"name": "Claw Fossil",
+   		"revealedBy": "Archaeology",
+		"resourceType": "Strategic",
+		"production": 1,
+    		"uniques": [
+      		"Stockpiled"
+    		]
+	},
+  	{
+		"name": "Root Fossil",
+   		"revealedBy": "Archaeology",
+		"resourceType": "Strategic",
+		"production": 1,
+    		"uniques": [
+      		"Stockpiled"
+    		]
+	},
 ]

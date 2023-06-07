@@ -51,7 +51,7 @@
  */
 
 
-// 	Major Regions
+	//Major Regions
 	{
 		"name": "Kanto",
 		"leaderName": "Professor Oak",
@@ -72,8 +72,8 @@
 
 		"tradeRequest": ".",
 
-		"outerColor": [40, 100, 205],
-		"innerColor": [160,30,30],
+		"outerColor": [93, 138, 217],
+		"innerColor": [120,22,22],
 		//"favoredReligion": "",
 		"uniqueName": ".",
 		"uniques": ["."],
@@ -100,19 +100,47 @@
 
 		"tradeRequest": ".",
 
-		"outerColor": [192, 192, 192],
-		"innerColor": [167,155,96],
+		"outerColor": [207, 207, 207],
+		"innerColor": [125,116,72],
 		//"favoredReligion": "",
 		"uniqueName": ".",
 		"uniques": ["."],
 		"cities": ["Goldenrod City","Olivine City","Ecruteak City","Violet City","Cianwood City","Azalea Town","Blackthorn City","Cherrygrove City","Mahogany Town","New Bark Town"],
         "spyNames": ["",]
     },
+	{
+		"name": "Hoenn",
+		"leaderName": "Steven Stone",
+		"adjective": ["."],
+		"startBias": ["Coast"],
+		//"preferredVictoryType":"",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [76, 1, 1],
+		"innerColor": [14,118,174],
+		//"favoredReligion": "",
+		"uniqueName": ".",
+		"uniques": ["."],
+		"cities": ["Mauville City","Slateport City","Rustboro City","Lilycove City","Mossdeep City","Sootopolis City","Fortree City","Lavaridge Town","Petalburg City","Dewford Town","Verdanturf Town","Fallarbor Town","Pacifidlog Town","Oldale Town","Littleroot Town","Ever Grande City"],
+        "spyNames": ["",]
+    },
 	//Barbarian
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-		"innerColor": [182,0,0],
+		"innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging"]
 	}
 
