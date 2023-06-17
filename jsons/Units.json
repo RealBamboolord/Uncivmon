@@ -243,6 +243,17 @@
 		//"uniques": [""],
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Magikarp",
+		"unitType": "Magikarp",
+		"cost": 25,
+		"requiredTech": "Optics",
+		"movement": 2,
+		"strength": 5,
+		//"upgradesTo": "Gyarados",
+		"promotions": ["Water"],
+		"attackSound": "cannon"
+	},
 
 //Single Use Units
 	{

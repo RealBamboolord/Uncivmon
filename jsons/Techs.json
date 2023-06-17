@@ -137,6 +137,23 @@
 	{
 		"columnNumber": 4,
 		"era": "Beginnings",
+		"techCost": 120,
+		"buildingCost": 90,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "First Gym",
+				"row": 6,
+				"uniques": [
+            				""],
+				"prerequisites": ["Side Routes","Forests","Pokemon Centers","Territory Function"],
+				"quote": "Quote",
+			},
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Beginnings",
 		"techCost": 175000,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -170,7 +187,7 @@
 		]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 6,
 		"era": "Beginnings",
 		"techCost": 275000,
 		"buildingCost": 120,

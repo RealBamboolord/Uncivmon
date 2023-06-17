@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow","Sandshrew","Pikachu","Ekans","Pokéball",/*"","","","","","","","","","",""*/],
+		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow","Sandshrew","Pikachu","Ekans","Magikarp",/*"","","","","","","","","","",""*/],
 		"row": 0,
         	"column": 1
 	},
@@ -170,12 +170,24 @@
 	"prerequisites": ["Tackle","Harden"],
 	"unitTypes": ["Cocoon"],
 	},
+	/*{
+	"name": "Dragonize",
+	"uniques": ["This Unit upgrades for free including special upgrades","Doing so will consume this opportunity to choose a Promotion"],
+	"prerequisites": ["Tackle"],
+	"unitTypes": ["Magikarp"],
+	},*/
 	
 // Normal Attacks
 	{
 	"name": "Tackle",
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
 	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey"],
+	},
+	{
+	"name": "Tackle M",
+	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
+	"unitTypes": ["Magikarp"],
+	"prerequisites": ["Splash"],
 	},
 	{
 	"name": "Scratch",
@@ -267,6 +279,11 @@
 	"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Flying] units>","[+5]% Strength <when attacking>","[-5]% Strength <when attacking> <vs [Ground] units>"],
 	"unitTypes": ["Pikachu"],
 	"prerequisites": ["Electric"],
+	},
+	{
+	"name": "Splash",
+	"uniques": ["Does literally nothing","Enables Moves"],
+	"unitTypes": ["Magikarp"],
 	},
 
 //Trainers

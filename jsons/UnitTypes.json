@@ -1,9 +1,11 @@
 [
-	//list: "Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow","Sandshrew","Pikachu","Ekans",
+	//list: "Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow","Sandshrew","Pikachu","Ekans","Magikarp"
     {
         "name": "Test",
         "movementType": "Land"
     },
+
+//Pokemon Land
     {
         "name": "Bulbasaur",
         "movementType": "Land",
@@ -79,6 +81,14 @@
         "movementType": "Land",
         "uniques": ["Pokémon"]
     },
+//Pokemon Water
+    {
+        "name": "Magikarp",
+        "movementType": "Water",
+        "uniques": ["Pokémon"]
+    },
+
+//Trainer,Pokeballs
     {
         "name": "Trainer",
         "movementType": "Land"
