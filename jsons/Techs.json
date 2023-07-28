@@ -78,7 +78,7 @@
 				"name": "Optics",
 				"cost": 85,
 				"row": 12,
-				"uniques": ["Enables embarkation for land units"],
+				//"uniques": ["Enables embarkation for land units"],
 				"quote": "Quote",
 			},
 		]
@@ -153,7 +153,45 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Beginnings",
+		"era": "First Badge",
+		"techCost": 120,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Archaeology",
+				"row": 2,
+				"prerequisites": ["First Gym","Education"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Rock Types",
+				"row": 5,
+				"prerequisites": ["First Gym"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Trading",
+				"row": 7,
+				"uniques": ["Enables Open Borders agreements"],
+				"prerequisites": ["First Gym"],
+				"quote": "Quote",
+			},
+			{
+				"name": "River Crossing",
+				"row": 10,
+				"uniques": [
+					"Enables embarkation for land units",
+            				"Roads connect tiles across rivers"
+					],
+				"prerequisites": ["First Gym","Basic Fishing"],
+				"quote": "Quote",
+			},
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "First Badge",
 		"techCost": 175000,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -176,7 +214,6 @@
 			{
 				"name": "Engineering",
 				"row": 8,
-				"uniques": ["Roads connect tiles across rivers"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 			{
@@ -187,8 +224,8 @@
 		]
 	},
 	{
-		"columnNumber": 6,
-		"era": "Beginnings",
+		"columnNumber": 7,
+		"era": "Medieval era",
 		"techCost": 275000,
 		"buildingCost": 120,
 		"wonderCost": 300,
@@ -197,12 +234,6 @@
 				"name": "Theology",
 				"row": 2,
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
-			},
-			{
-				"name": "Civil Service",
-				"row": 5,
-				"uniques": ["Enables Open Borders agreements"],
-				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
 				"name": "Guilds",

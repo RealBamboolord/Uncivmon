@@ -300,7 +300,7 @@
 	},
 	{
 	"name": "Backpack III",
-	"uniques": ["Can carry [1] extra [Pokéball] units","All adjacent units heal [5] HP when healing"],
+	"uniques": ["Can carry [1] extra [Pokéball] units","[+5] HP when healing <in [Foreign Land] tiles>", ],
 	"unitTypes": ["Trainer"],
 	"prerequisites": ["Backpack II"],
 	},
@@ -315,5 +315,15 @@
 	"uniques": ["[+10]% Strength <vs [Barbarian] units>","[-20]% Strength for enemy [Barbarian] units in adjacent [Land] tiles"],
 	"unitTypes": ["Trainer"],
 	"prerequisites": ["Repel I"],
+	},
+	{
+	"name": "Potion I",
+	"uniques": ["All adjacent units heal [+5] HP when healing"],
+	},
+	{
+	"name": "Potion II",
+	"uniques": ["All adjacent units heal [+5] HP when healing"],
+	"unitTypes": ["Trainer"],
+	"prerequisites": [Potion I],
 	},
   ]

@@ -18,4 +18,10 @@
 		"greatPersonPoints": {"Great Merchant":2},
 		"color": [255,215,0]
 	},
+	{
+		"name":"Archaeologist",
+		"culture":2,
+		"greatPersonPoints": {"Great Merchant":4},
+		"color": [255,215,0]
+	},
 ]

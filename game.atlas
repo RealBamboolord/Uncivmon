@@ -6,7 +6,14 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Potion
   rotate: false
-  xy: 1044, 478
+  xy: 1252, 686
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Moon Stone
+  rotate: false
+  xy: 1044, 686
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -55,14 +62,14 @@ UnitIcons/Metapod
   index: -1
 UnitIcons/Pokeball
   rotate: false
-  xy: 836, 270
+  xy: 1044, 478
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Youngster
   rotate: false
-  xy: 1044, 62
+  xy: 1460, 478
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -167,49 +174,56 @@ UnitPromotionIcons/Ice
   index: -1
 UnitPromotionIcons/Normal
   rotate: false
-  xy: 1044, 686
+  xy: 628, 62
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Poison
   rotate: false
-  xy: 628, 62
+  xy: 836, 270
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Psychic
-  rotate: false
-  xy: 1252, 686
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Repel
+UnitPromotionIcons/Potion
   rotate: false
   xy: 836, 62
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Rock
+UnitPromotionIcons/Psychic
   rotate: false
   xy: 1044, 270
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Steel
+UnitPromotionIcons/Repel
   rotate: false
   xy: 1252, 478
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Water
+UnitPromotionIcons/Rock
   rotate: false
   xy: 1460, 686
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Steel
+  rotate: false
+  xy: 1044, 62
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Water
+  rotate: false
+  xy: 1252, 270
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

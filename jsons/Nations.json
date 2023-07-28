@@ -84,7 +84,7 @@
 		"name": "Johto",
 		"leaderName": "Lance",
 		"adjective": ["Johto"],
-		"startBias": ["."],
+		"startBias": ["Forest"],
 		//"preferredVictoryType":"",
 
 		"startIntroPart1": ".",

@@ -326,6 +326,17 @@
 		"uniques": ["Can only attack [Water] tiles","Limited to [4] per Civilization","Never appears as a Barbarian unit","[+20]% Strength bonus for [Magikarp] units within [2] tiles","[+10]% Strength bonus for [Water] units within [2] tiles","Can carry [2] [Pokéball] units"]
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Brock&Onix",
+		"unitType": "Trainer",
+		"cost": 500,
+		"movement": 2,
+		"strength": 15,
+		"requiredResource": "Boulder Badge",
+		"uniques": ["Limited to [1] per Civilization","Never appears as a Barbarian unit","[+15]% Strength bonus for [Rock] units within [1] tiles","Can carry [3] [Pokéball] units"]
+		"attackSound": "nonmetalhit"
+		"promotions": ["Rock","Ground"],
+	},
 	
 	/* Great people */
 

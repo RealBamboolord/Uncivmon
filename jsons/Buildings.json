@@ -89,6 +89,7 @@
 		"uniques": [
 			"[Pokémon] Units adjacent to this city heal [+5] HP per turn when healing",
 			"Only available <in cities with a [Pokemart]>",
+			"All newly-trained [Trainer] units [in this city] receive the [Potion I] promotion",
 			"Item building"],
 		"requiredTech": "Pokémarts"
 	},
@@ -184,5 +185,42 @@
 			   ],
 		"greatPersonPoints": {"Great Merchant": 1},
 		"requiredTech": "Territory Function"
+	},
+
+	//Column 4
+	{
+		"name": "Pewter City Gym",
+		"isWonder": true,
+		"culture": 1,
+		"production": 1,
+		"uniques": [
+			"Gain a free [First Gym] [in this city]",
+			"Provides [1] [First Badge]",
+			"Provides [1] [Boulder Badge]",
+			"Only available <without [First Badge]>",
+			"Free [Brock&Onix] appears",
+			"New [Rock] units start with [10] Experience [in this city]",
+			"[+15]% Strength <for [Rock] units> <when attacking>",
+//"Enables you to build TM 39 Rock Tomb"
+			   ],
+		//"replacementTextForUniques": "\nProvides the Boulder Badge\nFree Brock&Onix appears\nYou can only build one First Gym",
+		"requiredTech": "First Gym"
+	},
+	{
+		"name": "First Gym",
+		"cost": 0,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
+	},
+
+	//Column 5
+	{
+		"name": "Museum",
+		"culture": 3,
+		"specialistSlots": {"Archaeologist": 1},
+		"uniques": [
+			"[+10]% [Culture]",
+			"Human building"
+			   ],
+		"requiredTech": "Archaeology"
 	},
   ]

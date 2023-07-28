@@ -115,7 +115,7 @@
 		"[-50]% maintenance costs",
 	]
         "movementType": "Air"
-    },500
+    },
     {
         "name": "Civilian",
         "movementType": "Land"
@@ -123,10 +123,8 @@
 //Gym Leaders
     {
         "name": "Brock",
-        "uniques": [
-		"[100]% maintenance costs",
-		"Trainer","Pokémon"
-	]
+        "uniques": ["[+100]% maintenance costs",
+		"Trainer","Pokémon"]
         "movementType": "Land"
     },
 /////////Trash////////
