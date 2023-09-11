@@ -46,7 +46,7 @@
 	},
 	{
 		"name": "Starter Wonder",
-		"uniques": ["Unbuildable", "Unsellable"],
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"replacementTextForUniques": "Unbuildable",
 	},
   	{
