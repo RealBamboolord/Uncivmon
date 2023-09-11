@@ -115,7 +115,7 @@
 		"[-50]% maintenance costs",
 	]
         "movementType": "Air"
-    },500
+    },
     {
         "name": "Civilian",
         "movementType": "Land"
