@@ -324,6 +324,6 @@
 	"name": "Potion II",
 	"uniques": ["All adjacent units heal [+5] HP when healing"],
 	"unitTypes": ["Trainer"],
-	"prerequisites": [Potion I],
+	"prerequisites": ["Potion I"],
 	},
   ]
