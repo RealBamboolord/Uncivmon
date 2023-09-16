@@ -6,51 +6,107 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Potion
   rotate: false
-  xy: 1252, 686
+  xy: 1044, 586
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Boulder Badge
+  rotate: false
+  xy: 4, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Moon Stone
   rotate: false
-  xy: 1044, 686
+  xy: 836, 586
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Abra
+  rotate: false
+  xy: 4, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bellsprout
+  rotate: false
+  xy: 1460, 686
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bug Catcher
   rotate: false
-  xy: 212, 686
+  xy: 4, 378
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Bulbasaur
+  rotate: false
+  xy: 1668, 894
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Caterpie
   rotate: false
-  xy: 4, 270
-  size: 200, 200
-  orig: 200, 200
+  xy: 1252, 270
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wild Caterpie
   rotate: false
-  xy: 4, 270
-  size: 200, 200
-  orig: 200, 200
+  xy: 1252, 270
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Charmander
   rotate: false
-  xy: 212, 478
-  size: 200, 200
-  orig: 200, 200
+  xy: 112, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Dratini
+  rotate: false
+  xy: 1460, 578
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Eevee
+  rotate: false
+  xy: 1776, 894
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Egg
+  rotate: false
+  xy: 220, 62
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Fisherman
   rotate: false
-  xy: 420, 270
+  xy: 212, 170
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Jigglypuff
+  rotate: false
+  xy: 1460, 470
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Metapod
@@ -60,170 +116,205 @@ UnitIcons/Metapod
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitIcons/Pikachu
+  rotate: false
+  xy: 1884, 894
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Pokeball
   rotate: false
-  xy: 1044, 478
+  xy: 836, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Psyduck
+  rotate: false
+  xy: 328, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Scizor
+  rotate: false
+  xy: 436, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Snorlax
+  rotate: false
+  xy: 544, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Squirtle
+  rotate: false
+  xy: 652, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Youngster
   rotate: false
-  xy: 1460, 478
+  xy: 1252, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Backpack
   rotate: false
-  xy: 4, 686
+  xy: 4, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bug
   rotate: false
-  xy: 4, 478
+  xy: 212, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dark
   rotate: false
-  xy: 420, 686
+  xy: 212, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dragon
   rotate: false
-  xy: 4, 62
+  xy: 420, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Electric
   rotate: false
-  xy: 212, 270
+  xy: 4, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fairy
   rotate: false
-  xy: 420, 478
+  xy: 212, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fighting
   rotate: false
-  xy: 628, 686
+  xy: 420, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fire
   rotate: false
-  xy: 212, 62
+  xy: 628, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/FloatingGhost
   rotate: false
-  xy: 628, 478
+  xy: 420, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/StridingGhost
   rotate: false
-  xy: 628, 478
+  xy: 420, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Flying
   rotate: false
-  xy: 836, 686
+  xy: 628, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Grass
   rotate: false
-  xy: 420, 62
+  xy: 836, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ground
   rotate: false
-  xy: 628, 270
+  xy: 420, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ice
   rotate: false
-  xy: 836, 478
+  xy: 628, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Normal
   rotate: false
-  xy: 628, 62
+  xy: 1044, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Poison
   rotate: false
-  xy: 836, 270
+  xy: 628, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Potion
   rotate: false
-  xy: 836, 62
+  xy: 1252, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Psychic
   rotate: false
-  xy: 1044, 270
+  xy: 836, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Repel
   rotate: false
-  xy: 1252, 478
+  xy: 1044, 378
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rock
   rotate: false
-  xy: 1460, 686
+  xy: 1252, 586
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Steel
   rotate: false
-  xy: 1044, 62
+  xy: 1460, 794
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Water
   rotate: false
-  xy: 1252, 270
+  xy: 1044, 170
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
