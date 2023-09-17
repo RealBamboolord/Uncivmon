@@ -12,6 +12,30 @@
 		"requiredTech": "Guilds"
 	},
 	{
+		"name": "Test Wonder",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Free [Bulbasaur] appears", 
+			"Free [Charmander] appears", 
+			"Free [Squirtle] appears", 
+			"Free [Butterfree] appears", 
+			"Free [Beedrill] appears", 
+			"Free [Pidgey] appears", 
+			"Free [Rattata] appears", 
+			"Free [Spearow] appears", 
+			"Free [Sandshrew] appears", 
+			"Free [Pikachu] appears", 
+			"Free [Ekans] appears", 
+			"Free [Meowth] appears", 
+			"Free [Mankey] appears",
+			],
+		"replacementTextForUniques": "All att once",
+		"civilopediaText": [
+			{"text":"Here they are"}
+        ]
+	},
+	{
 		"name": "Choose Bulbasaur",
 		"isWonder": true,
 		"cost": 15,
