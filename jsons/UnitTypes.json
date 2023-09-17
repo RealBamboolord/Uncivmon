@@ -81,6 +81,16 @@
         "movementType": "Land",
         "uniques": ["Pokémon"]
     },
+    {
+        "name": "Meowth",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
+        "name": "Mankey",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
 //Pokemon Water
     {
         "name": "Magikarp",
