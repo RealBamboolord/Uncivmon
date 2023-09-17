@@ -259,7 +259,7 @@
 	{
 	"name": "Gust",
 	"uniques": ["[+15]% Strength <vs [Grass] units> <when attacking>","[+15]% Strength <vs [Fighting] units> <when attacking>","[+15]% Strength <vs [Bug] units> <when attacking>","[+15]% Strength <in [Grassland] tiles>"],
-	"unitTypes": ["Spearow","Butterfree"],
+	"unitTypes": ["Pidgey","Butterfree"],
 	"prerequisites": ["Tackle","Confusion"],
 	},
 	{
