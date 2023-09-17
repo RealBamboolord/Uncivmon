@@ -23,11 +23,12 @@
 		"cost": 30,
 		"uniques": ["May create improvements on water resources"],
 		"requiredTech": "Basic Fishing"
-	},
+	},Starter Choosing
 //Pokemon
 	{
 		"name": "Bulbasaur",
 		"unitType": "Bulbasaur", 
+		"requiredTech": "Starter Choosing",
 		"cost": 30,
 		"movement": 2,
 		"strength": 6,
@@ -41,6 +42,7 @@
 	{
 		"name": "Charmander",
 		"unitType": "Charmander",
+		"requiredTech": "Starter Choosing",
 		"cost": 30, 
 		"movement": 2,
 		"strength": 11,
@@ -52,6 +54,7 @@
 	{
 		"name": "Squirtle",
 		"unitType": "Squirtle",
+		"requiredTech": "Starter Choosing",
 		"cost": 30, 
 		"movement": 2,
 		"strength": 8,
@@ -66,7 +69,7 @@
 		"name": "Caterpie",
 		"unitType": "Caterpie",
 		"cost": 15,
-		"requiredTech": "First Bugs",
+		"requiredTech": "Starter Choosing",
 		"movement": 2,
 		"strength": 5,
 		"upgradesTo": "Metapod",
@@ -241,6 +244,28 @@
 		"strength": 10,
 		"promotions": ["Poison"],
 		//"uniques": [""],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Meowth",
+		"unitType": "Meowth",
+		"cost": 35, 
+		"requiredTech": "Side Routes",
+		"movement": 3,
+		"strength": 8,
+		"promotions": ["Normal"],
+		//"uniques": [""],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Mankey",
+		"unitType": "Mankey",
+		"cost": 35, 
+		"requiredTech": "Side Routes",
+		"movement": 2,
+		"strength": 10,
+		"promotions": ["Fighting"],
+		"uniques": ["[+15]% Strength <when attacking>","[-10]% Strength <when defending>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
