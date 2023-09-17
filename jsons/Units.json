@@ -23,7 +23,7 @@
 		"cost": 30,
 		"uniques": ["May create improvements on water resources"],
 		"requiredTech": "Basic Fishing"
-	},Starter Choosing
+	},
 //Pokemon
 	{
 		"name": "Bulbasaur",
