@@ -213,7 +213,7 @@
 
 	//Column 4
 	{
-		"name": "Pewter City Gym",
+		"name": "Pewter Gym",
 		"isWonder": true,
 		"culture": 1,
 		"production": 1,
@@ -228,6 +228,23 @@
 //"Enables you to build TM 39 Rock Tomb"
 			   ],
 		//"replacementTextForUniques": "\nProvides the Boulder Badge\nFree Brock&Onix appears\nYou can only build one First Gym",
+		"requiredTech": "First Gym"
+	},
+	{
+		"name": "Violet Gym",
+		"isWonder": true,
+		"culture": 1,
+		"gold": 1,
+		"uniques": [
+			"Gain a free [First Gym] [in this city]",
+			"Provides [1] [First Badge]",
+			"Provides [1] [Zephyr Badge]",
+			"Only available <without [First Badge]>",
+			"Free [Falkner&Pidgeotto] appears",
+			"New [Flying] units start with [10] Experience [in this city]",
+			"[+15]% Strength <for [Flying] units> <when attacking>",
+//"Enables you to build TM 51 Roost"
+			   ],
 		"requiredTech": "First Gym"
 	},
 	{
