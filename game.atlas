@@ -6,315 +6,616 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Potion
   rotate: false
-  xy: 1044, 586
+  xy: 1044, 608
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Boulder Badge
   rotate: false
-  xy: 4, 586
+  xy: 4, 608
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Moon Stone
   rotate: false
-  xy: 836, 586
+  xy: 836, 608
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Arbok
+  rotate: false
+  xy: 4, 4
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Beedrill
+  rotate: false
+  xy: 1568, 736
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Blastoise
+  rotate: false
+  xy: 1668, 836
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bulbasaur
+  rotate: false
+  xy: 1252, 212
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Butterfree
+  rotate: false
+  xy: 1360, 320
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Caterpie
+  rotate: false
+  xy: 1460, 412
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Charizard
+  rotate: false
+  xy: 760, 112
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Charmander
+  rotate: false
+  xy: 84, 4
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Charmeleon
+  rotate: false
+  xy: 1568, 656
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ekans
+  rotate: false
+  xy: 1748, 836
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Fearow
+  rotate: false
+  xy: 840, 112
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Geodude
+  rotate: false
+  xy: 164, 4
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Golem
+  rotate: false
+  xy: 1568, 576
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Graveler
+  rotate: false
+  xy: 1828, 836
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Gyarados
+  rotate: false
+  xy: 920, 112
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ivysaur
+  rotate: false
+  xy: 244, 4
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kakuna
+  rotate: false
+  xy: 1568, 496
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Magikarp
+  rotate: false
+  xy: 1908, 836
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mankey
+  rotate: false
+  xy: 1000, 112
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Meowth
+  rotate: false
+  xy: 324, 4
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Metapod
+  rotate: false
+  xy: 1080, 112
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nidoking
+  rotate: false
+  xy: 404, 4
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nidoqueen
+  rotate: false
+  xy: 1160, 112
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nidoran
+  rotate: false
+  xy: 484, 4
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nidorano
+  rotate: false
+  xy: 564, 4
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nidorina
+  rotate: false
+  xy: 644, 4
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nidorino
+  rotate: false
+  xy: 724, 4
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Persian
+  rotate: false
+  xy: 804, 32
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pidgeot
+  rotate: false
+  xy: 884, 32
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pidgeotto
+  rotate: false
+  xy: 964, 32
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pidgey
+  rotate: false
+  xy: 1044, 32
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikachu
+  rotate: false
+  xy: 1124, 32
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Primeape
+  rotate: false
+  xy: 1204, 32
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Raichu
+  rotate: false
+  xy: 1240, 112
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Raticate
+  rotate: false
+  xy: 1284, 32
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Rattata
+  rotate: false
+  xy: 1540, 412
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sandshrew
+  rotate: false
+  xy: 1332, 212
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sandslash
+  rotate: false
+  xy: 1320, 132
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearow
+  rotate: false
+  xy: 1620, 416
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Squirtle
+  rotate: false
+  xy: 1440, 320
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Venusaur
+  rotate: false
+  xy: 1520, 332
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wartortle
+  rotate: false
+  xy: 1412, 240
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Weedle
+  rotate: false
+  xy: 1412, 160
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
 UnitIcons/Abra
   rotate: false
-  xy: 4, 62
+  xy: 4, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bellsprout
   rotate: false
-  xy: 1460, 686
+  xy: 1460, 708
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bug Catcher
   rotate: false
-  xy: 4, 378
+  xy: 4, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Bulbasaur
   rotate: false
-  xy: 1668, 894
+  xy: 1668, 916
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Caterpie
   rotate: false
-  xy: 1252, 270
+  xy: 1252, 292
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wild Caterpie
   rotate: false
-  xy: 1252, 270
+  xy: 1252, 292
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Charmander
   rotate: false
-  xy: 112, 62
+  xy: 112, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Dratini
   rotate: false
-  xy: 1460, 578
+  xy: 1460, 600
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Eevee
   rotate: false
-  xy: 1776, 894
+  xy: 1776, 916
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Egg
   rotate: false
-  xy: 220, 62
+  xy: 220, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Fisherman
   rotate: false
-  xy: 212, 170
+  xy: 212, 192
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Jigglypuff
   rotate: false
-  xy: 1460, 470
+  xy: 1460, 492
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Metapod
   rotate: false
-  xy: 4, 4
+  xy: 1992, 966
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Pikachu
   rotate: false
-  xy: 1884, 894
+  xy: 1884, 916
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pokeball
   rotate: false
-  xy: 836, 378
+  xy: 836, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Psyduck
   rotate: false
-  xy: 328, 62
+  xy: 328, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scizor
   rotate: false
-  xy: 436, 62
+  xy: 436, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Snorlax
   rotate: false
-  xy: 544, 62
+  xy: 544, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Squirtle
   rotate: false
-  xy: 652, 62
+  xy: 652, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Youngster
   rotate: false
-  xy: 1252, 378
+  xy: 1252, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Backpack
   rotate: false
-  xy: 4, 794
+  xy: 4, 816
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bug
   rotate: false
-  xy: 212, 794
+  xy: 212, 816
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dark
   rotate: false
-  xy: 212, 586
+  xy: 212, 608
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dragon
   rotate: false
-  xy: 420, 794
+  xy: 420, 816
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Electric
   rotate: false
-  xy: 4, 170
+  xy: 4, 192
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fairy
   rotate: false
-  xy: 212, 378
+  xy: 212, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fighting
   rotate: false
-  xy: 420, 586
+  xy: 420, 608
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fire
   rotate: false
-  xy: 628, 794
+  xy: 628, 816
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/FloatingGhost
   rotate: false
-  xy: 420, 378
+  xy: 420, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/StridingGhost
   rotate: false
-  xy: 420, 378
+  xy: 420, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Flying
   rotate: false
-  xy: 628, 586
+  xy: 628, 608
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Grass
   rotate: false
-  xy: 836, 794
+  xy: 836, 816
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ground
   rotate: false
-  xy: 420, 170
+  xy: 420, 192
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ice
   rotate: false
-  xy: 628, 378
+  xy: 628, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Normal
   rotate: false
-  xy: 1044, 794
+  xy: 1044, 816
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Poison
   rotate: false
-  xy: 628, 170
+  xy: 628, 192
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Potion
   rotate: false
-  xy: 1252, 794
+  xy: 1252, 816
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Psychic
   rotate: false
-  xy: 836, 170
+  xy: 836, 192
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Repel
   rotate: false
-  xy: 1044, 378
+  xy: 1044, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rock
   rotate: false
-  xy: 1252, 586
+  xy: 1252, 608
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Steel
   rotate: false
-  xy: 1460, 794
+  xy: 1460, 816
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Water
   rotate: false
-  xy: 1044, 170
+  xy: 1044, 192
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
