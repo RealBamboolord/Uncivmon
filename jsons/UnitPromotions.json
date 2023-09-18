@@ -181,7 +181,7 @@
 	{
 	"name": "Tackle",
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
-	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey"],
+	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey","Geodude"],
 	},
 	{
 	"name": "Tackle M",
@@ -208,7 +208,7 @@
 	{
 	"name": "Defense Curl",
 	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
-	"unitTypes": ["Sandshrew"],
+	"unitTypes": ["Sandshrew","Geodude"],
 	},
 	{
 	"name": "Withdraw",
@@ -380,6 +380,18 @@
 	"uniques": ["[+25]% Strength <vs [Wounded] units>"],
 	"unitTypes": ["Beedrill","Rattata","Spearow","Meowth","Mankey"],
 	"prerequisites": ["Karate Chop","Bite","Pursuit"],
+	},
+	{
+	"name": "Rock Polish",
+	"uniques": ["[+1] Movement"],
+	"unitTypes": ["Geodude"],
+	"prerequisites": ["Tackle","Defense Curl"],
+	},
+	{
+	"name": "Magnitude",
+	"uniques": ["[+15]% Strength <when attacking>"],
+	"unitTypes": ["Geodude"],
+	"prerequisites": ["Tackle","Defense Curl"],
 	},
 	{
 	"name": "Splash",
