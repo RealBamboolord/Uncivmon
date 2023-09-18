@@ -280,6 +280,17 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Geodude",
+		"unitType": "Geodude",
+		"cost": 50, 
+		"requiredTech": "Rock Types",
+		"movement": 1,
+		"strength": 10,
+		"promotions": ["Rock","Ground"],
+		"uniques": ["[+30]% Strength <when defending>"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Magikarp",
 		"unitType": "Magikarp",
 		"cost": 25,
@@ -372,6 +383,17 @@
 		"uniques": ["Limited to [1] per Civilization","Never appears as a Barbarian unit","[+15]% Strength bonus for [Rock] units within [1] tiles","Can carry [3] [Pokéball] units"]
 		"attackSound": "nonmetalhit"
 		"promotions": ["Rock","Ground"],
+	},
+	{
+		"name": "Falkner&Pidgeotto",
+		"unitType": "Trainer",
+		"cost": 500,
+		"movement": 3,
+		"strength": 13,
+		"requiredResource": "Zephyr Badge",
+		"uniques": ["Limited to [1] per Civilization","Never appears as a Barbarian unit","[+10]% Strength bonus for [Flying] units within [2] tiles","Can carry [3] [Pokéball] units"]
+		"attackSound": "nonmetalhit"
+		"promotions": ["Normal","Flying"],
 	},
 	
 	/* Great people */
