@@ -91,6 +91,11 @@
         "movementType": "Land",
         "uniques": ["Pokémon"]
     },
+    {
+        "name": "Geodude",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
 //Pokemon Water
     {
         "name": "Magikarp",
