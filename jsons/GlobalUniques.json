@@ -8,7 +8,7 @@
         "Cannot build [Settler] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-20] Happiness>",
         
-        
+        "Enables embarkation for land units <for [Caterpie] units>", //test
         "[5] HP when healing <if [Pokemon Center] is constructed> <for [Pokémon] units> <in [City center] tiles>"
         ]
 }
