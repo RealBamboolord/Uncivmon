@@ -220,13 +220,13 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Sandshrew",
-		"unitType": "Sandshrew",
+		"name": "Ekans",
+		"unitType": "Ekans",
 		"cost": 35, 
 		"requiredTech": "Side Routes",
 		"movement": 2,
 		"strength": 10,
-		"promotions": ["Ground"],
+		"promotions": ["Poison"],
 		//"uniques": [""],
 		"attackSound": "nonmetalhit"
 	},
@@ -244,14 +244,38 @@
 		"attackSound": "Pika"
 	},
 	{
-		"name": "Ekans",
-		"unitType": "Ekans",
+		"name": "Sandshrew",
+		"unitType": "Sandshrew",
 		"cost": 35, 
 		"requiredTech": "Side Routes",
 		"movement": 2,
 		"strength": 10,
-		"promotions": ["Poison"],
+		"promotions": ["Ground"],
 		//"uniques": [""],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Clefairy",
+		"unitType": "Clefairy",
+		"cost": 55, 
+		"requiredTech": "Cave Exploration",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"range": 1,
+		"promotions": ["Fairy"],
+		"uniques": ["[-10]% Strength <when attacking>","[+10]% Strength <when defending> <vs [Ranged] units>","[+5] HP when healing"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Zubat",
+		"unitType": "Zubat",
+		"cost": 30, 
+		"requiredTech": "Cave Exploration",
+		"movement": 4,
+		"strength": 7,
+		"promotions": ["Poison","Flying"],
+		"uniques": ["[-20]% Strength <when fighting in [Open terrain] tiles>","[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>","Can move after attacking"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -280,7 +304,7 @@
 		"name": "Geodude",
 		"unitType": "Geodude",
 		"cost": 50, 
-		"requiredTech": "Rock Types",
+		"requiredTech": "Cave Exploration",
 		"movement": 1,
 		"strength": 10,
 		"promotions": ["Rock","Ground"],
