@@ -389,7 +389,7 @@
 	},
 	{
 	"name": "Magnitude",
-	"uniques": ["[+15]% Strength <when attacking>"],
+	"uniques": ["[+10]% Strength <when attacking> <vs cities>","[+15]% Strength <when attacking> <vs cities> <with [66]% chance>","[+20]% Strength <when attacking> <vs cities> <with [50]% chance>","[+25]% Strength <when attacking> <vs cities> <with [20]% chance>","[+50]% Strength <when attacking> <vs cities> <with [10]% chance>","[+100]% Strength <when attacking> <vs cities> <with [5]% chance>"],
 	"unitTypes": ["Geodude"],
 	"prerequisites": ["Tackle","Defense Curl"],
 	},
