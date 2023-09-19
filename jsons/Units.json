@@ -207,8 +207,6 @@
 		"strength": 9,
 		"cost": 40,
 		"promotions": ["Normal","Flying"],
-		//"obsoleteTech": "Metal Casting",
-		//"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -218,8 +216,7 @@
 		"strength": 9,
 		"cost": 40,
 		"promotions": ["Normal","Flying"],
-		//"obsoleteTech": "Metal Casting",
-		//"upgradesTo": "Swordsman",
+		"uniques": ["Unbuildable","Never appears as a Barbarian unit"]
 		"attackSound": "nonmetalhit"
 	},
 	{
