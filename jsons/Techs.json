@@ -165,7 +165,7 @@
 				"quote": "Quote",
 			},
 			{
-				"name": "Rock Types",
+				"name": "Cave Exploration",
 				"row": 5,
 				"prerequisites": ["First Gym"],
 				"quote": "Quote",
