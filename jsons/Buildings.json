@@ -14,6 +14,7 @@
 	{
 		"name": "Test Wonder",
 		"isWonder": true,
+		"uniqueTo": Kanto,
 		"cost": 1,
 		"uniques": [
 			"Free [Bulbasaur] appears", 
@@ -29,6 +30,7 @@
 			"Free [Ekans] appears", 
 			"Free [Meowth] appears", 
 			"Free [Mankey] appears",
+			"Free [Geodude] appears"
 			],
 		"replacementTextForUniques": "All att once",
 		"civilopediaText": [
