@@ -500,7 +500,7 @@
 					"Generated with weight [10] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
+					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"],
 	}
 
 // Stockpiled mod resources
@@ -546,7 +546,7 @@
 
   	{
 		"name": "Moon Stone",
-   		"revealedBy": "Rock Types",
+   		"revealedBy": "Cave Exploration",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Hill","Jungle","Mountain"],
 		"culture": 1,
