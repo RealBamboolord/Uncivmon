@@ -82,6 +82,16 @@
         "uniques": ["Pokémon"]
     },
     {
+        "name": "Clefairy",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
+        "name": "Zubat",
+        "movementType": "Land",
+        "uniques": ["Pokémon", "No defensive terrain bonus", "Ignores Zone of Control"]
+    },
+    {
         "name": "Meowth",
         "movementType": "Land",
         "uniques": ["Pokémon"]
