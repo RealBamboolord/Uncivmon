@@ -108,7 +108,7 @@
 	},
   {
 		"name": "Rock",
-		"uniques": ["Rock","[+50]% Strength <vs [Fire] units>","[+50]% Strength <vs [Flying] units>","[+50]% Strength <vs [Normal] units> <when defending>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when attacking>","[+50]% Strength <vs [Poison] units> <when defending>"],
+		"uniques": ["Rock","[+50]% Strength <vs [Fire] units>","[+50]% Strength <vs [Flying] units>","[+50]% Strength <vs [Ice] units> <when attacking>","[+50]% Strength <vs [Bug] units> <when attacking>","[+50]% Strength <vs [Normal] units> <when defending>","[+50]% Strength <vs [Poison] units> <when defending>"],
 		"unitTypes": ["Test"],
 		"row": 2,
         	"column": 13
@@ -390,8 +390,26 @@
 	{
 	"name": "Magnitude",
 	"uniques": ["[+10]% Strength <when attacking> <vs cities>","[+15]% Strength <when attacking> <vs cities> <with [66]% chance>","[+20]% Strength <when attacking> <vs cities> <with [50]% chance>","[+25]% Strength <when attacking> <vs cities> <with [20]% chance>","[+50]% Strength <when attacking> <vs cities> <with [10]% chance>","[+100]% Strength <when attacking> <vs cities> <with [5]% chance>"],
+	"unitTypes": ["Geodude","Sandshrew"],
+	"prerequisites": ["Tackle","Defense Curl","Scratch"],
+	},
+	{
+	"name": "Rock Throw",
+	"uniques": ["[+20]% Strength <vs [Fire] units>","[+20]% Strength <vs [Flying] units>","[+20]% Strength <vs [Ice] units> <when attacking>","[+20]% Strength <vs [Bug] units> <when attacking>"],
 	"unitTypes": ["Geodude"],
-	"prerequisites": ["Tackle","Defense Curl"],
+	"prerequisites": ["Tackle","Defense Curl","Scratch"],
+	},
+	{
+	"name": "Rock Blast",
+	"uniques": ["[1] additional attacks per turn"],
+	"unitTypes": ["Geodude"],
+	"prerequisites": ["Rock Polish","Magnitude","Rock Throw"],
+	},
+	{
+	"name": "Rollout",
+	"uniques": ["[+5]% Strength ","[+5]% Strength <starting from the [First Badge]>"],
+	"unitTypes": ["Geodude","Sandshrew"],
+	"prerequisites": ["Rock Polish","Magnitude","Rock Throw","Poison Sting"],
 	},
 	{
 	"name": "Splash",
