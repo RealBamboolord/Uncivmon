@@ -181,7 +181,7 @@
 	{
 	"name": "Tackle",
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
-	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey","Geodude"],
+	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey","Geodude","Starly"],
 	},
 	{
 	"name": "Tackle M",
@@ -313,13 +313,13 @@
 	{
 	"name": "Agility",
 	"uniques": ["[+1] Movement"],
-	"unitTypes": ["Beedrill","Pidgey","Spearow","Pikachu"],
+	"unitTypes": ["Beedrill","Pidgey","Spearow","Pikachu","Starly"],
 	"prerequisites": ["Pursuit","Feather Dance","Thunder Bolt","Double Team","Slam"],
 	},
 	{
 	"name": "Quick Attack",
 	"uniques": ["Can move after attacking","[+25]% XP gained from combat"],
-	"unitTypes": ["Rattata","Pikachu","Pidgey"],
+	"unitTypes": ["Rattata","Pikachu","Pidgey","Starly"],
 	"prerequisites": ["Tackle","Energy Focus","Thundershock"],
 	},
 	{
@@ -342,8 +342,8 @@
 	{
 	"name": "Double Team",
 	"uniques": ["May withdraw before melee ([33]%)"],
-	"unitTypes": ["Pikachu"],
-	"prerequisites": ["Electro Ball","Quick Attack"],
+	"unitTypes": ["Pikachu","Starly"],
+	"prerequisites": ["Electro Ball","Quick Attack","Wing Attack"],
 	},
 	{
 	"name": "Slam",
@@ -382,8 +382,8 @@
 	{
 	"name": "Wing Attack",
 	"uniques": ["[+20]% Strength <vs [Grass] units> <when attacking>","[+20]% Strength <vs [Bug] units> <when attacking>","[+20]% Strength <vs [Fighting] units> <when attacking>","[+10]% Strength <when attacking>"],
-	"prerequisites": ["Feather Dance","Leech Life","Astonish"],
-	"unitTypes": ["Pidgey","Zubat","Charizard"],
+	"prerequisites": ["Feather Dance","Leech Life","Astonish","Tackle"],//Tackle only for Starly, not for Pidgey!
+	"unitTypes": ["Pidgey","Zubat","Charizard","Starly"],
 	},
 	{
 	"name": "Air Cutter",
