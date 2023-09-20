@@ -322,6 +322,20 @@
 		"promotions": ["Water"],
 		"attackSound": "cannon"
 	},
+	{
+		"name": "Starly",
+		"unitType": "Starly",
+		"cost": 30,
+		"requiredTech": "Route 1",
+		"movement": 3,
+		"strength": 7,
+		"uniques": ["[+25]% Strength <when attacking>","[-20]% Strength <when defending>"],
+		"promotions": ["Normal","Flying"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Starly, aka the cooler Pidgey"}
+		]
+	},
 
 //Single Use Units
 	{
