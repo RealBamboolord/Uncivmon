@@ -30,7 +30,9 @@
 			"Free [Ekans] appears", 
 			"Free [Meowth] appears", 
 			"Free [Mankey] appears",
-			"Free [Geodude] appears"
+			"Free [Geodude] appears",
+			"Free [Clefairy] appears",
+			"Free [Zubat] appears"
 			],
 		"replacementTextForUniques": "All att once",
 		"civilopediaText": [
@@ -209,7 +211,7 @@
 			"[+1 Gold] from every [Pokémon Teacher]",
 			"[Gold] cost of purchasing [Pokéball] units [-25]%"
 			   ],
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Merchant": 1}, //Scientist
 		"requiredTech": "Territory Function"
 	},
 
@@ -265,5 +267,19 @@
 			"Human building"
 			   ],
 		"requiredTech": "Archaeology"
+	},
+	{
+		"name": "Mt Moon Exploration",
+		"isWonder": true,
+		"uniques": [
+			"Must have an owned [Mt Moon] within [3] tiles",
+			"[+2 Science] from [Mt Moon] tiles [in all cities]",
+			"Provides [3] [Moon Stone]",
+			"[3] free [Clefairy] units appear",
+			"Instantly provides [10] [Helix Fossil]",
+			"Instantly provides [10] [Dome Fossil]"
+			   ],
+		"greatPersonPoints": {"Great Merchant": 1}, //Scientist
+		"requiredTech": "Cave Exploration"
 	},
   ]

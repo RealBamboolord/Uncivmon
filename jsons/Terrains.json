@@ -300,7 +300,7 @@
 		"turnsInto": "Coast",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 1
 	},
 	{
 		"name": "Old Faithful",
@@ -316,7 +316,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 1
 	},
 	{
 		"name": "El Dorado",
@@ -330,7 +330,7 @@
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [1] to [6] [Jungle] tiles",
 			"Grants 500 Gold to the first civilization to discover it"],
-		"weight": 2
+		"weight": 1
 	},
 	{
 		"name": "Grand Mesa",
@@ -345,14 +345,13 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 1
 	},
 	{
 		"name": "Mount Fuji",
 		"type": "NaturalWonder",
-		"gold": 2,
+		"gold": 3,
 		"culture": 3,
-		"faith": 3,
 		"occursOn": ["Grassland","Plains"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
@@ -364,7 +363,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 1
 	},
 	{
 		"name": "Krakatoa",
@@ -377,7 +376,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 1
 	},
 	{
 		"name": "Rock of Gibraltar",
@@ -391,7 +390,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 1
 	},
 	{
 		"name": "Cerro de Potosi",
@@ -403,7 +402,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 5
+		"weight": 1
 	},
 	{
 		"name": "Barringer Crater",
@@ -418,7 +417,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 1
 	},
 	// G&K Wonders
 	{
@@ -435,7 +434,7 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 1
 	},
 	{
 		"name": "Sri Pada",
@@ -451,21 +450,23 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 1
 	},
-	// BNW wonders
 	{
-		"name": "King Solomon's Mines",
+		"name": "Mt Moon",
 		"type": "NaturalWonder",
-		"production": 6,
+		"culture": 3,
+		"production": 2,
 		"overrideStats": true,
-		"occursOn": ["Plains","Desert"],
+		"occursOn": ["Grassland","Plains"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles"],
-		"turnsInto": "Plains",
+			"Must be adjacent to [0] to [1] [Mountain] tiles",
+			"Must be adjacent to [2] to [5] [Grassland] tiles",
+			"Must be adjacent to [2] to [4] [Hill] tiles"],
+		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 4
+		"weight": 10
 	},
 	{// Will be introduced in Brave New World. Despite being a lake, it cannot be sailed on and it blocks line of sight like a mountain.
 		"name": "Lake Victoria",
@@ -476,6 +477,6 @@
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Fresh water","Must be adjacent to [0] [Coast] tiles"],
-		"weight": 10
+		"weight": 1
 	},
 ]

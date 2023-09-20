@@ -101,7 +101,7 @@
 	},
   {
 		"name": "Bug",
-		"uniques": ["Bug","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Dark] units> <when attacking>","[+50]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ground] units> <when defending>","[+50]% Strength <vs [Fairy] units> <when attacking>"],
+		"uniques": ["Bug","[+50]% Strength <vs [Grass] units>","[+50]% Strength <vs [Psychic] units> <when attacking>","[+50]% Strength <vs [Dark] units> <when attacking>","[+50]% Strength <vs [Fairy] units> <when attacking>","[+50]% Strength <vs [Fighting] units> <when defending>","[+50]% Strength <vs [Ground] units> <when defending>"],
 		"unitTypes": ["Test"],
 		"row": 2,
         	"column": 12
@@ -190,6 +190,11 @@
 	"prerequisites": ["Splash"],
 	},
 	{
+	"name": "Pound",
+	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>","[-15]% Strength <when fighting in [Rough terrain] tiles> <vs [Ghost] units>"],
+	"unitTypes": ["Clefairy"],
+	},
+	{
 	"name": "Scratch",
 	"uniques": ["[+15]% Strength <when attacking>","[-15]% Strength <when attacking> <vs [Ghost] units>"],
 	"unitTypes": ["Charmander","Charizard","Sandshrew","Meowth","Mankey"],
@@ -208,7 +213,8 @@
 	{
 	"name": "Defense Curl",
 	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
-	"unitTypes": ["Sandshrew","Geodude"],
+	"unitTypes": ["Sandshrew","Geodude","Clefairy"],
+	"prerequisites": ["Ground","Disarming Voice","Pound"],
 	},
 	{
 	"name": "Withdraw",
@@ -277,8 +283,8 @@
 	{
 	"name": "Bite",
 	"uniques": ["[+15]% Strength <when attacking>","[+15]% Strength <vs [Psychic] units> <when attacking>","[+15]% Strength <vs [Ghost] units> <when attacking>"],
-	"unitTypes": ["Squirtle","Rattata","Ekans","Meowth"],
-	"prerequisites": ["Quick Attack","Water Gun","Poison Sting","Scratch"],
+	"unitTypes": ["Squirtle","Rattata","Ekans","Meowth","Zubat"],
+	"prerequisites": ["Quick Attack","Water Gun","Poison Sting","Scratch","Astonish","Leech Life"],
 	},
 	{
 	"name": "Energy Focus",
@@ -350,6 +356,40 @@
 	"uniques": ["[+20]% Strength <vs [Water] units>","[+20]% Strength <vs [Flying] units>","[+10]% Strength <when attacking>","[-10]% Strength <when attacking> <vs [Ground] units>"],
 	"unitTypes": ["Pikachu"],
 	"prerequisites": ["Electro Ball","Agility"],
+	},
+	{
+	"name": "Disarming Voice",
+	"uniques": ["[+10]% Strength <when attacking>","[+10]% Strength <vs [Dark] units> <when attacking>","[+10]% Strength <vs [Fighting] units> <when attacking>","[+10]% Strength <vs [Dragon] units> <when attacking>",],
+	"unitTypes": ["Clefairy"],
+	"prerequisites": ["Fairy"],
+	},
+	{
+	"name": "Double Slap",
+	"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
+	"unitTypes": ["Clefairy"],
+	"prerequisites": ["Pound","Disarming Voice"],
+	},
+	{
+	"name": "Leech Life",
+	"uniques": ["[+15]% Strength <vs [Psychic] units> <when attacking>","[+15]% Strength <vs [Dark] units> <when attacking>","[+15]% Strength <vs [Grass] units> <when attacking>","[+15]% Strength <vs [Fairy] units> <when attacking>","Heals [15] damage if it kills a unit"],
+	"unitTypes": ["Zubat"],
+	},
+	{
+	"name": "Astonish",
+	"uniques": ["[+20]% Strength <vs [Ghost] units> <when attacking>","[+20]% Strength <vs [Psychic] units> <when attacking>","[+10]% Strength <vs [Ghost] units> <when defending>","[+10]% Strength <vs [Psychic] units> <when defending>","[+25]% to Flank Attack bonuses"],
+	"unitTypes": ["Zubat"],
+	},
+	{
+	"name": "Wing Attack",
+	"uniques": ["[+20]% Strength <vs [Grass] units> <when attacking>","[+20]% Strength <vs [Bug] units> <when attacking>","[+20]% Strength <vs [Fighting] units> <when attacking>","[+10]% Strength <when attacking>"],
+	"prerequisites": ["Feather Dance","Leech Life","Astonish"],
+	"unitTypes": ["Pidgey","Zubat","Charizard"],
+	},
+	{
+	"name": "Air Cutter",
+	"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>","[+20]% Strength <with [20]% chance>"],
+	"prerequisites": ["Wing Attack","Bite"],
+	"unitTypes": ["Zubat"],
 	},
 	{
 	"name": "Low Kick",
