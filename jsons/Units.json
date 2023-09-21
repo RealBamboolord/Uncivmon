@@ -264,7 +264,7 @@
 		"rangedStrength": 10,
 		"range": 1,
 		"promotions": ["Fairy"],
-		"uniques": ["[-10]% Strength <when attacking>","[+10]% Strength <when defending> <vs [Ranged] units>","[+5] HP when healing"],
+		"uniques": ["[-10]% Strength <when attacking>","[+10]% Strength <when defending> <vs [Ranged] units>","[+5] HP when healing","Only available <within [2] tiles of a [Mountain]>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -275,7 +275,7 @@
 		"movement": 4,
 		"strength": 7,
 		"promotions": ["Poison","Flying"],
-		"uniques": ["[-20]% Strength <when fighting in [Open terrain] tiles>","[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>","Can move after attacking"],
+		"uniques": ["[-20]% Strength <when fighting in [Open terrain] tiles>","[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>","Can move after attacking","Only available <within [1] tiles of a [Rough terrain]>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
