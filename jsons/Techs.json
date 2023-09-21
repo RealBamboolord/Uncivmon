@@ -178,6 +178,12 @@
 				"quote": "Quote",
 			},
 			{
+				"name": "HM 01",
+				"row": 9,
+				"prerequisites": ["First Gym"],
+				"quote": "Quote",
+			},
+			{
 				"name": "River Crossing",
 				"row": 10,
 				"uniques": [
@@ -195,32 +201,13 @@
 		"techCost": 175000,
 		"buildingCost": 100,
 		"wonderCost": 250,
-		"techs": [
+		"techs": ["quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			{
-				"name": "Philosophy",
-				"row": 2,
-				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+				"name": "Open Fields",
+				"row": 9,
+				"prerequisites": ["HM 01","River Crossing"],
+				"quote": "Quote",
 			},
-			{
-				"name": "Drama and Poetry",
-				"row": 3,
-				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
-			},
-			{
-				"name": "Currency",
-				"row": 7,
-				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
-			},
-			{
-				"name": "Engineering",
-				"row": 8,
-				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
-			},
-			{
-				"name": "Iron Working",
-				"row": 10,
-				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
-			}
 		]
 	},
 	{
