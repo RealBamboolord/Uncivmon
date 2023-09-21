@@ -181,13 +181,18 @@
 	{
 	"name": "Tackle",
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
-	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey","Geodude","Starly"],
+	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey","Geodude"],
 	},
 	{
 	"name": "Tackle M",
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
 	"unitTypes": ["Magikarp"],
 	"prerequisites": ["Splash"],
+	},
+	{
+	"name": "Tackle S",
+	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
+	"unitTypes": ["Starly"],
 	},
 	{
 	"name": "Pound",
@@ -382,7 +387,7 @@
 	{
 	"name": "Wing Attack",
 	"uniques": ["[+20]% Strength <vs [Grass] units> <when attacking>","[+20]% Strength <vs [Bug] units> <when attacking>","[+20]% Strength <vs [Fighting] units> <when attacking>","[+10]% Strength <when attacking>"],
-	"prerequisites": ["Feather Dance","Leech Life","Astonish","Tackle"],//Tackle only for Starly, not for Pidgey!
+	"prerequisites": ["Feather Dance","Leech Life","Astonish","Tackle S"],//Tackle only for Starly, not for Pidgey!
 	"unitTypes": ["Pidgey","Zubat","Charizard","Starly"],
 	},
 	{
