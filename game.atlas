@@ -32,9 +32,37 @@ ResourceIcons/Moon Stone
   orig: 200, 200
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Fishing Pier
+  rotate: false
+  xy: 1988, 696
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Fishing Pier2
+  rotate: false
+  xy: 1732, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Fishing Pier3
+  rotate: false
+  xy: 1892, 268
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Fishing Pier4
+  rotate: false
+  xy: 1992, 934
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Mt Moon
   rotate: false
-  xy: 1988, 688
+  xy: 1988, 652
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
