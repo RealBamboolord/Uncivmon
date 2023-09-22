@@ -325,7 +325,7 @@
 	"name": "Quick Attack",
 	"uniques": ["Can move after attacking","[+25]% XP gained from combat"],
 	"unitTypes": ["Rattata","Pikachu","Pidgey","Starly"],
-	"prerequisites": ["Tackle","Energy Focus","Thundershock"],
+	"prerequisites": ["Tackle","Tackle S","Energy Focus","Thundershock"],
 	},
 	{
 	"name": "Wrap",
