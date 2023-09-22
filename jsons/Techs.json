@@ -201,7 +201,7 @@
 		"techCost": 175000,
 		"buildingCost": 100,
 		"wonderCost": 250,
-		"techs": ["quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+		"techs": [
 			{
 				"name": "Open Fields",
 				"row": 9,
