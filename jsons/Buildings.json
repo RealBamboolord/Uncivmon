@@ -98,7 +98,7 @@
 			"Human building"]
 	},
 
-	// Column 1
+	// Column 1,
 	{
 		"name": "Granary",
 		"food": 2,
@@ -110,7 +110,7 @@
 			"Human building"],
 		"requiredTech": "Open PC"
 	},
-	//Column 2
+	//Column 2,
 	{
 		"name": "Potion",
 		"cost": 30,
@@ -168,7 +168,7 @@
 		"requiredTech": "Pokedex"
 	},
 
-	//Column 3
+	//Column 3,
 	{
 		"name": "University",
 		"hurryCostModifier": 25,
@@ -214,8 +214,19 @@
 		"greatPersonPoints": {"Great Merchant": 1}, //Scientist
 		"requiredTech": "Territory Function"
 	},
+	{
+		"name": "Fishing Pier",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Must have an owned [Lakes] within [3] tiles","Creates a [Fishing Pier] improvement on a specific tile",
+			"Enables construction of [Lake Fishable] units","New [Lake Fishable] units start with [10] Experience [in this city]",
+			"New [Magikarp] units start with [5] Experience [in this city]","[+1 Gold] from [Fishing Boats] tiles [in this city]"
+			],
+		"requiredTech": "Basic Fishing"
+	},
 
-	//Column 4
+	//Column 4,
 	{
 		"name": "Pewter Gym",
 		"isWonder": true,
