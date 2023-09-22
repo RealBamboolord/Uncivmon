@@ -10,6 +10,15 @@
 		"shortcutKey": "F"
 	},
 	{
+		"name": "Fishing Pier",
+		"terrainsCanBeBuiltOn": ["Lakes"],
+		"food": 1,
+		"production": 1,
+		"culture": 1,
+		"uniques": ["Unpillagable", "Pillaging this improvement yields approximately [+18 Gold]"],
+		//"shortcutKey": "P"
+	},
+	{
 		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
