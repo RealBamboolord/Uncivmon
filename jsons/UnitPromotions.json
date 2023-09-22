@@ -452,7 +452,7 @@
 	},
 	{
 	"name": "Rollout",
-	"uniques": ["[+5]% Strength ","[+5]% Strength <starting from the [First Badge]>"],
+	"uniques": ["[+5]% Strength","[+5]% Strength <starting from the [First Badge]>"],
 	"unitTypes": ["Geodude","Sandshrew"],
 	"prerequisites": ["Rock Polish","Magnitude","Rock Throw","Poison Sting"],
 	},
