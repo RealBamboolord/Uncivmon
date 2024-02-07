@@ -157,6 +157,12 @@
 		"row": 2,
         	"column": 19
 	},
+//HM Attacks
+	{
+	"name": "Cut",
+	"uniques": ["Only available <if [Cut Master] is constructed>", "[+20]% Strength <when fighting in [Barbarian encampment] tiles>"],
+	"unitTypes": ["Bulbasaur","Charmander","Charizard","Beedrill","Rattata","Sandshrew","Meowth"],
+	},
 // Special/Evolution Promotions
 	{
 	"name": "Cocoon Spinning",
@@ -501,5 +507,11 @@
 	"uniques": ["All adjacent units heal [+5] HP when healing"],
 	"unitTypes": ["Trainer"],
 	"prerequisites": ["Potion I"],
+	},
+
+//non moves
+	{
+	"name": "Tradeable",
+	"uniques": ["Comment [Can be traded for exclusive Pokémon inside city centers]"],
 	},
   ]

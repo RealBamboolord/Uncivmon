@@ -293,4 +293,54 @@
 		"greatPersonPoints": {"Great Merchant": 1}, //Scientist
 		"requiredTech": "Cave Exploration"
 	},
+	{
+		"name": "Connex Club",
+		"culture": 1,
+		"happiness": 1,
+		"requiredBuilding": "Pokemon Center",
+		"uniques": [
+			"Comment [Enables Trading of newly trained Pokémon]",
+			"[-10]% Gold cost of acquiring tiles [in this city]",
+			"All newly-trained [Pokémon] units [in this city] receive the [Tradeable] promotion <hidden from users>"
+			"PKMN building"
+			   ],
+		"requiredTech": "Trading"
+	},
+	{
+		"name": "Cut Master",
+		"production": 1,
+		"uniques": [
+			"Comment [Unlocks Cut for All newly trained Pokémon]",
+			"All newly-trained [relevant] units [in this city] receive the [Cut] promotion <hidden from users>"
+			"HM building",
+			"Unavailable <if [Cut Master] is constructed>"
+			   ],
+		"requiredTech": "HM 01"
+	},
+	{
+		"name": "Nugget Bridge",
+		"isWonder": true,
+		"culture": 2,
+		"gold": 2,
+		"uniques": [
+			"Gain [400] [Gold] (modified by game speed)"
+			   ],
+		"greatPersonPoints": {"Great Merchant": 1}, //Merchant
+		"requiredTech": "River Crossing"
+	},
+
+	//Column 6
+
+	//Column 7
+	{
+		"name": "Sprout Tower",
+		"isWonder": true,
+		"culture": 4,
+		"happiness": 1,
+		"uniques": [
+			""
+			   ],
+		"greatPersonPoints": {"Great Merchant": 1}, //Artist
+		"requiredTech": "Spirituality"
+	},
   ]

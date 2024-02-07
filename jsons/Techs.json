@@ -35,7 +35,7 @@
 			},
 			{
 				"name": "Open PC",
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Starter Choosing"],
 				"uniques": ["Gain a free [Potion] [in capital]"],
 				"quote": "Quote",
@@ -57,19 +57,19 @@
 			},
 			{
 				"name": "First Bugs",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Route 1"],
 				"quote": "Quote",
 			},
 			{
 				"name": "Pokémarts",
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Open PC", "Route 1"],
 				"quote": "Quote",
 			},
 			{
 				"name": "Pokéballs",
-				"row": 10,
+				"row": 9,
 				"prerequisites": ["Open PC"],
 				"uniques": ["Only available <after discovering [Pokémarts]>"],
 				"quote": "Quote",
@@ -77,7 +77,7 @@
 			{
 				"name": "Optics",
 				"cost": 85,
-				"row": 12,
+				"row": 11,
 				//"uniques": ["Enables embarkation for land units"],
 				"quote": "Quote",
 			},
@@ -113,13 +113,13 @@
 			},
 			{
 				"name": "Pokemon Centers",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Pokémarts"],
 				"quote": "Quote",
 			},
 			{
 				"name": "Territory Function",
-				"row": 8,
+				"row": 7,
 				"uniques": [
             				"[+10]% Strength <vs [Barbarian] units>",
             				"Notified of new Barbarian encampments"],
@@ -128,7 +128,7 @@
 			},
 			{
 				"name": "Basic Fishing",
-				"row": 11,
+				"row": 10,
 				"prerequisites": ["Pokéballs","Optics"],
 				"quote": "Quote",
 			},
@@ -143,7 +143,7 @@
 		"techs": [
 			{
 				"name": "First Gym",
-				"row": 6,
+				"row": 5,
 				"uniques": [
             				""],
 				"prerequisites": ["Side Routes","Forests","Pokemon Centers","Territory Function"],
@@ -155,8 +155,8 @@
 		"columnNumber": 5,
 		"era": "First Badge",
 		"techCost": 120,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 100,
+		"wonderCost": 290,
 		"techs": [
 			{
 				"name": "Archaeology",
@@ -166,26 +166,19 @@
 			},
 			{
 				"name": "Cave Exploration",
-				"row": 5,
-				"prerequisites": ["First Gym"],
-				"quote": "Quote",
-			},
-			{
-				"name": "Trading",
-				"row": 7,
-				"uniques": ["Enables Open Borders agreements"],
+				"row": 4,
 				"prerequisites": ["First Gym"],
 				"quote": "Quote",
 			},
 			{
 				"name": "HM 01",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["First Gym"],
 				"quote": "Quote",
 			},
 			{
 				"name": "River Crossing",
-				"row": 10,
+				"row": 9,
 				"uniques": [
 					"Enables embarkation for land units",
             				"Roads connect tiles across rivers"
@@ -193,25 +186,95 @@
 				"prerequisites": ["First Gym","Basic Fishing"],
 				"quote": "Quote",
 			},
+			{
+				"name": "Trading",
+				"row": 10,
+				"uniques": ["Enables Open Borders agreements"],
+				"prerequisites": ["First Gym"],
+				"quote": "Quote",
+			},
 		]
 	},
 	{
 		"columnNumber": 6,
 		"era": "First Badge",
-		"techCost": 175000,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"techCost": 145,
+		"buildingCost": 120,
+		"wonderCost": 325,
 		"techs": [
 			{
+				"name": "Relic Inspection",
+				"row": 1,
+				"prerequisites": ["Archaeology"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Mining Industry",
+				"row": 3,
+				"prerequisites": ["Archaeology","Cave Exploration"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Lumber Industry",
+				"row": 5,
+				"prerequisites": ["Cave Exploration","HM 01"],
+				"quote": "Quote",
+			},
+			{
 				"name": "Open Fields",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["HM 01","River Crossing"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Media",
+				"row": 10,
+				"prerequisites": ["Trading"],
 				"quote": "Quote",
 			},
 		]
 	},
 	{
 		"columnNumber": 7,
+		"era": "First Badge",
+		"techCost": 160,
+		"buildingCost": 130,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Psychic Types",
+				"row": 1,
+				"prerequisites": ["Relic Inspection"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Pokémon Evolution",
+				"row": 3,
+				"prerequisites": ["Lumber Industry","Mining Industry"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Stronger Bug Types",
+				"row": 6,
+				"prerequisites": ["Open Fields","Lumber Industry"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Nighttime Adventuring",
+				"row": 8,
+				"prerequisites": ["Open Fields","Media"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Spirituality",
+				"row": 10,
+				"prerequisites": ["Media"],
+				"quote": "Quote",
+			},
+		]
+	},
+	{
+		"columnNumber": 8,
 		"era": "Medieval era",
 		"techCost": 275000,
 		"buildingCost": 120,
@@ -219,7 +282,7 @@
 		"techs": [
 			{
 				"name": "Theology",
-				"row": 2,
+				"row": 3,
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{

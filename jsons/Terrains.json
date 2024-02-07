@@ -169,7 +169,7 @@
 					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
-		"name": "Forest",
+		"name": "Forest", //Tall Grass?
 		"type": "TerrainFeature",
 		"production": 1,
 		"food": 1,
@@ -193,7 +193,7 @@
 		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
 	},
 	{
-		"name": "Jungle",
+		"name": "Jungle", //Forest?
 		"type": "TerrainFeature",
 		"food": 2,
 		"movementCost": 2,
