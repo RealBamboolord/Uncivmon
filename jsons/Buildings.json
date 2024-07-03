@@ -1,22 +1,12 @@
 [
 	//No Tech Requirement
 	{
-		"name": "Temple of Artemis",
-		"culture": 1,
-		"cost": 140,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
-            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
-		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson",
-		"requiredTech": "Guilds"
-	},
-	{
 		"name": "Test Wonder",
 		"isWonder": true,
 		"uniqueTo": Kanto,
 		"cost": 1,
 		"uniques": [
+			"Only available <for [Human player]>",
 			"Free [Bulbasaur] appears", 
 			"Free [Charmander] appears", 
 			"Free [Squirtle] appears", 
@@ -32,9 +22,11 @@
 			"Free [Mankey] appears",
 			"Free [Geodude] appears",
 			"Free [Clefairy] appears",
-			"Free [Zubat] appears"
+			"Free [Zubat] appears",
+			"Free [Magikarp] appears",
+			"Free [Starly] appears",
 			],
-		"replacementTextForUniques": "All att once",
+		"replacementTextForUniques": "All at once",
 		"civilopediaText": [
 			{"text":"Here they are"}
         ]
@@ -136,7 +128,7 @@
 		"happiness": 1,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-			"Enables construction of [Item] buildings",
+			"Comment [Enables construction of Item buildings]",
 			"Only available <in cities without a [Market]>",
 			"PKMN building"],
 		"hurryCostModifier": 25,
@@ -159,7 +151,7 @@
 		"cost": 150,
 		"uniques": [
 			"Triggers a global alert upon completion",
-			"Enables collecting caught Pokémon Data",
+			"Comment [Enables collecting caught Pokémon Data]",
 			"Earn [10]% of killed [Pokémon] unit's [Strength] as [Science]",
 			"[+20]% XP gained from combat",
 			"Hidden when [Pokedex] Victory is disabled",
@@ -182,7 +174,7 @@
 		"hurryCostModifier": 25,
 		"culture": 1,
 		"happiness": 2,
-		"uniques": ["Units in cities cost no Maintenance", "All Pokémon heal 5 extra HP in City centers if you own at least one of this building",
+		"uniques": ["Units in cities cost no Maintenance", "Comment [All Pokémon heal 5 extra HP in City centers if you own at least one of this building]",
 			"[Pokémon] Units adjacent to this city heal [+5] HP per turn when healing",
 			"PKMN building"],
 		"requiredTech": "Pokemon Centers"
@@ -220,7 +212,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Must have an owned [Lakes] within [3] tiles","Creates a [Fishing Pier] improvement on a specific tile",
-			"Enables construction of [Lake Fishable] units","New [Lake Fishable] units start with [10] Experience [in this city]",
+			"Comment [Enables construction of Lake Fishable units]","New [Lake Fishable] units start with [10] Experience [in this city]",
 			"New [Magikarp] units start with [5] Experience [in this city]","[+1 Gold] from [Fishing Boats] tiles [in this city]"
 			],
 		"requiredTech": "Basic Fishing"

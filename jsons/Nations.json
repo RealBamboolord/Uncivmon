@@ -135,13 +135,15 @@
 		"uniques": ["."],
 		"cities": ["Mauville City","Slateport City","Rustboro City","Lilycove City","Mossdeep City","Sootopolis City","Fortree City","Lavaridge Town","Petalburg City","Dewford Town","Verdanturf Town","Fallarbor Town","Pacifidlog Town","Oldale Town","Littleroot Town","Ever Grande City"],
         "spyNames": ["",]
-    },
+    },    // Nations
+ 
+ 
 	//Barbarian
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
-		"uniques": ["Can only heal by pillaging"]
+		//"uniques": ["Can only heal by pillaging"]
 	}
 
 ]

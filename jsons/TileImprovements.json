@@ -5,6 +5,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
 		"food": 1,
 		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
@@ -23,6 +24,7 @@
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
 		"turnsToBuild": 7,
+		"techRequired": "Lumber Industry",
 		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
@@ -31,6 +33,7 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
+		"techRequired": "Mining Industry",
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
@@ -39,6 +42,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 1,
 		"turnsToBuild": 7,
+		"techRequired": "Trading",
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
@@ -47,6 +51,7 @@
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
+		"techRequired": "Forests",
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
 	},
@@ -64,6 +69,7 @@
 	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
+		"techRequired": "Agriculture",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
@@ -71,12 +77,14 @@
 		"name": "Plantation",
 		"turnsToBuild": 6,
 		"gold": 1,
+		"techRequired": "Spirituality",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
+		"techRequired": "Mining Industry",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
 	},
@@ -102,6 +110,7 @@
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
+		"techRequired": "Route 1",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"],
 		"shortcutKey": "R",
         "civilopediaText": [
@@ -114,6 +123,7 @@
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
+		"techRequired": "Psychic Types",
 		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn when in your territory"],
 		"shortcutKey": "R",
         "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
@@ -133,12 +143,14 @@
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 7,
+		"techRequired": "Psychic Types",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
+		"techRequired": "Psychic Types",
 		// Has no tech requirements as it can always be built
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
@@ -146,6 +158,7 @@
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
+		"techRequired": "Relic Inspection",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
@@ -220,6 +233,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
 		"turnsToBuild": 4,
+		"techRequired": "Spirituality",
 		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture] for each adjacent [Moai]", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "M"
 	},
@@ -233,7 +247,7 @@
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
-	{
+	/*{
 		"name": "Polder",
 		"food": 3,
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
@@ -241,7 +255,7 @@
 		//"uniques": ["[+1 Production, +2 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+18 Gold]"],
 		"techRequired": "Guilds",
 		"shortcutKey": "F"
-	},
+	},*/
 
 	// Unbuildable improvements
 	{

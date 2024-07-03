@@ -1,12 +1,14 @@
 [
 
+	/*
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow","Sandshrew","Pikachu","Ekans","Magikarp",/*"","","","","","","","","","",""*/],
+		"unitTypes": ["Trainer","Test","Bulbasaur","Squirtle","Charmander","Charizard","Cocoon","Caterpie","Butterfree","Weedle","Beedrill","Rattata","Pidgey","Spearow","Sandshrew","Pikachu","Ekans","Magikarp"],
 		"row": 0,
         	"column": 1
 	},
+	*/
 	{
 		"name": "Ignore terrain cost",
 		"uniques": ["Ignores terrain cost"],
@@ -166,13 +168,13 @@
 // Special/Evolution Promotions
 	{
 	"name": "Cocoon Spinning",
-	"uniques": ["This Unit upgrades for free including special upgrades","Heal this unit by [30] HP", "Doing so will consume this opportunity to choose a Promotion"],
+	"uniques": ["This Unit upgrades for free including special upgrades","Heal this unit by [30] HP"],
 	"prerequisites": ["Tackle","Poison Sting"],
 	"unitTypes": ["Caterpie","Weedle"],
 	},
 	{
 	"name": "Power Evolution",
-	"uniques": ["This Unit upgrades for free including special upgrades","Heal this unit by [30] HP", "Doing so will consume this opportunity to choose a Promotion"],
+	"uniques": ["This Unit upgrades for free including special upgrades","Heal this unit by [30] HP"],
 	"prerequisites": ["Tackle","Harden"],
 	"unitTypes": ["Cocoon"],
 	},
@@ -346,7 +348,10 @@
 	},
 	{
 	"name": "Electro Ball",
-	"uniques": ["[+20]% Strength <vs [Slow] units>","[-20]% Strength <vs [{Fastened}{Slow}] units>","[+40]% Strength <vs [Very Slow] units>","[-20]% Strength <vs [{Fastened}{Very Slow}] units>",],
+	"uniques": [
+		"[+20]% Strength <vs [Slow] units>","[-20]% Strength <vs [{Fastened} {Slow}] units>", //Speed 16-35 first stage, 36-60 Last Stage
+		"[+40]% Strength <vs [Very Slow] units>","[-20]% Strength <vs [{Fastened} {Very Slow}] units>", //Speed <16 first Stage, <31 Last Stage
+		],
 	"unitTypes": ["Pikachu"],
 	"prerequisites": ["Thundershock"],
 	},
@@ -404,14 +409,17 @@
 	},
 	{
 	"name": "Low Kick",
-	"uniques": ["[+20]% Strength <vs [Semi Heavy] units>","[+40]% Strength <vs [Heavy] units>","[+60]% Strength <vs [Very Heavy] units>"],
-	"unitTypes": ["Mankey"],
+	"uniques": [
+		"[+20]% Strength <vs [Semi Heavy] units>", //50-100 kg
+		"[+40]% Strength <vs [Heavy] units>", //100-200 kg
+		"[+60]% Strength <vs [Very Heavy] units>"], // >200 kg
+	"unitTypes": ["Machop","Mankey"],
 	"prerequisites": ["Fighting"],
 	},
 	{
 	"name": "Karate Chop",
 	"uniques": ["[+15]% Strength <with [20]% chance>","[+15]% Strength <when attacking>"],
-	"unitTypes": ["Mankey"],
+	"unitTypes": ["Machop","Mankey"],
 	"prerequisites": ["Low Kick","Scratch"],
 	},
 	{

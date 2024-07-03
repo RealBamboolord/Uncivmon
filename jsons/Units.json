@@ -5,6 +5,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles"],
+		"requiredTech": "Pokemon Centers"
 		"cost": 70
 	},
 	{
@@ -14,6 +15,7 @@
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
+		"requiredTech": "Route 1"
 		"hurryCostModifier": 20
 	},
 	{
@@ -29,9 +31,9 @@
 		"name": "Bulbasaur",
 		"unitType": "Bulbasaur", 
 		"requiredTech": "Starter Choosing",
-		"cost": 30,
+		"cost": 50,
 		"movement": 2,
-		"strength": 6,
+		"strength": 7,
 		"rangedStrength": 10,
 		"range": 1,
 		"promotions": ["Grass","Poison"],
@@ -43,9 +45,9 @@
 		"name": "Charmander",
 		"unitType": "Charmander",
 		"requiredTech": "Starter Choosing",
-		"cost": 30, 
+		"cost": 50, 
 		"movement": 2,
-		"strength": 11,
+		"strength": 12,
 		"promotions": ["Fire"],
 		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <in cities with a [Choose Charmander]>"],
 		"replacementTextForUniques": "Unbuildable",
@@ -55,9 +57,9 @@
 		"name": "Squirtle",
 		"unitType": "Squirtle",
 		"requiredTech": "Starter Choosing",
-		"cost": 30, 
+		"cost": 50, 
 		"movement": 2,
-		"strength": 8,
+		"strength": 9,
 		"rangedStrength": 7,
 		"range": 2,
 		"promotions": ["Water"],
@@ -68,7 +70,7 @@
 	{
 		"name": "Caterpie",
 		"unitType": "Caterpie",
-		"cost": 15,
+		"cost": 20,
 		"requiredTech": "Starter Choosing",
 		"movement": 2,
 		"strength": 5,
@@ -92,13 +94,13 @@
 	{
 		"name": "Metapod",
 		"unitType": "Cocoon",
-		"cost": 30, 
+		"cost": 35, 
 		"requiredTech": "First Bugs",
 		"movement": 2,
 		"strength": 12,
 		"upgradesTo": "Butterfree",
 		"promotions": ["Bug"],
-		"uniques": ["Cannot move", "Never appears as a Barbarian unit", "[-66]% Strength <when attacking>","[+50]% XP gained from combat"],
+		"uniques": ["Slow","Cannot move", "Never appears as a Barbarian unit", "[-66]% Strength <when attacking>","[+50]% XP gained from combat"],
 		"attackSound": "cannon"
 	},
 	{
@@ -111,13 +113,13 @@
 		"rangedStrength": 20,
 		"range": 1,
 		"promotions": ["Bug","Flying"],
-		"uniques": ["Never appears as a Barbarian unit","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Never appears as a Barbarian unit","[-33]% Strength <vs cities> <when attacking>","Unbuildable"],
 		"attackSound": "cannon"
 	},
 	{
 		"name": "Weedle",
 		"unitType": "Weedle",
-		"cost": 15,
+		"cost": 20,
 		"requiredTech": "First Bugs",
 		"movement": 2,
 		"strength": 5,
@@ -141,13 +143,13 @@
 	{
 		"name": "Kakuna",
 		"unitType": "Cocoon",
-		"cost": 30, 
+		"cost": 35, 
 		"requiredTech": "First Bugs",
 		"movement": 2,
 		"strength": 12,
 		"upgradesTo": "Beedrill",
 		"promotions": ["Bug","Poison"],
-		"uniques": ["Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle","Unbuildable"],
+		"uniques": ["Slow","Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle"],
 		"attackSound": "cannon"
 	},
 	{
@@ -160,7 +162,7 @@
 		"strength": 12,
 		"upgradesTo": "Beedrill",
 		"promotions": ["Bug","Poison"],
-		"uniques": ["Will not be displayed in Civilopedia","Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle"],
+		"uniques": ["Will not be displayed in Civilopedia","Slow","Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle"],
 		"attackSound": "cannon"
 	},
 	{
@@ -233,7 +235,7 @@
 	{
 		"name": "Pikachu",
 		"unitType": "Pikachu",
-		"cost": 40, 
+		"cost": 50, 
 		"requiredTech": "Forests",
 		"movement": 3,
 		"strength": 5,
@@ -264,18 +266,18 @@
 		"rangedStrength": 10,
 		"range": 1,
 		"promotions": ["Fairy"],
-		"uniques": ["[-10]% Strength <when attacking>","[+10]% Strength <when defending> <vs [Ranged] units>","[+5] HP when healing","Only available <within [2] tiles of a [Mountain]>"],
+		"uniques": ["Slow","[-10]% Strength <when attacking>","[+10]% Strength <when defending> <vs [Ranged] units>","[+5] HP when healing","Only available <within [2] tiles of a [Mountain]>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Zubat",
 		"unitType": "Zubat",
-		"cost": 30, 
+		"cost": 30,
 		"requiredTech": "Cave Exploration",
 		"movement": 4,
 		"strength": 7,
 		"promotions": ["Poison","Flying"],
-		"uniques": ["[-20]% Strength <when fighting in [Open terrain] tiles>","[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>","Can move after attacking","Only available <within [1] tiles of a [Rough terrain]>"],
+		"uniques": ["[-20]% Strength <when fighting in [Open terrain] tiles>","[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>","Can move after attacking","Only available <within [1] tiles of a [Hill]>","Unavailable <with [0] to [0] neighboring [Mountain] tiles> <before discovering [Nighttime Adventuring]>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -301,14 +303,25 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Machop",
+		"unitType": "Machop",
+		"cost": 55, 
+		"requiredTech": "Mining Industry",
+		"movement": 2,
+		"strength": 12,
+		"promotions": ["Fighting"],
+		"uniques": ["[+20]% Strength <when attacking>",],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Geodude",
 		"unitType": "Geodude",
 		"cost": 50, 
 		"requiredTech": "Cave Exploration",
 		"movement": 1,
-		"strength": 10,
+		"strength": 11,
 		"promotions": ["Rock","Ground"],
-		"uniques": ["[+30]% Strength <when defending>"],
+		"uniques": ["Slow","[+30]% Strength <when defending>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -342,7 +355,7 @@
 		"name": "Pokeball",
 		"unitType": "Pokéball",
 		"cost": 30,
-		"requiredTech": "Pokéballs",
+		"requiredTech": "Pokémarts",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 5,
@@ -415,7 +428,10 @@
 		"movement": 2,
 		"strength": 15,
 		"requiredResource": "Boulder Badge",
-		"uniques": ["Limited to [1] per Civilization","Never appears as a Barbarian unit","[+15]% Strength bonus for [Rock] units within [1] tiles","Can carry [3] [Pokéball] units"]
+		"uniques": [
+			"Double movement in [Hill]", //Give to Dig later and give free Dig
+			"Very Heavy","Limited to [1] per Civilization","Never appears as a Barbarian unit","[+15]% Strength bonus for [Rock] units within [1] tiles","Can carry [3] [Pokéball] units"
+			]
 		"attackSound": "nonmetalhit"
 		"promotions": ["Rock","Ground"],
 	},
