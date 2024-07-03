@@ -102,6 +102,11 @@
         "uniques": ["Pokémon"]
     },
     {
+        "name": "Machop",
+        "movementType": "Land",
+        "uniques": ["Pokémon"]
+    },
+    {
         "name": "Geodude",
         "movementType": "Land",
         "uniques": ["Pokémon"]

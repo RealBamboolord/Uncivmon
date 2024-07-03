@@ -56,6 +56,12 @@
 				"quote": "Quote",
 			},
 			{
+				"name": "Version Exclusives",
+				"row": 2,
+				"prerequisites": ["Get The Map","Route 1"],
+				"quote": "Quote",
+			},
+			{
 				"name": "First Bugs",
 				"row": 5,
 				"prerequisites": ["Route 1"],
@@ -67,16 +73,16 @@
 				"prerequisites": ["Open PC", "Route 1"],
 				"quote": "Quote",
 			},
-			{
+			/*{
 				"name": "Pokéballs",
 				"row": 9,
 				"prerequisites": ["Open PC"],
 				"uniques": ["Only available <after discovering [Pokémarts]>"],
 				"quote": "Quote",
-			},
+			}, */
 			{
 				"name": "Optics",
-				"cost": 85,
+				"cost": 35,
 				"row": 11,
 				//"uniques": ["Enables embarkation for land units"],
 				"quote": "Quote",
@@ -100,15 +106,15 @@
 			{
 				"name": "Side Routes",
 				"row": 2,
-				"cost": 85,
-				"prerequisites": ["Route 1"],
+				"cost": 55,
+				"prerequisites": ["Version Exclusives"],
 				"quote": "Quote",
 			},
 			{
 				"name": "Forests",
 				"row": 4,
 				"cost": 85,
-				"prerequisites": ["Route 1","First Bugs"],
+				"prerequisites": ["First Bugs"],
 				"quote": "Quote",
 			},
 			{
@@ -123,13 +129,14 @@
 				"uniques": [
             				"[+10]% Strength <vs [Barbarian] units>",
             				"Notified of new Barbarian encampments"],
-				"prerequisites": ["Pokedex","Pokéballs"],
+				"prerequisites": ["Pokedex","Pokémarts"],
 				"quote": "Quote",
 			},
 			{
 				"name": "Basic Fishing",
 				"row": 10,
-				"prerequisites": ["Pokéballs","Optics"],
+				"prerequisites": ["Pokémarts","Optics"],
+				"cost": 65,
 				"quote": "Quote",
 			},
 		]
@@ -144,8 +151,6 @@
 			{
 				"name": "First Gym",
 				"row": 5,
-				"uniques": [
-            				""],
 				"prerequisites": ["Side Routes","Forests","Pokemon Centers","Territory Function"],
 				"quote": "Quote",
 			},
@@ -156,7 +161,7 @@
 		"era": "First Badge",
 		"techCost": 120,
 		"buildingCost": 100,
-		"wonderCost": 290,
+		"wonderCost": 285,
 		"techs": [
 			{
 				"name": "Archaeology",
@@ -199,8 +204,8 @@
 		"columnNumber": 6,
 		"era": "First Badge",
 		"techCost": 145,
-		"buildingCost": 120,
-		"wonderCost": 325,
+		"buildingCost": 110,
+		"wonderCost": 310,
 		"techs": [
 			{
 				"name": "Relic Inspection",
@@ -221,13 +226,13 @@
 				"quote": "Quote",
 			},
 			{
-				"name": "Open Fields",
+				"name": "Agriculture",
 				"row": 8,
 				"prerequisites": ["HM 01","River Crossing"],
 				"quote": "Quote",
 			},
 			{
-				"name": "Media",
+				"name": "Storage Systems",
 				"row": 10,
 				"prerequisites": ["Trading"],
 				"quote": "Quote",
@@ -238,8 +243,8 @@
 		"columnNumber": 7,
 		"era": "First Badge",
 		"techCost": 160,
-		"buildingCost": 130,
-		"wonderCost": 350,
+		"buildingCost": 120,
+		"wonderCost": 330,
 		"techs": [
 			{
 				"name": "Psychic Types",
@@ -249,54 +254,28 @@
 			},
 			{
 				"name": "Pokémon Evolution",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Lumber Industry","Mining Industry"],
 				"quote": "Quote",
 			},
 			{
 				"name": "Stronger Bug Types",
 				"row": 6,
-				"prerequisites": ["Open Fields","Lumber Industry"],
+				"prerequisites": ["Agriculture","Lumber Industry"],
 				"quote": "Quote",
 			},
 			{
-				"name": "Nighttime Adventuring",
-				"row": 8,
-				"prerequisites": ["Open Fields","Media"],
+				"name": "Daytime Studies",
+				"row": 9,
+				"prerequisites": ["Agriculture","Storage Systems"],
 				"quote": "Quote",
 			},
 			{
 				"name": "Spirituality",
 				"row": 10,
-				"prerequisites": ["Media"],
+				"prerequisites": ["Storage Systems"],
 				"quote": "Quote",
 			},
-		]
-	},
-	{
-		"columnNumber": 8,
-		"era": "Medieval era",
-		"techCost": 275000,
-		"buildingCost": 120,
-		"wonderCost": 300,
-		"techs": [
-			{
-				"name": "Theology",
-				"row": 3,
-				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
-			},
-			{
-				"name": "Guilds",
-				"row": 7,
-				"uniques": ["Enables conversion of city production to [Gold]"],
-				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
-			},
-			{
-				"name": "Metal Casting",
-				"row": 9,
-				"uniques": ["Can be continually researched"],
-				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
-			}
 		]
 	},
   ]
