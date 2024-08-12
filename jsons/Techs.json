@@ -63,7 +63,7 @@
 			},
 			{
 				"name": "First Bugs",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Route 1"],
 				"quote": "Quote",
 			},
@@ -94,7 +94,7 @@
 		"era": "Beginnings",
 		"techCost": 85,
 		"buildingCost": 90,
-		"wonderCost": 250,
+		"wonderCost": 210,
 		"techs": [
 			{
 				"name": "Education",
@@ -118,18 +118,18 @@
 				"quote": "Quote",
 			},
 			{
-				"name": "Pokemon Centers",
-				"row": 6,
-				"prerequisites": ["Pokémarts"],
-				"quote": "Quote",
-			},
-			{
 				"name": "Territory Function",
-				"row": 7,
+				"row": 6,
 				"uniques": [
             				"[+10]% Strength <vs [Barbarian] units>",
             				"Notified of new Barbarian encampments"],
 				"prerequisites": ["Pokedex","Pokémarts"],
+				"quote": "Quote",
+			},
+			{
+				"name": "Pokemon Centers",
+				"row": 7,
+				"prerequisites": ["Pokémarts"],
 				"quote": "Quote",
 			},
 			{
@@ -143,10 +143,10 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Beginnings",
+		"era": "First Badge",
 		"techCost": 120,
 		"buildingCost": 90,
-		"wonderCost": 250,
+		"wonderCost": 210,
 		"techs": [
 			{
 				"name": "First Gym",
@@ -161,7 +161,7 @@
 		"era": "First Badge",
 		"techCost": 120,
 		"buildingCost": 100,
-		"wonderCost": 285,
+		"wonderCost": 255,
 		"techs": [
 			{
 				"name": "Archaeology",
@@ -232,19 +232,27 @@
 				"quote": "Quote",
 			},
 			{
+				"name": "Spirituality",
+				"row": 10,
+				"prerequisites": ["Trading"],
+				"quote": "Quote",
+			},
+			/*
+			{
 				"name": "Storage Systems",
 				"row": 10,
 				"prerequisites": ["Trading"],
 				"quote": "Quote",
 			},
+			*/
 		]
 	},
 	{
 		"columnNumber": 7,
-		"era": "First Badge",
+		"era": "Second Badge",
 		"techCost": 160,
-		"buildingCost": 120,
-		"wonderCost": 330,
+		"buildingCost": 110,
+		"wonderCost": 310,
 		"techs": [
 			{
 				"name": "Psychic Types",
@@ -252,6 +260,13 @@
 				"prerequisites": ["Relic Inspection"],
 				"quote": "Quote",
 			},
+			{
+				"name": "Second Gym",
+				"row": 5,
+				"prerequisites": ["Mining Industry","Lumber Industry","Agriculture","Spirituality"],
+				"quote": "Quote",
+			},
+			/*
 			{
 				"name": "Pokémon Evolution",
 				"row": 4,
@@ -276,6 +291,7 @@
 				"prerequisites": ["Storage Systems"],
 				"quote": "Quote",
 			},
+			*/
 		]
 	},
   ]

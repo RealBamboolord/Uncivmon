@@ -302,8 +302,8 @@
 		"name": "Cut Master",
 		"production": 1,
 		"uniques": [
-			"Comment [Unlocks Cut for All newly trained Pokémon]",
-			"All newly-trained [relevant] units [in this city] receive the [Cut] promotion <hidden from users>"
+			"Comment [Unlocks Cut and gives it to all newly trained Pokémon]",
+			"All newly-trained [relevant] units [in all cities] receive the [Cut] promotion <hidden from users>"
 			"HM building",
 			"Unavailable <if [Cut Master] is constructed>"
 			   ],
@@ -315,7 +315,7 @@
 		"culture": 2,
 		"gold": 2,
 		"uniques": [
-			"Gain [400] [Gold] (modified by game speed)"
+			"Gain [400] [Gold] <(modified by game speed)>"
 			   ],
 		"greatPersonPoints": {"Great Merchant": 1}, //Merchant
 		"requiredTech": "River Crossing"
