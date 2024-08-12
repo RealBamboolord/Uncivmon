@@ -9,118 +9,128 @@
     {
         "name": "Bulbasaur",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Grass","Poison"]
     },
     {
         "name": "Squirtle",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Watertype"]
     },
     {
         "name": "Charmander",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Fire"]
     },
     {
         "name": "Charizard",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Fire","Flying"]
     },
     {
         "name": "Cocoon",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Bug"]
     },
     {
         "name": "Caterpie",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Bug"]
     },
     {
         "name": "Butterfree",
         "movementType": "Land",
-        "uniques": ["Pokémon","No defensive terrain bonus", "All tiles cost 1 movement", "Ignores Zone of Control"]
+        "uniques": ["Pokémon","No defensive terrain bonus", "All tiles cost 1 movement", "Ignores Zone of Control","Bug","Flying"]
     },
     {
         "name": "Weedle",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Bug","Poison"]
     },
     {
         "name": "Beedrill",
         "movementType": "Land",
-        "uniques": ["Pokémon", "No defensive terrain bonus", "All tiles cost 1 movement", "Ignores Zone of Control"]
+        "uniques": ["Pokémon", "No defensive terrain bonus", "All tiles cost 1 movement", "Ignores Zone of Control","Bug","Poison"]
     },
     {
         "name": "Rattata",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Normal"]
     },
     {
         "name": "Pidgey",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Normal","Flying"]
     },
     {
         "name": "Spearow",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Normal","Flying"]
     },
     {
         "name": "Sandshrew",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Ground"]
     },
     {
         "name": "Pikachu",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Electric"]
     },
     {
         "name": "Ekans",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Poison"]
     },
     {
         "name": "Clefairy",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Fairy"]
     },
     {
         "name": "Zubat",
         "movementType": "Land",
-        "uniques": ["Pokémon", "No defensive terrain bonus", "Ignores Zone of Control"]
+        "uniques": ["Pokémon", "No defensive terrain bonus", "Ignores Zone of Control","Poison","Flying"]
     },
     {
         "name": "Meowth",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Normal"]
     },
     {
         "name": "Mankey",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Fighting"]
+    },
+    {
+        "name": "Abra",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Psychic"]
+    },
+    {
+        "name": "Kadabra",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Psychic"]
     },
     {
         "name": "Machop",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Fighting"]
     },
     {
         "name": "Geodude",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Rock","Ground"]
     },
     {
         "name": "Starly",
         "movementType": "Land",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Normal","Flying"]
     },
 //Pokemon Water
     {
         "name": "Magikarp",
         "movementType": "Water",
-        "uniques": ["Pokémon"]
+        "uniques": ["Pokémon","Watertype"]
     },
 
 //Trainer,Pokeballs
@@ -137,7 +147,8 @@
 		"Self-destructs when attacking",
 		"May attack when embarked",
 		"[-75]% maintenance costs",
-		"[-3] Sight"
+		"[-3] Sight",
+		"[+33]% Strength <when attacking> <when adjacent to a [Boosts Adjacent Pokeballs] unit> <hidden from users>"
 	]
         "movementType": "Land"
     },

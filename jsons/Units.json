@@ -31,11 +31,28 @@
 		"name": "Bulbasaur",
 		"unitType": "Bulbasaur", 
 		"requiredTech": "Starter Choosing",
-		"cost": 50,
+		"cost": 55,
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 10,
 		"range": 1,
+		"upgradesTo": "Ivysaur",
+		"promotions": ["Grass","Poison"],
+		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <in cities with a [Choose Bulbasaur]>"],
+		"replacementTextForUniques": "Unbuildable",
+		"obsoleteTech": "HM 01",
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Ivysaur",
+		"unitType": "Bulbasaur", 
+		"requiredTech": "HM 01",
+		"cost": 90,
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 17,
+		"range": 1,
+		//"upgradesTo": "Venusaur",
 		"promotions": ["Grass","Poison"],
 		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <in cities with a [Choose Bulbasaur]>"],
 		"replacementTextForUniques": "Unbuildable",
@@ -45,9 +62,24 @@
 		"name": "Charmander",
 		"unitType": "Charmander",
 		"requiredTech": "Starter Choosing",
-		"cost": 50, 
+		"cost": 55, 
 		"movement": 2,
 		"strength": 12,
+		"upgradesTo": "Charmeleon",
+		"promotions": ["Fire"],
+		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <in cities with a [Choose Charmander]>"],
+		"replacementTextForUniques": "Unbuildable",
+		"obsoleteTech": "HM 01",
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Charmeleon",
+		"unitType": "Charmander",
+		"requiredTech": "HM 01",
+		"cost": 90, 
+		"movement": 2,
+		"strength": 19,
+		//"upgradesTo": "Charizard",
 		"promotions": ["Fire"],
 		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <in cities with a [Choose Charmander]>"],
 		"replacementTextForUniques": "Unbuildable",
@@ -57,14 +89,32 @@
 		"name": "Squirtle",
 		"unitType": "Squirtle",
 		"requiredTech": "Starter Choosing",
-		"cost": 50, 
+		"cost": 55, 
 		"movement": 2,
 		"strength": 9,
 		"rangedStrength": 7,
 		"range": 2,
-		"promotions": ["Water"],
+		"upgradesTo": "Wartortle",
+		"promotions": ["Watertype"],
 		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <in cities with a [Choose Squirtle]>"],
 		"replacementTextForUniques": "Unbuildable",
+		"obsoleteTech": "River Crossing",
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Wartortle",
+		"unitType": "Squirtle",
+		"requiredTech": "River Crossing",
+		"cost": 90, 
+		"movement": 2,
+		"strength": 17,
+		"rangedStrength": 14,
+		"range": 2,
+		//"upgradesTo": "Blastoise",
+		"promotions": ["Watertype"],
+		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <in cities with a [Choose Squirtle]>"],
+		"replacementTextForUniques": "Unbuildable",
+		//"obsoleteTech": "River Crossing",
 		"attackSound": "cannon"
 	},
 	{
@@ -149,7 +199,7 @@
 		"strength": 12,
 		"upgradesTo": "Beedrill",
 		"promotions": ["Bug","Poison"],
-		"uniques": ["Slow","Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle"],
+		"uniques": ["Slow","Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle","Poison"],
 		"attackSound": "cannon"
 	},
 	{
@@ -180,12 +230,25 @@
 	{
 		"name": "Pidgey",
 		"unitType": "Pidgey",
-		"cost": 30,
+		"cost": 35,
 		"requiredTech": "Route 1",
 		"movement": 3,
 		"strength": 7,
-		//"upgradesTo": "Metapod",
+		"upgradesTo": "Pidgeotto",
 		"promotions": ["Normal","Flying"],
+		"obsoleteTech": "Agriculture",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Pidgeotto",
+		"unitType": "Pidgey",
+		"cost": 75,
+		"requiredTech": "Agriculture",
+		"movement": 3,
+		"strength": 15,
+		//"upgradesTo": "Pidgeot",
+		"promotions": ["Normal","Flying"],
+		//"obsoleteTech": "Agriculture",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -195,8 +258,20 @@
 		"requiredTech": "Route 1",
 		"movement": 3,
 		"strength": 7,
-		//"upgradesTo": "Metapod",
+		"upgradesTo": "Raticate",
 		"uniques": ["[+50]% to Flank Attack bonuses","[-33]% Strength <when defending>","Never appears as a Barbarian unit"]
+		"promotions": ["Normal","Ignore terrain cost"],
+		"obsoleteTech": "Second Gym",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Raticate",
+		"unitType": "Rattata",
+		"cost": 95,
+		"requiredTech": "Second Gym",
+		"movement": 3,
+		"strength": 18,
+		"uniques": ["[+75]% to Flank Attack bonuses","[-20]% Strength <when defending>","Never appears as a Barbarian unit"]
 		"promotions": ["Normal","Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -205,9 +280,22 @@
 		"unitType": "Spearow",
 		"uniqueTo": "Barbarians",
 		"replaces": "Pidgey",
+		"cost": 45,
 		"movement": 3,
 		"strength": 9,
-		"cost": 40,
+		"upgradesTo": "Fearow",
+		"promotions": ["Normal","Flying"],
+		//"obsoleteTech": "Second Gym",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Fearow",
+		"unitType": "Spearow",
+		"cost": 95,
+		"requiredTech": "Second Gym",
+		"movement": 4,
+		"strength": 16,
+		"uniques": ["[+40]% Strength <when attacking>","Unbuildable"]
 		"promotions": ["Normal","Flying"],
 		"attackSound": "nonmetalhit"
 	},
@@ -216,7 +304,7 @@
 		"unitType": "Spearow",
 		"movement": 3,
 		"strength": 9,
-		"cost": 40,
+		"cost": 45,
 		"promotions": ["Normal","Flying"],
 		"uniques": ["Unbuildable","Never appears as a Barbarian unit"]
 		"attackSound": "nonmetalhit"
@@ -224,7 +312,7 @@
 	{
 		"name": "Ekans",
 		"unitType": "Ekans",
-		"cost": 35, 
+		"cost": 45, 
 		"requiredTech": "Side Routes",
 		"movement": 2,
 		"strength": 10,
@@ -248,7 +336,7 @@
 	{
 		"name": "Sandshrew",
 		"unitType": "Sandshrew",
-		"cost": 35, 
+		"cost": 45, 
 		"requiredTech": "Side Routes",
 		"movement": 2,
 		"strength": 10,
@@ -259,7 +347,7 @@
 	{
 		"name": "Clefairy",
 		"unitType": "Clefairy",
-		"cost": 55, 
+		"cost": 55,
 		"requiredTech": "Cave Exploration",
 		"movement": 2,
 		"strength": 8,
@@ -272,18 +360,18 @@
 	{
 		"name": "Zubat",
 		"unitType": "Zubat",
-		"cost": 30,
+		"cost": 35,
 		"requiredTech": "Cave Exploration",
 		"movement": 4,
 		"strength": 7,
 		"promotions": ["Poison","Flying"],
-		"uniques": ["[-20]% Strength <when fighting in [Open terrain] tiles>","[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>","Can move after attacking","Only available <within [1] tiles of a [Hill]>","Unavailable <with [0] to [0] neighboring [Mountain] tiles> <before discovering [Nighttime Adventuring]>"],
+		"uniques": ["[-20]% Strength <when fighting in [Open terrain] tiles>","[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>","Can move after attacking","Only available <within [1] tiles of a [Hill]>",/*"Unavailable <with [0] to [0] neighboring [Mountain] tiles>"*/],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Meowth",
 		"unitType": "Meowth",
-		"cost": 35, 
+		"cost": 40, 
 		"requiredTech": "Side Routes",
 		"movement": 3,
 		"strength": 8,
@@ -294,12 +382,25 @@
 	{
 		"name": "Mankey",
 		"unitType": "Mankey",
-		"cost": 35, 
+		"cost": 45, 
 		"requiredTech": "Side Routes",
 		"movement": 2,
 		"strength": 10,
 		"promotions": ["Fighting"],
 		"uniques": ["[+15]% Strength <when attacking>","[-10]% Strength <when defending>"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Abra",
+		"unitType": "Abra",
+		"cost": 75, 
+		"requiredTech": "Spirituality",
+		"movement": 1,
+		"strength": 3,
+		"rangedStrength": 12,
+		"range": 2,
+		"promotions": ["Psychic"],
+		"uniques": ["Withdraws before melee combat <with [20]% chance>","[+66]% Strength <when attacking>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -316,10 +417,10 @@
 	{
 		"name": "Geodude",
 		"unitType": "Geodude",
-		"cost": 50, 
+		"cost": 45, 
 		"requiredTech": "Cave Exploration",
 		"movement": 1,
-		"strength": 11,
+		"strength": 12,
 		"promotions": ["Rock","Ground"],
 		"uniques": ["Slow","[+30]% Strength <when defending>"],
 		"attackSound": "nonmetalhit"
@@ -332,22 +433,37 @@
 		"movement": 2,
 		"strength": 5,
 		//"upgradesTo": "Gyarados",
-		"promotions": ["Water"],
+		"promotions": ["Watertype"],
 		"attackSound": "cannon"
 	},
 	{
 		"name": "Starly",
 		"unitType": "Starly",
-		"cost": 30,
+		"cost": 35,
 		"requiredTech": "Route 1",
 		"movement": 3,
 		"strength": 7,
+		"upgradesTo": "Staravia",
 		"uniques": ["[+25]% Strength <when attacking>","[-20]% Strength <when defending>"],
 		"promotions": ["Normal","Flying"],
+		"obsoleteTech": "First Gym",
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "Starly, aka the cooler Pidgey"}
 		]
+	},
+	{
+		"name": "Staravia",
+		"unitType": "Starly",
+		"cost": 75,
+		"requiredTech": "First Gym",
+		"movement": 3,
+		"strength": 14,
+		//"upgradesTo": "Staraptor",
+		"uniques": ["[+25]% Strength <when attacking>","[-20]% Strength <when defending>"],
+		"promotions": ["Normal","Flying"],
+		//"obsoleteTech": "Agriculture",
+		"attackSound": "nonmetalhit"
 	},
 
 //Single Use Units
@@ -418,19 +534,24 @@
 		"strength": 10,
 		"rangedStrength": 10,
 		"range": 2,
-		"uniques": ["Can only attack [Water] tiles","Limited to [4] per Civilization","Never appears as a Barbarian unit","[+20]% Strength bonus for [Magikarp] units within [2] tiles","[+10]% Strength bonus for [Water] units within [2] tiles","Can carry [2] [Pokéball] units"]
+		"uniques": ["Can only attack [Water] tiles","Limited to [4] per Civilization","Never appears as a Barbarian unit","[+20]% Strength bonus for [Magikarp] units within [2] tiles","[+10]% Strength bonus for [Watertype] units within [2] tiles","Can carry [2] [Pokéball] units"]
 		"attackSound": "nonmetalhit"
 	},
+
+//Gym Leaders
 	{
 		"name": "Brock&Onix",
 		"unitType": "Trainer",
 		"cost": 500,
 		"movement": 2,
-		"strength": 15,
+		"strength": 20,
 		"requiredResource": "Boulder Badge",
 		"uniques": [
+			"[+25]% Strength <when defending>","[-50]% Strength <when attacking>",
 			"Double movement in [Hill]", //Give to Dig later and give free Dig
-			"Very Heavy","Limited to [1] per Civilization","Never appears as a Barbarian unit","[+15]% Strength bonus for [Rock] units within [1] tiles","Can carry [3] [Pokéball] units"
+			"Unbuildable <without [Boulder Badge]>",
+			"Very Heavy","Limited to [1] per Civilization","Never appears as a Barbarian unit",
+			"[+15]% Strength bonus for [Rock] units within [1] tiles","Can carry [3] [Pokéball] units"
 			]
 		"attackSound": "nonmetalhit"
 		"promotions": ["Rock","Ground"],
@@ -440,11 +561,15 @@
 		"unitType": "Trainer",
 		"cost": 500,
 		"movement": 3,
-		"strength": 13,
+		"strength": 17,
 		"requiredResource": "Zephyr Badge",
-		"uniques": ["Limited to [1] per Civilization","Never appears as a Barbarian unit","[+10]% Strength bonus for [Flying] units within [2] tiles","Can carry [3] [Pokéball] units"]
+		"uniques": [
+			//"Can move after attacking", Free Quick Attack
+			"Unbuildable <without [Zephyr Badge]>",
+			"Limited to [1] per Civilization","Never appears as a Barbarian unit",
+			"[+10]% Strength bonus for [Flying] units within [2] tiles","Can carry [3] [Pokéball] units"]
 		"attackSound": "nonmetalhit"
-		"promotions": ["Normal","Flying"],
+		"promotions": ["Normal","Flying","Quick Attack"],
 	},
 	
 	/* Great people */
@@ -484,7 +609,7 @@
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can [Spread Religion] [4] times",
+		"uniques": ["Can Spread Religion <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 

@@ -8,7 +8,7 @@
     {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["This Unit gains [10] XP", "Only available <after [10] turns>"]
+        "uniques": ["This Unit gains [10] XP", "Only available <after turn number [10]>"]
     },
     {
         "name": "a stash of gold",
@@ -30,6 +30,6 @@
     {
         "name": "reveal City ruins",
         "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
-        "uniques": ["Reveal up to [All] [City ruins] within a [35] tile radius", "Only available <after [130] turns>"]
+        "uniques": ["Reveal up to [All] [City ruins] within a [35] tile radius", "Only available <after turn number [130]>"]
     },
   ]

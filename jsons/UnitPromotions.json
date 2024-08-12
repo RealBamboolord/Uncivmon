@@ -33,7 +33,7 @@
 	},
   {
 		"name": "Grass",
-		"uniques": ["Grass","[+50]% Strength <vs [Water] units>","[+50]% Strength <vs [Ground] units>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>"],
+		"uniques": ["Grass","[+50]% Strength <vs [Watertype] units>","[+50]% Strength <vs [Ground] units>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>"],
 		"unitTypes": ["Test"],
 		"row": 2,
         	"column": 2
@@ -46,15 +46,22 @@
         	"column": 3
 	},
   {
-		"name": "Water",
-		"uniques": ["Water","[+50]% Strength <vs [Fire] units>","[+50]% Strength <vs [Ground] units> <when attacking>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>","[+50]% Strength <vs [Water] units> <when defending>"],
+		"name": "Watertype",
+		"uniques": ["Watertype","[+50]% Strength <vs [Fire] units>","[+50]% Strength <vs [Ground] units> <when attacking>","[+50]% Strength <vs [Rock] units> <when attacking>","[+50]% Strength <vs [Ice] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>","[+50]% Strength <vs [Water] units> <when defending>"],
 		"unitTypes": ["Test"],
 		"row": 2,
         	"column": 4
 	},
   {
+		"name": "Water",
+		"uniques": ["Watertype"],
+		"unitTypes": ["Test"],
+		"row": 2,
+        	"column": 40
+	},
+  {
 		"name": "Electric",
-		"uniques": ["Electric","[+50]% Strength <vs [Flying] units>","[+50]% Strength <vs [Water] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>"],
+		"uniques": ["Electric","[+50]% Strength <vs [Flying] units>","[+50]% Strength <vs [Watertype] units> <when attacking>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Steel] units> <when defending>"],
 		"unitTypes": ["Test"],
 		"row": 2,
         	"column": 5
@@ -133,7 +140,7 @@
 	},
   {
 		"name": "Dragon",
-		"uniques": ["Dragon","[+50]% Strength <vs [Fire] units> <when defending>","[+50]% Strength <vs [Water] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Dragon] units> <when attacking>"],
+		"uniques": ["Dragon","[+50]% Strength <vs [Fire] units> <when defending>","[+50]% Strength <vs [Watertype] units> <when defending>","[+50]% Strength <vs [Grass] units> <when defending>","[+50]% Strength <vs [Electric] units> <when defending>","[+50]% Strength <vs [Dragon] units> <when attacking>"],
 		"unitTypes": ["Test"],
 		"row": 2,
         	"column": 16
@@ -242,7 +249,13 @@
 	},
 	{
 	"name": "Smokescreen",
-	"uniques": ["May withdraw before melee ([25]%)"],
+	"uniques": ["Withdraws before melee combat <with [25]% chance>"],
+	"unitTypes": ["Charmander", "Charizard"],
+	"prerequisites": ["Scratch","Ember"],
+	},
+	{
+	"name": "Dragon Rage",
+	"uniques": ["Comment [Ignores defensive promotion buffs and most innate defensive bonuses against Targets with less than 41 HP. Does not ignore type dependent bonuses, bonuses against wounded unit or chance dependent buffs.]","Dragon Rage"],
 	"unitTypes": ["Charmander", "Charizard"],
 	"prerequisites": ["Scratch","Ember"],
 	},
@@ -254,9 +267,27 @@
 	},
 	{
 	"name": "Vine Whip",
-	"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>"],
+	"uniques": ["[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>"],
 	"unitTypes": ["Bulbasaur"],
 	"prerequisites": ["Tackle","Wrap","Leech Seed"],
+	},
+	{
+	"name": "Take Down",
+	"uniques": ["[+20]% Strength <when attacking>"],//Supposed to be +33% Strength but also gain damage upon attacking
+	"unitTypes": ["Bulbasaur","Starly"],
+	"prerequisites": ["Tackle","Wrap","Leech Seed","Doubleteam"],
+	},
+	{
+	"name": "Razor Leaf",
+	"uniques": ["[+25]% Strength <with [20]% chance>","[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units>"],
+	"unitTypes": ["Bulbasaur"],
+	"prerequisites": ["Take Down","Vine Whip"],
+	},
+	{
+	"name": "Sweet Scent",
+	"uniques": ["Can see invisible [Pokémon] units","Boosts Adjacent Pokeballs"],
+	"unitTypes": ["Bulbasaur"],
+	"prerequisites": ["Take Down","Vine Whip"],
 	},
 	{
 	"name": "Water Gun",
@@ -268,7 +299,7 @@
 	"name": "Bubble",
 	"uniques": ["[+20]% to Flank Attack bonuses","[+10]% Strength <vs [Fire] units>","[+10]% Strength <vs [Ground] units>","[+10]% Strength <vs [Rock] units>"],
 	"unitTypes": ["Squirtle"],
-	"prerequisites": ["Water"],
+	"prerequisites": ["Watertype"],
 	},
 	{
 	"name": "Peck",
@@ -288,26 +319,50 @@
 	"prerequisites": ["Bug","Psychic"],
 	},
 	{
+	"name": "Psybeam",
+	"uniques": ["[+15]% Strength <vs [Trainer] units>","[+15]% Strength <when attacking>","[-15]% Strength <vs [Dark] units> <when attacking>"],
+	"unitTypes": ["Butterfree"],
+	"prerequisites": ["Confusion"],
+	},
+	{
+	"name": "Silver Wind",
+	"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>","[+25]% Strength <with [10]% chance>"],
+	"unitTypes": ["Butterfree"],
+	"prerequisites": ["Gust","Psybeam"],
+	},
+	{
+	"name": "Tailwind",
+	"uniques": ["[+1] Movement","Transfer Movement to [Civilian]"],
+	"unitTypes": ["Butterfree"],
+	"prerequisites": ["Gust","Psybeam"],
+	},
+	{
 	"name": "Feather Dance",
 	"uniques": ["[+30]% Strength <vs [Melee] units> <when defending>"],
 	"unitTypes": ["Pidgey"],
 	"prerequisites": ["Gust","Quick Attack"],
 	},
 	{
+	"name": "Roost",
+	"uniques": ["[+10] HP when healing"],
+	"unitTypes": ["Pidgey","Spearow"],
+	"prerequisites": ["Agility","Wing Attack","Assurance"],
+	},
+	{
 	"name": "Bite",
 	"uniques": ["[+15]% Strength <when attacking>","[+15]% Strength <vs [Psychic] units> <when attacking>","[+15]% Strength <vs [Ghost] units> <when attacking>"],
 	"unitTypes": ["Squirtle","Rattata","Ekans","Meowth","Zubat"],
-	"prerequisites": ["Quick Attack","Water Gun","Poison Sting","Scratch","Astonish","Leech Life"],
+	"prerequisites": ["Quick Attack","Water Gun","Poison Sting","Scratch","Astonish","Leech Life","Wrap"],
 	},
 	{
-	"name": "Energy Focus",
+	"name": "Focus Energy",
 	"uniques": ["[+45]% Strength <with [20]% chance>"],
-	"unitTypes": ["Rattata","Beedrill","Mankey"],
+	"unitTypes": ["Rattata","Beedrill","Mankey","Machop"],
 	"prerequisites": ["Normal","Poison Sting","Low Kick","Scratch"],
 	},
 	{
 	"name": "Rage",
-	"uniques": ["Damage is ignored when determining unit Strength","[+10]% Strength <when below [50] HP>","[+10]% Strength <when below [25] HP>","[+30]% Strength <when below [10] HP>",],
+	"uniques": ["No damage penalty for wounded units","[+10]% Strength <when below [50] HP>","[+10]% Strength <when below [25] HP>","[+30]% Strength <when below [10] HP>",],
 	"unitTypes": ["Beedrill"],
 	"prerequisites": ["Poison Sting"],
 	},
@@ -315,7 +370,7 @@
 	"name": "Pursuit",
 	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
 	"unitTypes": ["Beedrill","Rattata","Spearow"],
-	"prerequisites": ["Rage","Energy Focus","Peck"],
+	"prerequisites": ["Rage","Focus Energy","Peck"],
 	},
 	{
 	"name": "Twineedle",
@@ -333,7 +388,7 @@
 	"name": "Quick Attack",
 	"uniques": ["Can move after attacking","[+25]% XP gained from combat"],
 	"unitTypes": ["Rattata","Pikachu","Pidgey","Starly"],
-	"prerequisites": ["Tackle","Tackle S","Energy Focus","Thundershock"],
+	"prerequisites": ["Tackle","Tackle S","Focus Energy","Thundershock"],
 	},
 	{
 	"name": "Wrap",
@@ -342,7 +397,7 @@
 	},
 	{
 	"name": "Thundershock",
-	"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Flying] units>","[+5]% Strength <when attacking>","[-5]% Strength <when attacking> <vs [Ground] units>"],
+	"uniques": ["[+10]% Strength <vs [Watertype] units>","[+10]% Strength <vs [Flying] units>","[+5]% Strength <when attacking>","[-5]% Strength <when attacking> <vs [Ground] units>"],
 	"unitTypes": ["Pikachu"],
 	"prerequisites": ["Electric"],
 	},
@@ -357,7 +412,7 @@
 	},
 	{
 	"name": "Double Team",
-	"uniques": ["May withdraw before melee ([33]%)"],
+	"uniques": ["Withdraws before melee combat <with [33]% chance>"],
 	"unitTypes": ["Pikachu","Starly"],
 	"prerequisites": ["Electro Ball","Quick Attack","Wing Attack"],
 	},
@@ -369,7 +424,7 @@
 	},
 	{
 	"name": "Thunder Bolt",
-	"uniques": ["[+20]% Strength <vs [Water] units>","[+20]% Strength <vs [Flying] units>","[+10]% Strength <when attacking>","[-10]% Strength <when attacking> <vs [Ground] units>"],
+	"uniques": ["[+20]% Strength <vs [Watertype] units>","[+20]% Strength <vs [Flying] units>","[+10]% Strength <when attacking>","[-10]% Strength <when attacking> <vs [Ground] units>"],
 	"unitTypes": ["Pikachu"],
 	"prerequisites": ["Electro Ball","Agility"],
 	},
@@ -426,13 +481,13 @@
 	"name": "Screech",
 	"uniques": ["[-20]% Strength for enemy [Pokémon] units in adjacent [Land] tiles"],
 	"unitTypes": ["Ekans","Meowth","Mankey"],
-	"prerequisites": ["Karate Chop","Bite"],
+	"prerequisites": ["Karate Chop","Bite","Focus Energy"],
 	},
 	{
 	"name": "Pay Day",
 	"uniques": ["Earn [60]% of the damage done to [Pokémon] units as [Gold]"],
 	"unitTypes": ["Meowth"],
-	"prerequisites": ["Screech"],
+	"prerequisites": ["Screech","Assurance"],
 	},
 	{
 	"name": "Assurance",
@@ -442,7 +497,7 @@
 	},
 	{
 	"name": "Rock Polish",
-	"uniques": ["[+1] Movement"],
+	"uniques": ["[+1] Movement","Fastened"],
 	"unitTypes": ["Geodude"],
 	"prerequisites": ["Tackle","Defense Curl"],
 	},
@@ -466,13 +521,31 @@
 	},
 	{
 	"name": "Rollout",
-	"uniques": ["[+5]% Strength","[+5]% Strength <starting from the [First Badge]>"],
+	"uniques": ["[+5]% Strength","[+5]% Strength <starting from the [First Badge]>","[+5]% Strength <starting from the [Second Badge]>"],
 	"unitTypes": ["Geodude","Sandshrew"],
 	"prerequisites": ["Rock Polish","Magnitude","Rock Throw","Poison Sting"],
 	},
 	{
+	"name": "Foresight",
+	"uniques": ["Recognises Ghost type Pokemon","Can see invisible [Ghost] units"],
+	"unitTypes": ["Machop"],
+	"prerequisites": ["Focus Energy","Karate Chop"],
+	},
+	{
+	"name": "Revenge",
+	"uniques": ["[+25]% Strength <when attacking> <when below [80] HP>"],
+	"unitTypes": ["Machop"],
+	"prerequisites": ["Focus Energy","Karate Chop"],
+	},
+	{
+	"name": "Teleport",
+	"uniques": ["May Paradrop up to [4] tiles from inside friendly territory"],
+	"unitTypes": ["Abra"],
+	"prerequisites": ["Psychic"],
+	},
+	{
 	"name": "Splash",
-	"uniques": ["Does literally nothing","Enables Moves"],
+	"uniques": ["Comment [Does literally nothing]","Comment [Enables Moves]"],
 	"unitTypes": ["Magikarp"],
 	},
 

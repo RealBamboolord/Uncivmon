@@ -8,7 +8,30 @@
         "Cannot build [Settler] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-20] Happiness>",
         
-        "Enables embarkation for land units <for [Caterpie] units>", //test
+        "[-75]% Strength for cities <when attacking>" //vs non Barbarian units
         "[5] HP when healing <if [Pokemon Center] is constructed> <for [Pokémon] units> <in [City center] tiles>"
+
+	//Dragon Rage
+	"[-15]% Strength <when fighting in [Open terrain] tiles> <for units with [Tackle]> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+	"[-15]% Strength <when fighting in [Open terrain] tiles> <for units with [Tackle M]> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+	"[-15]% Strength <when fighting in [Open terrain] tiles> <for units with [Tackle S]> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+	"[-15]% Strength <when fighting in [Rough terrain] tiles> <for units with [Pound]> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+	"[-15]% Strength <when fighting in [Open terrain] tiles> <for units with [Pound]> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+	"[-15]% Strength <for units with [Harden]> <when defending> <vs [{Dragon Rage} {Melee}] units> <when below [41] HP>",
+	"[-15]% Strength <for units with [Withdraw]> <when defending> <vs [{Dragon Rage} {Melee}] units> <when below [41] HP>",
+	"[-15]% Strength <for units with [Defense Curl]> <when defending> <vs [{Dragon Rage} {Melee}] units> <when below [41] HP>",
+	"[-15]% Strength <when fighting in [Grassland] tiles> <for units with [Gust]> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+	"[-30]% Strength <for units with [Feather Dance]> <when defending> <vs [{Dragon Rage} {Melee}] units> <when below [41] HP>",
+	"[-20]% Strength <when fighting in [Open terrain] tiles> <for units with [Silver Wind]> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+	"[-10]% Strength <for units with [Rage]> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+	"[-10]% Strength <for units with [Rage]> <when defending> <vs [Dragon Rage] units> <when below [25] HP>",
+	"[-10]% Strength <for units with [Rage]> <when defending> <vs [Dragon Rage] units> <when below [10] HP>",
+	"[-15]% Strength <when adjacent to a [{Melee} {Pokémon}] unit> <for units with [Wrap]> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+	"[-20]% Strength <when fighting in [Open terrain] tiles> <for units with [Air Cutter]> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+
+
+	"[-33]% Strength <for [{Barbarian} {Cocoon}] units> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+	"[-30]% Strength <for [Geodude] units> <when defending> <vs [Dragon Rage] units> <when below [41] HP>",
+
         ]
 }
