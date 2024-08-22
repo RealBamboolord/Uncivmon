@@ -92,6 +92,11 @@
         "uniques": ["Pokémon", "No defensive terrain bonus", "Ignores Zone of Control","Poison","Flying"]
     },
     {
+        "name": "Oddish",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Grass","Poison"]
+    },
+    {
         "name": "Meowth",
         "movementType": "Land",
         "uniques": ["Pokémon","Normal"]
@@ -115,6 +120,11 @@
         "name": "Machop",
         "movementType": "Land",
         "uniques": ["Pokémon","Fighting"]
+    },
+    {
+        "name": "Bellsprout",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Grass","Poison"]
     },
     {
         "name": "Geodude",

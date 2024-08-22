@@ -166,11 +166,52 @@
 		"row": 2,
         	"column": 19
 	},
+//Status Effects (supposedly non stackable)
+	{
+	"name": "Poisoned",
+	"uniques": [
+		"Only available <for [non-[{Status Effect} {Poison}]] units>","Status Effect",
+		"This Unit takes [9] damage <upon turn end>"
+		],
+	},
+	{
+	"name": "Burned",
+	"uniques": [
+		"Only available <for [non-[{Status Effect} {Fire}]] units>","Status Effect",
+		"This Unit takes [6] damage <upon turn end>",
+		"[-25]% Strength <for [Melee] units> <when attacking>",
+		],
+	},
+	{
+	"name": "Paralyzed",
+	"uniques": [
+		"Only available <for [non-[{Status Effect} {Electric}]] units>","Status Effect",
+		"[-25]% Strength <with [30]% chance>",
+		"[-1] Movement"
+		],
+	},
+	{
+	"name": "Frozen",
+	"uniques": [
+		"Only available <for [non-[{Status Effect} {Ice}]] units>","Status Effect",
+		//"Cannot attack", Supposed to make attacks fail with a certain percentage chance
+		"Cannot move"
+		],
+	},
+	{
+	"name": "Asleep",
+	"uniques": [
+		"Only available <for [non-[Status Effect]] units>","Status Effect",
+		"Cannot attack",
+		"Cannot move",
+		"[This Unit] loses the [Asleep] status <upon turn end> <with [30]% chance>" //to be reworked
+		],
+	},
 //HM Attacks
 	{
 	"name": "Cut",
 	"uniques": ["Only available <if [Cut Master] is constructed>", "[+20]% Strength <when fighting in [Barbarian encampment] tiles>"],
-	"unitTypes": ["Bulbasaur","Charmander","Charizard","Beedrill","Rattata","Sandshrew","Meowth"],
+	"unitTypes": ["Bulbasaur","Charmander","Charizard","Beedrill","Rattata","Sandshrew","Meowth","Meowth","Bellsprout","Oddish"],
 	},
 // Special/Evolution Promotions
 	{
@@ -268,7 +309,7 @@
 	{
 	"name": "Vine Whip",
 	"uniques": ["[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>"],
-	"unitTypes": ["Bulbasaur"],
+	"unitTypes": ["Bulbasaur","Bellsprout"],
 	"prerequisites": ["Tackle","Wrap","Leech Seed"],
 	},
 	{
@@ -280,14 +321,14 @@
 	{
 	"name": "Razor Leaf",
 	"uniques": ["[+25]% Strength <with [20]% chance>","[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units>"],
-	"unitTypes": ["Bulbasaur"],
+	"unitTypes": ["Bulbasaur","Bellsprout"],
 	"prerequisites": ["Take Down","Vine Whip"],
 	},
 	{
-	"name": "Sweet Scent",
+	"name": "Sweet Scent", //Should have no requirements for Oddish
 	"uniques": ["Can see invisible [Pokémon] units","Boosts Adjacent Pokeballs"],
-	"unitTypes": ["Bulbasaur"],
-	"prerequisites": ["Take Down","Vine Whip"],
+	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
+	"prerequisites": ["Take Down","Vine Whip","Absorb"],
 	},
 	{
 	"name": "Water Gun",
@@ -380,7 +421,7 @@
 	},
 	{
 	"name": "Agility",
-	"uniques": ["[+1] Movement"],
+	"uniques": ["[+1] Movement","Fastened"],
 	"unitTypes": ["Beedrill","Pidgey","Spearow","Pikachu","Starly"],
 	"prerequisites": ["Pursuit","Feather Dance","Thunder Bolt","Double Team","Slam"],
 	},
@@ -393,7 +434,7 @@
 	{
 	"name": "Wrap",
 	"uniques": ["Earn [10]% of the damage done to [Pokémon] units as [Gold]","Earn [10]% of the damage done to [Pokémon] units as [Science]","[+15]% Strength <when adjacent to a [{Melee} {Pokémon}] unit>"],
-	"unitTypes": ["Ekans"],
+	"unitTypes": ["Ekans","Bellsprout"],
 	},
 	{
 	"name": "Thundershock",
@@ -419,8 +460,8 @@
 	{
 	"name": "Slam",
 	"uniques": ["[+20]% Strength <when attacking> <with [75]% chance>"],
-	"unitTypes": ["Pikachu"],
-	"prerequisites": ["Electro Ball","Quick Attack"],
+	"unitTypes": ["Pikachu","Bellsprout"],
+	"prerequisites": ["Electro Ball","Quick Attack","Sweet Scent","Razor Leaf"],
 	},
 	{
 	"name": "Thunder Bolt",
@@ -463,6 +504,23 @@
 	"unitTypes": ["Zubat"],
 	},
 	{
+	"name": "Absorb",
+	"uniques": ["Heals [10] damage if it kills a unit"],
+	"unitTypes": ["Oddish"],
+	},
+	{
+	"name": "Acid", //Currently Lazy Effects
+	"uniques": ["[+20]% Strength <vs [Grass] units> <when attacking>","[+20]% Strength <vs [Fairy] units> <when attacking>","[+10]% Strength <vs [Grass] units> <when defending>","[+10]% Strength <vs [Fairy] units> <when defending>"],
+	"prerequisites": ["Absorb","Bite"],
+	"unitTypes": ["Ekans","Oddish"],
+	},
+	{
+	"name": "Moonlight",
+	"uniques": ["[+10] HP when healing"],
+	"prerequisites": ["Sweet Scent","Acid","Defense Curl","Doubleslap"], //Clef should get higher tier prerequisites
+	"unitTypes": ["Clefairy","Oddish"],
+	},
+	{
 	"name": "Low Kick",
 	"uniques": [
 		"[+20]% Strength <vs [Semi Heavy] units>", //50-100 kg
@@ -479,7 +537,7 @@
 	},
 	{
 	"name": "Screech",
-	"uniques": ["[-20]% Strength for enemy [Pokémon] units in adjacent [Land] tiles"],
+	"uniques": ["[-15]% Strength for enemy [Pokémon] units in adjacent [Land] tiles"],
 	"unitTypes": ["Ekans","Meowth","Mankey"],
 	"prerequisites": ["Karate Chop","Bite","Focus Energy"],
 	},

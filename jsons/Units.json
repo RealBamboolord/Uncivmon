@@ -369,6 +369,21 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Oddish",
+		"unitType": "Oddish",
+		"requiredTech": "HM 01",
+		"cost": 55, 
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 10,
+		"range": 1,
+		//"upgradesTo": "Gloom",
+		"promotions": ["Grass","Poison"],
+		"uniques": ["Slow"], //Only available with Red
+		//"obsoleteTech": "HM 01",
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Meowth",
 		"unitType": "Meowth",
 		"cost": 40, 
@@ -411,7 +426,20 @@
 		"movement": 2,
 		"strength": 12,
 		"promotions": ["Fighting"],
-		"uniques": ["[+20]% Strength <when attacking>",],
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Bellsprout",
+		"unitType": "Bellsprout",
+		"requiredTech": "HM 01",
+		"cost": 55, 
+		"movement": 2,
+		"strength": 10,
+		//"upgradesTo": "Weepinbell",
+		"promotions": ["Grass","Poison"],
+		"uniques": ["[+20]% Strength <when attacking>"], //Only available with Blue
+		//"obsoleteTech": "HM 01",
 		"attackSound": "nonmetalhit"
 	},
 	{
