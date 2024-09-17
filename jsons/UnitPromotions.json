@@ -149,7 +149,7 @@
 	"name": "Take Down",
 	"uniques": ["[+20]% Strength <when attacking>"],//Supposed to be +33% Strength but also gain damage upon attacking
 	"unitTypes": ["Bulbasaur","Starly"],
-	"prerequisites": ["Tackle","Wrap","Leech Seed","Doubleteam"],
+	"prerequisites": ["Tackle","Tackle S","Wrap","Leech Seed","Doubleteam"],
 	},
 	{
 	"name": "Razor Leaf",
