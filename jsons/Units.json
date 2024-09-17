@@ -54,7 +54,7 @@
 		"range": 1,
 		//"upgradesTo": "Venusaur",
 		"promotions": ["Grass","Poison"],
-		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <in cities with a [Choose Bulbasaur]>"],
+		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <if [Choose Bulbasaur] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
 	},
@@ -81,7 +81,7 @@
 		"strength": 19,
 		//"upgradesTo": "Charizard",
 		"promotions": ["Fire"],
-		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <in cities with a [Choose Charmander]>"],
+		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <if [Choose Charmander] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
 	},
@@ -112,7 +112,7 @@
 		"range": 2,
 		//"upgradesTo": "Blastoise",
 		"promotions": ["Watertype"],
-		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <in cities with a [Choose Squirtle]>"],
+		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Only available <if [Choose Squirtle] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		//"obsoleteTech": "River Crossing",
 		"attackSound": "cannon"
