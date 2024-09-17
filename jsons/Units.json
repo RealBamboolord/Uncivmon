@@ -163,7 +163,7 @@
 		"rangedStrength": 20,
 		"range": 1,
 		"promotions": ["Bug","Flying"],
-		"uniques": ["Never appears as a Barbarian unit","[-33]% Strength <vs cities> <when attacking>","Unbuildable"],
+		"uniques": ["[-33]% Strength <vs cities> <when attacking>","Unbuildable"],
 		"attackSound": "cannon"
 	},
 	{
@@ -223,7 +223,7 @@
 		"movement": 4,
 		"strength": 15,
 		"promotions": ["Bug","Poison"],
-		"uniques": ["[+33]% Strength <when attacking>","[+33]% Strength <vs [Ranged] units> <when defending>",
+		"uniques": ["Never appears as a Barbarian unit","[+33]% Strength <when attacking>","[+33]% Strength <vs [Ranged] units> <when defending>",
                     "[+15]% Strength <when adjacent to a [Weedle] unit>","Weedle","Unbuildable"],
 		"attackSound": "cannon"
 	},
@@ -247,6 +247,7 @@
 		"movement": 3,
 		"strength": 15,
 		//"upgradesTo": "Pidgeot",
+		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Normal","Flying"],
 		//"obsoleteTech": "Agriculture",
 		"attackSound": "nonmetalhit"
@@ -330,7 +331,7 @@
 		"rangedStrength": 8,
 		"range": 2,
 		"promotions": ["Electric"],
-		"uniques": ["Limited to [2] per Civilization", "Starter Pokemon"],
+		"uniques": ["Never appears as a Barbarian unit","Limited to [2] per Civilization", "Starter Pokemon"],
 		"attackSound": "Pika"
 	},
 	{
@@ -354,7 +355,7 @@
 		"rangedStrength": 10,
 		"range": 1,
 		"promotions": ["Fairy"],
-		"uniques": ["Slow","[-10]% Strength <when attacking>","[+10]% Strength <when defending> <vs [Ranged] units>","[+5] HP when healing","Only available <within [2] tiles of a [Mountain]>"],
+		"uniques": ["Never appears as a Barbarian unit","Slow","[-10]% Strength <when attacking>","[+10]% Strength <when defending> <vs [Ranged] units>","[+5] HP when healing","Only available <within [2] tiles of a [Mountain]>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -379,7 +380,7 @@
 		"range": 1,
 		//"upgradesTo": "Gloom",
 		"promotions": ["Grass","Poison"],
-		"uniques": ["Slow"], //Only available with Red
+		"uniques": ["Never appears as a Barbarian unit","Slow"], //Only available with Red
 		//"obsoleteTech": "HM 01",
 		"attackSound": "nonmetalhit"
 	},
@@ -415,7 +416,7 @@
 		"rangedStrength": 12,
 		"range": 2,
 		"promotions": ["Psychic"],
-		"uniques": ["Withdraws before melee combat <with [20]% chance>","[+66]% Strength <when attacking>"],
+		"uniques": ["Never appears as a Barbarian unit","Withdraws before melee combat <with [20]% chance>","[+66]% Strength <when attacking>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -438,7 +439,7 @@
 		"strength": 10,
 		//"upgradesTo": "Weepinbell",
 		"promotions": ["Grass","Poison"],
-		"uniques": ["[+20]% Strength <when attacking>"], //Only available with Blue
+		"uniques": ["Never appears as a Barbarian unit","[+20]% Strength <when attacking>"], //Only available with Blue
 		//"obsoleteTech": "HM 01",
 		"attackSound": "nonmetalhit"
 	},
@@ -472,7 +473,7 @@
 		"movement": 3,
 		"strength": 7,
 		"upgradesTo": "Staravia",
-		"uniques": ["[+25]% Strength <when attacking>","[-20]% Strength <when defending>"],
+		"uniques": ["Never appears as a Barbarian unit","[+25]% Strength <when attacking>","[-20]% Strength <when defending>"],
 		"promotions": ["Normal","Flying"],
 		"obsoleteTech": "First Gym",
 		"attackSound": "nonmetalhit",
@@ -488,7 +489,7 @@
 		"movement": 3,
 		"strength": 14,
 		//"upgradesTo": "Staraptor",
-		"uniques": ["[+25]% Strength <when attacking>","[-20]% Strength <when defending>"],
+		"uniques": ["Never appears as a Barbarian unit","[+25]% Strength <when attacking>","[-20]% Strength <when defending>"],
 		"promotions": ["Normal","Flying"],
 		//"obsoleteTech": "Agriculture",
 		"attackSound": "nonmetalhit"
