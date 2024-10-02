@@ -8,7 +8,7 @@
     {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["This Unit gains [10] XP", "Only available <after turn number [10]>"]
+        "uniques": ["[This Unit] gains [10] XP", "Only available <after turn number [10]>"]
     },
     {
         "name": "a stash of gold",
