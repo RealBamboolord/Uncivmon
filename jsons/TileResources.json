@@ -501,8 +501,8 @@
 		"resourceType": "Strategic",
 		"production": 1,
     		"uniques": [
-      		"Stockpiled"
-    		]
+      			"Stockpiled"
+    			]
 	},
   	{
 		"name": "Dome Fossil",
@@ -510,8 +510,8 @@
 		"resourceType": "Strategic",
 		"production": 1,
     		"uniques": [
-      		"Stockpiled"
-    		]
+      			"Stockpiled"
+    			]
 	},
   	{
 		"name": "Claw Fossil",
@@ -519,8 +519,8 @@
 		"resourceType": "Strategic",
 		"production": 1,
     		"uniques": [
-      		"Stockpiled"
-    		]
+      			"Stockpiled"
+    			]
 	},
   	{
 		"name": "Root Fossil",
@@ -528,8 +528,8 @@
 		"resourceType": "Strategic",
 		"production": 1,
     		"uniques": [
-      		"Stockpiled"
-    		]
+      			"Stockpiled"
+    			]
 	},
 
 // Evolution Stones
@@ -577,5 +577,15 @@
 		"name": "Starter Limiter",
 		"resourceType": "Strategic",
     		"uniques": ["Cannot be traded","Not shown on world screen","Will not be displayed in Civilopedia"]
+	},
+  	{
+		"name": "ZZStarter Selection Limiter",
+		"resourceType": "Strategic",
+		"production": 1,
+    		"uniques": [
+      			"Stockpiled",
+			"Not shown on world screen",
+			"Will not be displayed in Civilopedia"
+    			]
 	},
 ]
