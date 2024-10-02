@@ -36,11 +36,13 @@
 		"isWonder": true,
 		"cost": 15,
 		"uniques": [
-			"Gain a free [Starter Wonder] [in all cities]",
 			"Free [Bulbasaur] appears",
-			"Provides [1] [Starter Limiter]",
-			"Only available <in cities without a [Starter Wonder]>",
-			"Comment [You can only build one Starter Wonder in total]"
+			"Provides [1] [Starter Limiter] <hidden from users>",
+			"Instantly provides [1] [ZZStarter Selection Limiter] <hidden from users>",
+			"Unavailable <if [Choose Charmander] is constructed> <hidden from users>",
+			"Unavailable <if [Choose Squirtle] is constructed> <hidden from users>",
+			"Unavailable <when above [0] [ZZStarter Selection Limiter]> <hidden from users>",
+			"Comment [You can only build one Starter Wonder per game, even if your capital gets captured!]"
 			],
 		"civilopediaText": [
 			{"text":"Choose your starter Pokémon"}
@@ -51,11 +53,13 @@
 		"isWonder": true,
 		"cost": 15,
 		"uniques": [
-			"Gain a free [Starter Wonder] [in all cities]",
 			"Free [Charmander] appears",
-			"Provides [1] [Starter Limiter]",
-			"Only available <in cities without a [Starter Wonder]>",
-			"Comment [You can only build one Starter Wonder in total]"
+			"Provides [1] [Starter Limiter] <hidden from users>",
+			"Instantly provides [1] [ZZStarter Selection Limiter] <hidden from users>",
+			"Unavailable <if [Choose Squirtle] is constructed> <hidden from users>",
+			"Unavailable <if [Choose Bulbasaur] is constructed> <hidden from users>",
+			"Unavailable <when above [0] [ZZStarter Selection Limiter]> <hidden from users>",
+			"Comment [You can only build one Starter Wonder per game, even if your capital gets captured!]"
 			],
 		"civilopediaText": [
 			{"text":"Choose your starter Pokémon"}
@@ -66,11 +70,13 @@
 		"isWonder": true,
 		"cost": 15,
 		"uniques": [
-			"Gain a free [Starter Wonder] [in all cities]",
 			"Free [Squirtle] appears",
-			"Provides [1] [Starter Limiter]",
-			"Only available <in cities without a [Starter Wonder]>",
-			"Comment [You can only build one Starter Wonder in total]"
+			"Provides [1] [Starter Limiter] <hidden from users>",
+			"Instantly provides [1] [ZZStarter Selection Limiter] <hidden from users>",
+			"Unavailable <if [Choose Charmander] is constructed> <hidden from users>",
+			"Unavailable <if [Choose Bulbasaur] is constructed> <hidden from users>",
+			"Unavailable <when above [0] [ZZStarter Selection Limiter]> <hidden from users>",
+			"Comment [You can only build one Starter Wonder per game, even if your capital gets captured!]"
 			],
 		"civilopediaText": [
 			{"text":"Choose your starter Pokémon"}
