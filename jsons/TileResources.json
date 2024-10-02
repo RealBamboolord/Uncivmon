@@ -581,7 +581,6 @@
   	{
 		"name": "ZZStarter Selection Limiter",
 		"resourceType": "Strategic",
-		"production": 1,
     		"uniques": [
       			"Stockpiled",
 			"Not shown on world screen",
