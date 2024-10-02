@@ -26,7 +26,7 @@
 			"Free [Magikarp] appears",
 			"Free [Starly] appears",
 			],
-		"replacementTextForUniques": "All at once",
+		"replacementTextForUniques": "FOR TESTING PURPOSES ONLY!",
 		"civilopediaText": [
 			{"text":"Here they are"}
         ]
@@ -35,9 +35,13 @@
 		"name": "Choose Bulbasaur",
 		"isWonder": true,
 		"cost": 15,
-		"uniques": ["Gain a free [Starter Wonder] [in all cities]", "Free [Bulbasaur] appears", 
-					"Only available <in cities without a [Starter Wonder]>"],
-		"replacementTextForUniques": "Unlock Bulbasaur",
+		"uniques": [
+			"Gain a free [Starter Wonder] [in all cities]",
+			"Free [Bulbasaur] appears",
+			"Provides [1] [Starter Limiter]",
+			"Only available <in cities without a [Starter Wonder]>",
+			"Comment [You can only build one Starter Wonder in total]"
+			],
 		"civilopediaText": [
 			{"text":"Choose your starter Pokémon"}
         ]
@@ -46,9 +50,13 @@
 		"name": "Choose Charmander",
 		"isWonder": true,
 		"cost": 15,
-		"uniques": ["Gain a free [Starter Wonder] [in all cities]", "Free [Charmander] appears", 
-					"Only available <in cities without a [Starter Wonder]>"],
-		"replacementTextForUniques": "Unlock Charmander",
+		"uniques": [
+			"Gain a free [Starter Wonder] [in all cities]",
+			"Free [Charmander] appears",
+			"Provides [1] [Starter Limiter]",
+			"Only available <in cities without a [Starter Wonder]>",
+			"Comment [You can only build one Starter Wonder in total]"
+			],
 		"civilopediaText": [
 			{"text":"Choose your starter Pokémon"}
         ]
@@ -57,9 +65,13 @@
 		"name": "Choose Squirtle",
 		"isWonder": true,
 		"cost": 15,
-		"uniques": ["Gain a free [Starter Wonder] [in all cities]", "Free [Squirtle] appears", 
-					"Only available <in cities without a [Starter Wonder]>"],
-		"replacementTextForUniques": "Unlock Squirtle",
+		"uniques": [
+			"Gain a free [Starter Wonder] [in all cities]",
+			"Free [Squirtle] appears",
+			"Provides [1] [Starter Limiter]",
+			"Only available <in cities without a [Starter Wonder]>",
+			"Comment [You can only build one Starter Wonder in total]"
+			],
 		"civilopediaText": [
 			{"text":"Choose your starter Pokémon"}
         ]
