@@ -144,6 +144,7 @@
 	},
 
 //HM Attacks
+	//HM01
 	{
 	"name": "Cut",
 	"uniques": ["Only available <if [Cut Master] is constructed>", "[+20]% Strength <when fighting in [Barbarian encampment] tiles>"],
@@ -170,7 +171,51 @@
 	"unitTypes": ["Magikarp"],
 	},*/
 	
-// Normal Attacks
+// Attacks
+//Sorted by: Type -> Damage Category (in normal Pokémon games; in order physical,special,status) -> Alphabetically a-z
+
+// Normal
+	//Physical
+	{
+	"name": "Double Slap",
+	"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
+	"unitTypes": ["Clefairy"],
+	"prerequisites": ["Pound","Disarming Voice"],
+	},
+	{
+	"name": "Pay Day",
+	"uniques": ["Earn [60]% of the damage done to [Pokémon] units as [Gold]"],
+	"unitTypes": ["Meowth"],
+	"prerequisites": ["Screech","Assurance"],
+	},
+	{
+	"name": "Pound",
+	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>","[-15]% Strength <when fighting in [Rough terrain] tiles> <vs [Ghost] units>"],
+	"unitTypes": ["Clefairy"],
+	},
+	{
+	"name": "Quick Attack", //I still have no clue what the uniques should actually be, so here, have decent placeholder uniques
+	"uniques": ["Can move after attacking","[+25]% XP gained from combat"],
+	"unitTypes": ["Rattata","Pikachu","Pidgey","Starly"],
+	"prerequisites": ["Tackle","Tackle S","Focus Energy","Thunder Shock"],
+	},
+	{
+	"name": "Rage",
+	"uniques": ["Comment [Rage activates by attacking an enemy and gives an attack bonus that rises every time this Pokémon is attacked. If this Pokémon doesn't attack an enemy for a whole turn, the built up bonuses are lost. The Rage bonuses are also lost if the Pokémon isn't attacked for 5 turns. Rage stacks up a maximum of 5 times, up to an attack bonus of +100% Strength]","[This Unit] gains the [Rage Active] status for [2] turn(s) <upon damaging a [Pokémon] unit>","No damage penalty for wounded units"],
+	"unitTypes": ["Beedrill"],
+	"prerequisites": ["Poison Sting"],
+	},
+	{
+	"name": "Scratch",
+	"uniques": ["[+15]% Strength <when attacking>","[-15]% Strength <when attacking> <vs [Ghost] units>"],
+	"unitTypes": ["Charmander","Charizard","Sandshrew","Meowth","Mankey"],
+	},
+	{
+	"name": "Slam",
+	"uniques": ["[+20]% Strength <when attacking> <with [75]% chance>"],
+	"unitTypes": ["Pikachu","Bellsprout"],
+	"prerequisites": ["Electro Ball","Quick Attack","Sweet Scent","Razor Leaf"],
+	},
 	{
 	"name": "Tackle",
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
@@ -188,26 +233,19 @@
 	"unitTypes": ["Starly"],
 	},
 	{
-	"name": "Pound",
-	"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>","[-15]% Strength <when fighting in [Rough terrain] tiles> <vs [Ghost] units>"],
-	"unitTypes": ["Clefairy"],
+	"name": "Take Down",
+	"uniques": ["[+33]% Strength <when attacking> <vs [non-[Ghost]] units>","[This Unit] takes [15] damage <upon damaging a [non-[Ghost]] unit>"],
+	"unitTypes": ["Bulbasaur","Starly"],
+	"prerequisites": ["Tackle","Wrap","Leech Seed","Double Team"],
 	},
 	{
-	"name": "Scratch",
-	"uniques": ["[+15]% Strength <when attacking>","[-15]% Strength <when attacking> <vs [Ghost] units>"],
-	"unitTypes": ["Charmander","Charizard","Sandshrew","Meowth","Mankey"],
+	"name": "Wrap", //eventually come back and make the movement removal fail if the Target has only 1 movement
+			//Will add trapped status later
+	"uniques": ["[Target Unit] loses [1] movement <upon damaging a [non-[{Geodude} {Abra}]] unit>","[Target Unit] loses [1] movement <upon damaging a [{Fastened} {Geodude}] unit>","[Target Unit] loses [1] movement <upon damaging a [{Fastened} {Abra}] unit>","[Target Unit] takes [5] damage <upon damaging a [Military] unit>"],
+	"unitTypes": ["Ekans","Bellsprout"],
 	},
-	{
-	"name": "Poison Sting",
-	"uniques": ["[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [non-[{Status Effect} {Poison} {Steel}]] unit> <with [30]% chance>"],
-	"unitTypes": ["Weedle","Beedrill","Ekans","Sandshrew"],
-	"prerequisites": ["Tackle","Scratch","Harden","Defense Curl","Withdraw","Poison"],
-	},
-	{
-	"name": "Harden",
-	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
-	"unitTypes": ["Cocoon"],
-	},
+	//Special
+	//Status
 	{
 	"name": "Defense Curl",
 	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
@@ -215,18 +253,33 @@
 	"prerequisites": ["Ground","Disarming Voice","Pound"],
 	},
 	{
-	"name": "Withdraw",
-	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
-	"unitTypes": ["Squirtle"],
+	"name": "Double Team", //rework necessary to make it avoid other attacks if possible
+	"uniques": ["Withdraws before melee combat <with [33]% chance>"],
+	"unitTypes": ["Pikachu","Starly"],
+	"prerequisites": ["Electro Ball","Quick Attack","Wing Attack"],
 	},
 	{
-	"name": "Ember",
-	"uniques": [
-		"[+10]% Strength <vs [Grass] units>","[+10]% Strength <vs [Ice] units>","[+10]% Strength <vs [Bug] units>","[+10]% Strength <vs [Steel] units>",
-		"[Target Unit] gains the [Burned] status for [4] turn(s) <upon damaging a [non-[{Status Effect} {Fire}]] unit> <with [10]% chance>"
-			],
-	"unitTypes": ["Charmander", "Charizard"],
-	"prerequisites": ["Fire"],
+	"name": "Focus Energy",
+	"uniques": ["[+45]% Strength <with [20]% chance>"],
+	"unitTypes": ["Rattata","Beedrill","Mankey","Machop"],
+	"prerequisites": ["Normal","Poison Sting","Low Kick","Scratch"],
+	},
+	{
+	"name": "Foresight", //Removes Normal/Fighting immunity. Will add that status later
+	"uniques": ["Recognises Ghost type Pokemon","Can see invisible [Ghost] units"],
+	"unitTypes": ["Machop"],
+	"prerequisites": ["Focus Energy","Karate Chop"],
+	},
+	{
+	"name": "Harden",
+	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
+	"unitTypes": ["Cocoon"],
+	},
+	{
+	"name": "Screech",
+	"uniques": ["[Target Unit] gains the [-1 Defense] status for [5] turn(s) <upon damaging a [Military] unit>","[Target Unit] gains the [-2 Defense] status for [5] turn(s) <upon damaging a [Military] unit> <with [20]% chance>"],
+	"unitTypes": ["Ekans","Meowth","Mankey"],
+	"prerequisites": ["Karate Chop","Bite","Focus Energy"],
 	},
 	{
 	"name": "Smokescreen",
@@ -235,11 +288,38 @@
 	"prerequisites": ["Scratch","Ember"],
 	},
 	{
-	"name": "Dragon Rage", //maybe replace effect with flat damage, although the current effect is pretty neat
-	"uniques": ["Comment [Ignores defensive promotion buffs and most innate defensive bonuses against Targets with less than 41 HP. Does not ignore type dependent bonuses, bonuses against wounded units or chance dependent buffs.]","Dragon Rage"],
-	"unitTypes": ["Charmander", "Charizard"],
-	"prerequisites": ["Scratch","Ember"],
+	"name": "Splash",
+	"uniques": ["Comment [Does literally nothing]","Comment [Enables Moves]"],
+	"unitTypes": ["Magikarp"],
 	},
+	{
+	"name": "Sweet Scent", //Should have no requirements for Oddish; Maybe also make it apply status?
+	"uniques": ["Can see invisible [Pokémon] units","Comment [Boosts Adjacent Pokeballs]"],
+	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
+	"prerequisites": ["Take Down","Vine Whip","Absorb"],
+	},
+
+//Grass
+	//Physical
+	{
+	"name": "Razor Leaf",
+	"uniques": ["[+25]% Strength <with [20]% chance>","[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units>"],
+	"unitTypes": ["Bulbasaur","Bellsprout"],
+	"prerequisites": ["Take Down","Vine Whip"],
+	},
+	{
+	"name": "Vine Whip",
+	"uniques": ["[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>"],
+	"unitTypes": ["Bulbasaur","Bellsprout"],
+	"prerequisites": ["Tackle","Wrap","Leech Seed"],
+	},
+	//Special
+	{
+	"name": "Absorb",
+	"uniques": ["[This Unit] heals [10] HP <upon damaging a [Military] unit>"],
+	"unitTypes": ["Oddish"],
+	},
+	//Status
 	{
 	"name": "Leech Seed",
 	"uniques": [
@@ -249,36 +329,24 @@
 	"unitTypes": ["Bulbasaur"],
 	"prerequisites": ["Grass"],
 	},
+
+//Fire
+	//Physical
+	//Special
 	{
-	"name": "Vine Whip",
-	"uniques": ["[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>"],
-	"unitTypes": ["Bulbasaur","Bellsprout"],
-	"prerequisites": ["Tackle","Wrap","Leech Seed"],
+	"name": "Ember",
+	"uniques": [
+		"[+10]% Strength <vs [Grass] units>","[+10]% Strength <vs [Ice] units>","[+10]% Strength <vs [Bug] units>","[+10]% Strength <vs [Steel] units>",
+		"[Target Unit] gains the [Burned] status for [4] turn(s) <upon damaging a [non-[{Status Effect} {Fire}]] unit> <with [10]% chance>"
+			],
+	"unitTypes": ["Charmander", "Charizard"],
+	"prerequisites": ["Fire"],
 	},
-	{
-	"name": "Take Down",
-	"uniques": ["[+33]% Strength <when attacking> <vs [non-[Ghost]] units>","[This Unit] takes [15] damage <upon damaging a [non-[Ghost]] unit>"],
-	"unitTypes": ["Bulbasaur","Starly"],
-	"prerequisites": ["Tackle","Wrap","Leech Seed","Double Team"],
-	},
-	{
-	"name": "Razor Leaf",
-	"uniques": ["[+25]% Strength <with [20]% chance>","[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units>"],
-	"unitTypes": ["Bulbasaur","Bellsprout"],
-	"prerequisites": ["Take Down","Vine Whip"],
-	},
-	{
-	"name": "Sweet Scent", //Should have no requirements for Oddish; Maybe also make it apply status?
-	"uniques": ["Can see invisible [Pokémon] units","Comment [Boosts Adjacent Pokeballs]"],
-	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
-	"prerequisites": ["Take Down","Vine Whip","Absorb"],
-	},
-	{
-	"name": "Water Gun",
-	"uniques": ["[+15]% Strength <vs [Fire] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>"],
-	"unitTypes": ["Squirtle"],
-	"prerequisites": ["Tackle","Withdraw","Bubble","Scratch"],
-	},
+	//Status
+
+//Water
+	//Physical
+	//Special
 	{
 	"name": "Bubble",
 	"uniques": ["[Target Unit] gains the [Slowed] status for [5] turn(s) <upon damaging a [Pokémon] unit> <with [10]% chance>","[+10]% Strength <vs [Fire] units>","[+10]% Strength <vs [Ground] units>","[+10]% Strength <vs [Rock] units>"],
@@ -286,9 +354,63 @@
 	"prerequisites": ["Watertype"],
 	},
 	{
+	"name": "Water Gun",
+	"uniques": ["[+15]% Strength <vs [Fire] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>"],
+	"unitTypes": ["Squirtle"],
+	"prerequisites": ["Tackle","Withdraw","Bubble","Scratch"],
+	},
+	//Status
+	{
+	"name": "Withdraw",
+	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
+	"unitTypes": ["Squirtle"],
+	},
+
+//Bug
+	//Physical
+	{
+	"name": "Leech Life",
+	"uniques": [
+		"[This Unit] heals [10] HP <upon damaging a [Military] unit>",
+		"[+10]% Strength <vs [Psychic] units> <when attacking>","[+10]% Strength <vs [Dark] units> <when attacking>",
+		"[+10]% Strength <vs [Grass] units> <when attacking>","[+10]% Strength <vs [Fairy] units> <when attacking>"
+		],
+	"unitTypes": ["Zubat"],
+	},
+	{
+	"name": "Twineedle",
+	"uniques": ["[1] additional attacks per turn","[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [non-[{Status Effect} {Poison}]] unit> <with [20]% chance> <for units without [Poison Sting]>","[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [{non-[Status Effect]} {Steel}] unit> <with [20]% chance> <for units with [Poison Sting]>"],
+	"unitTypes": ["Beedrill"],
+	"prerequisites": ["Pursuit"],
+	},
+	//Special
+	{
+	"name": "Silver Wind",
+	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[This Unit] gains the [Omniboost] status for [5] turn(s) <upon damaging a [Military] unit> <with [10]% chance>"],
+	"unitTypes": ["Butterfree"],
+	"prerequisites": ["Gust","Psybeam"],
+	},
+	//Status
+
+//Flying
+	//Physical
+	{
 	"name": "Peck",
 	"uniques": ["[+15]% Strength <vs [Grass] units>","[+15]% Strength <vs [Fighting] units>","[+15]% Strength <vs [Bug] units>"],
 	"unitTypes": ["Spearow"],
+	},
+	{
+	"name": "Wing Attack",
+	"uniques": ["[+20]% Strength <vs [Grass] units> <when attacking>","[+20]% Strength <vs [Bug] units> <when attacking>","[+20]% Strength <vs [Fighting] units> <when attacking>","[+10]% Strength <when attacking>"],
+	"prerequisites": ["Feather Dance","Leech Life","Astonish","Tackle S"], //Tackle only for Starly, not for Pidgey!
+	"unitTypes": ["Pidgey","Zubat","Charizard","Starly"],
+	},
+	//Special
+	{
+	"name": "Air Cutter",
+	"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>","[+20]% Strength <with [20]% chance>"],
+	"prerequisites": ["Wing Attack","Bite"],
+	"unitTypes": ["Zubat"],
 	},
 	{
 	"name": "Gust",
@@ -296,30 +418,7 @@
 	"unitTypes": ["Pidgey","Butterfree"],
 	"prerequisites": ["Tackle","Confusion"],
 	},
-	{
-	"name": "Confusion",
-	"uniques": ["[+15]% Strength <vs [Trainer] units>","[+15]% Strength <vs [Fighting] units> <when attacking>","[+15]% Strength <vs [Poison] units> <when attacking>"],
-	"unitTypes": ["Butterfree"],
-	"prerequisites": ["Bug","Psychic"],
-	},
-	{
-	"name": "Psybeam",
-	"uniques": ["[+15]% Strength <vs [Trainer] units>","[+15]% Strength <when attacking>","[-15]% Strength <vs [Dark] units> <when attacking>"],
-	"unitTypes": ["Butterfree"],
-	"prerequisites": ["Confusion"],
-	},
-	{
-	"name": "Silver Wind",
-	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[This Unit] gains the [Omniboost] status for [5] turn(s) <upon damaging a [Military] unit> <with [10]% chance>"],
-	"unitTypes": ["Butterfree"],
-	"prerequisites": ["Gust","Psybeam"],
-	},
-	{
-	"name": "Tailwind", //Maybe make it non permanent
-	"uniques": ["[+1] Movement","Transfer Movement to [Civilian]"],
-	"unitTypes": ["Butterfree"],
-	"prerequisites": ["Gust","Psybeam"],
-	},
+	//Status
 	{
 	"name": "Feather Dance",
 	"uniques": ["[Target Unit] gains the [-2 Attack] status for [5] turn(s) <upon damaging a [Pokémon] unit>"],
@@ -333,52 +432,85 @@
 	"prerequisites": ["Agility","Wing Attack","Assurance"],
 	},
 	{
-	"name": "Bite",
-	"uniques": ["[+15]% Strength <when attacking>","[+15]% Strength <vs [Psychic] units> <when attacking>","[+15]% Strength <vs [Ghost] units> <when attacking>"],
-	"unitTypes": ["Squirtle","Rattata","Ekans","Meowth","Zubat"],
-	"prerequisites": ["Quick Attack","Water Gun","Poison Sting","Scratch","Astonish","Leech Life","Wrap"],
+	"name": "Tailwind", //Maybe make it non permanent
+	"uniques": ["[+1] Movement","Transfer Movement to [Civilian]"],
+	"unitTypes": ["Butterfree"],
+	"prerequisites": ["Gust","Psybeam"],
+	},
+
+//Poison
+	//Physical
+	{
+	"name": "Poison Sting",
+	"uniques": ["[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [non-[{Status Effect} {Poison} {Steel}]] unit> <with [30]% chance>"],
+	"unitTypes": ["Weedle","Beedrill","Ekans","Sandshrew"],
+	"prerequisites": ["Tackle","Scratch","Harden","Defense Curl","Withdraw","Poison"],
+	},
+	//Special
+	{
+	"name": "Acid",
+	"uniques": [
+		"[+20]% Strength <vs [Grass] units> <when attacking>","[+20]% Strength <vs [Fairy] units> <when attacking>",
+		"[+10]% Strength <vs [Grass] units> <when defending>","[+10]% Strength <vs [Fairy] units> <when defending>",
+		"[Target Unit] gains the [-1 Special Defense] status for [5] turn(s) <upon damaging a [non-[Steel]] unit> <with [10]% chance>"
+		],
+	"prerequisites": ["Absorb","Bite"],
+	"unitTypes": ["Ekans","Oddish"],
+	},
+	//Status
+
+//Ground
+	//Physical
+	{
+	"name": "Magnitude",
+	"uniques": ["[+10]% Strength <when attacking> <vs cities>","[+15]% Strength <when attacking> <vs cities> <with [66]% chance>","[+20]% Strength <when attacking> <vs cities> <with [50]% chance>","[+25]% Strength <when attacking> <vs cities> <with [20]% chance>","[+50]% Strength <when attacking> <vs cities> <with [10]% chance>","[+100]% Strength <when attacking> <vs cities> <with [5]% chance>"],
+	"unitTypes": ["Geodude","Sandshrew"],
+	"prerequisites": ["Tackle","Defense Curl","Scratch"],
+	},
+	//Special
+	//Status
+
+//Rock
+	//Physical
+	{
+	"name": "Rock Blast",
+	"uniques": ["[1] additional attacks per turn"],
+	"unitTypes": ["Geodude"],
+	"prerequisites": ["Rock Polish","Magnitude","Rock Throw"],
 	},
 	{
-	"name": "Focus Energy",
-	"uniques": ["[+45]% Strength <with [20]% chance>"],
-	"unitTypes": ["Rattata","Beedrill","Mankey","Machop"],
-	"prerequisites": ["Normal","Poison Sting","Low Kick","Scratch"],
+	"name": "Rock Throw",
+	"uniques": ["[+20]% Strength <vs [Fire] units>","[+20]% Strength <vs [Flying] units>","[+20]% Strength <vs [Ice] units> <when attacking>","[+20]% Strength <vs [Bug] units> <when attacking>"],
+	"unitTypes": ["Geodude"],
+	"prerequisites": ["Tackle","Defense Curl","Scratch"],
 	},
 	{
-	"name": "Rage",
-	"uniques": ["Comment [Rage activates by attacking an enemy and gives an attack bonus that rises every time this Pokémon is attacked. If this Pokémon doesn't attack an enemy for a whole turn, the built up bonuses are lost. The Rage bonuses are also lost if the Pokémon isn't attacked for 5 turns. Rage stacks up a maximum of 5 times, up to an attack bonus of +100% Strength]","[This Unit] gains the [Rage Active] status for [2] turn(s) <upon damaging a [Pokémon] unit>","No damage penalty for wounded units"],
-	"unitTypes": ["Beedrill"],
-	"prerequisites": ["Poison Sting"],
+	"name": "Rollout",
+	"uniques": ["[+5]% Strength","[+5]% Strength <starting from the [First Badge]>","[+5]% Strength <starting from the [Second Badge]>"],
+	"unitTypes": ["Geodude","Sandshrew"],
+	"prerequisites": ["Rock Polish","Magnitude","Rock Throw","Poison Sting"],
 	},
+	//Special
+	//Status
 	{
-	"name": "Pursuit",
-	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
-	"unitTypes": ["Beedrill","Rattata","Spearow"],
-	"prerequisites": ["Rage","Focus Energy","Peck"],
-	},
-	{
-	"name": "Twineedle",
-	"uniques": ["[1] additional attacks per turn","[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [non-[{Status Effect} {Poison}]] unit> <with [20]% chance> <for units without [Poison Sting]>","[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [{non-[Status Effect]} {Steel}] unit> <with [20]% chance> <for units with [Poison Sting]>"],
-	"unitTypes": ["Beedrill"],
-	"prerequisites": ["Pursuit"],
-	},
-	{
-	"name": "Agility",
+	"name": "Rock Polish",
 	"uniques": ["[+1] Movement","Fastened"],
-	"unitTypes": ["Beedrill","Pidgey","Spearow","Pikachu","Starly"],
-	"prerequisites": ["Pursuit","Feather Dance","Thunderbolt","Double Team","Slam"],
+	"unitTypes": ["Geodude"],
+	"prerequisites": ["Tackle","Defense Curl"],
 	},
+
+//Electric
+	//Physical
+	//Special
 	{
-	"name": "Quick Attack", //I still have no clue what the uniques should actually be, so here, have decent placeholder uniques
-	"uniques": ["Can move after attacking","[+25]% XP gained from combat"],
-	"unitTypes": ["Rattata","Pikachu","Pidgey","Starly"],
-	"prerequisites": ["Tackle","Tackle S","Focus Energy","Thunder Shock"],
-	},
-	{
-	"name": "Wrap", //eventually come back and make the movement removal fail if the Target has only 1 movement
-			//Will add trapped status later
-	"uniques": ["[Target Unit] loses [1] movement <upon damaging a [non-[{Geodude} {Abra}]] unit>","[Target Unit] loses [1] movement <upon damaging a [{Fastened} {Geodude}] unit>","[Target Unit] loses [1] movement <upon damaging a [{Fastened} {Abra}] unit>","[Target Unit] takes [5] damage <upon damaging a [Military] unit>"],
-	"unitTypes": ["Ekans","Bellsprout"],
+	"name": "Electro Ball",
+	"uniques": [
+		"[+20]% Strength <vs [Slow] units>","[-20]% Strength <vs [{Fastened} {Slow}] units>", //Speed 16-35 first stage, 36-60 Last Stage
+		"[+40]% Strength <vs [Very Slow] units>","[-20]% Strength <vs [{Fastened} {Very Slow}] units>", //Speed <16 first Stage, <31 Last Stage
+		"[+20]% Strength <vs [Slowed] units>","[-20]% Strength <vs [{Fastened} {Slowed}] units>",
+		],
+	"unitTypes": ["Pikachu"],
+	"prerequisites": ["Thunder Shock"],
 	},
 	{
 	"name": "Thunder Shock",
@@ -391,28 +523,6 @@
 	"prerequisites": ["Electric"],
 	},
 	{
-	"name": "Electro Ball",
-	"uniques": [
-		"[+20]% Strength <vs [Slow] units>","[-20]% Strength <vs [{Fastened} {Slow}] units>", //Speed 16-35 first stage, 36-60 Last Stage
-		"[+40]% Strength <vs [Very Slow] units>","[-20]% Strength <vs [{Fastened} {Very Slow}] units>", //Speed <16 first Stage, <31 Last Stage
-		"[+20]% Strength <vs [Slowed] units>","[-20]% Strength <vs [{Fastened} {Slowed}] units>",
-		],
-	"unitTypes": ["Pikachu"],
-	"prerequisites": ["Thunder Shock"],
-	},
-	{
-	"name": "Double Team", //rework necessary to make it avoid other attacks if possible
-	"uniques": ["Withdraws before melee combat <with [33]% chance>"],
-	"unitTypes": ["Pikachu","Starly"],
-	"prerequisites": ["Electro Ball","Quick Attack","Wing Attack"],
-	},
-	{
-	"name": "Slam",
-	"uniques": ["[+20]% Strength <when attacking> <with [75]% chance>"],
-	"unitTypes": ["Pikachu","Bellsprout"],
-	"prerequisites": ["Electro Ball","Quick Attack","Sweet Scent","Razor Leaf"],
-	},
-	{
 	"name": "Thunderbolt", //actually spelled Thunderbolt, whoopsie
 	"uniques": [
 		"[+20]% Strength <vs [Watertype] units>","[+20]% Strength <vs [Flying] units>",
@@ -422,64 +532,44 @@
 	"unitTypes": ["Pikachu"],
 	"prerequisites": ["Electro Ball","Quick Attack"],
 	},
+	//Status
+
+//Psychic
+	//Physical
+	//Special
 	{
-	"name": "Disarming Voice",
-	"uniques": ["[+10]% Strength <when attacking>","[+10]% Strength <vs [Dark] units> <when attacking>","[+10]% Strength <vs [Fighting] units> <when attacking>","[+10]% Strength <vs [Dragon] units> <when attacking>"],
-	"unitTypes": ["Clefairy"],
-	"prerequisites": ["Fairy"],
+	"name": "Confusion",
+	"uniques": ["[+15]% Strength <vs [Trainer] units>","[+15]% Strength <vs [Fighting] units> <when attacking>","[+15]% Strength <vs [Poison] units> <when attacking>"],
+	"unitTypes": ["Butterfree"],
+	"prerequisites": ["Bug","Psychic"],
 	},
 	{
-	"name": "Double Slap",
-	"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
-	"unitTypes": ["Clefairy"],
-	"prerequisites": ["Pound","Disarming Voice"],
+	"name": "Psybeam",
+	"uniques": ["[+15]% Strength <vs [Trainer] units>","[+15]% Strength <when attacking>","[-15]% Strength <vs [Dark] units> <when attacking>"],
+	"unitTypes": ["Butterfree"],
+	"prerequisites": ["Confusion"],
+	},
+	//Status
+	{
+	"name": "Agility",
+	"uniques": ["[+1] Movement","Fastened"],
+	"unitTypes": ["Beedrill","Pidgey","Spearow","Pikachu","Starly"],
+	"prerequisites": ["Pursuit","Feather Dance","Thunderbolt","Double Team","Slam"],
 	},
 	{
-	"name": "Leech Life",
-	"uniques": [
-		"[This Unit] heals [10] HP <upon damaging a [Military] unit>",
-		"[+10]% Strength <vs [Psychic] units> <when attacking>","[+10]% Strength <vs [Dark] units> <when attacking>",
-		"[+10]% Strength <vs [Grass] units> <when attacking>","[+10]% Strength <vs [Fairy] units> <when attacking>"
-		],
-	"unitTypes": ["Zubat"],
+	"name": "Teleport",
+	"uniques": ["May Paradrop up to [4] tiles from inside friendly territory"],
+	"unitTypes": ["Abra"],
+	"prerequisites": ["Psychic"],
 	},
+
+//Fighting
+	//Physical
 	{
-	"name": "Astonish",
-	"uniques": ["[+20]% Strength <vs [Ghost] units> <when attacking>","[+20]% Strength <vs [Psychic] units> <when attacking>","[+10]% Strength <vs [Ghost] units> <when defending>","[+10]% Strength <vs [Psychic] units> <when defending>","[+25]% to Flank Attack bonuses"],
-	"unitTypes": ["Zubat"],
-	},
-	{
-	"name": "Wing Attack",
-	"uniques": ["[+20]% Strength <vs [Grass] units> <when attacking>","[+20]% Strength <vs [Bug] units> <when attacking>","[+20]% Strength <vs [Fighting] units> <when attacking>","[+10]% Strength <when attacking>"],
-	"prerequisites": ["Feather Dance","Leech Life","Astonish","Tackle S"], //Tackle only for Starly, not for Pidgey!
-	"unitTypes": ["Pidgey","Zubat","Charizard","Starly"],
-	},
-	{
-	"name": "Air Cutter",
-	"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>","[+20]% Strength <with [20]% chance>"],
-	"prerequisites": ["Wing Attack","Bite"],
-	"unitTypes": ["Zubat"],
-	},
-	{
-	"name": "Absorb",
-	"uniques": ["[This Unit] heals [10] HP <upon damaging a [Military] unit>"],
-	"unitTypes": ["Oddish"],
-	},
-	{
-	"name": "Acid",
-	"uniques": [
-		"[+20]% Strength <vs [Grass] units> <when attacking>","[+20]% Strength <vs [Fairy] units> <when attacking>",
-		"[+10]% Strength <vs [Grass] units> <when defending>","[+10]% Strength <vs [Fairy] units> <when defending>",
-		"[Target Unit] gains the [-1 Special Defense] status for [5] turn(s) <upon damaging a [non-[Steel]] unit> <with [10]% chance>"
-		],
-	"prerequisites": ["Absorb","Bite"],
-	"unitTypes": ["Ekans","Oddish"],
-	},
-	{
-	"name": "Moonlight",
-	"uniques": ["[+10] HP when healing"],
-	"prerequisites": ["Sweet Scent","Acid","Defense Curl","Double Slap"], //Clef should get higher tier prerequisites
-	"unitTypes": ["Clefairy","Oddish"],
+	"name": "Karate Chop",
+	"uniques": ["[+15]% Strength <with [20]% chance>","[+15]% Strength <when attacking>"],
+	"unitTypes": ["Machop","Mankey"],
+	"prerequisites": ["Low Kick","Scratch"],
 	},
 	{
 	"name": "Low Kick", //to be nerfed maybe
@@ -491,23 +581,42 @@
 	"prerequisites": ["Fighting"],
 	},
 	{
-	"name": "Karate Chop",
-	"uniques": ["[+15]% Strength <with [20]% chance>","[+15]% Strength <when attacking>"],
-	"unitTypes": ["Machop","Mankey"],
-	"prerequisites": ["Low Kick","Scratch"],
+	"name": "Revenge", //supposed to be against the same target that has attacked it. Not doable atm
+	"uniques": ["[+25]% Strength <when attacking> <when below [80] HP>"],
+	"unitTypes": ["Machop"],
+	"prerequisites": ["Focus Energy","Karate Chop"],
 	},
+	//Focus Miss
+	//Status
+
+//Ice
+	//Physical
+	//Special
+	//Status
+
+//Ghost
+	//Physical
 	{
-	"name": "Screech",
-	"uniques": ["[Target Unit] gains the [-1 Defense] status for [5] turn(s) <upon damaging a [Military] unit>","[Target Unit] gains the [-2 Defense] status for [5] turn(s) <upon damaging a [Military] unit> <with [20]% chance>"],
-	"unitTypes": ["Ekans","Meowth","Mankey"],
-	"prerequisites": ["Karate Chop","Bite","Focus Energy"],
+	"name": "Astonish", //to be reworked
+	"uniques": ["[+20]% Strength <vs [Ghost] units> <when attacking>","[+20]% Strength <vs [Psychic] units> <when attacking>","[+10]% Strength <vs [Ghost] units> <when defending>","[+10]% Strength <vs [Psychic] units> <when defending>","[+25]% to Flank Attack bonuses"],
+	"unitTypes": ["Zubat"],
 	},
+	//Special
+	//Status
+
+//Dragon
+	//Physical
+	//Special
 	{
-	"name": "Pay Day",
-	"uniques": ["Earn [60]% of the damage done to [Pokémon] units as [Gold]"],
-	"unitTypes": ["Meowth"],
-	"prerequisites": ["Screech","Assurance"],
+	"name": "Dragon Rage", //maybe replace effect with flat damage, although the current effect is pretty neat
+	"uniques": ["Comment [Ignores defensive promotion buffs and most innate defensive bonuses against Targets with less than 41 HP. Does not ignore type dependent bonuses, bonuses against wounded units or chance dependent buffs.]","Dragon Rage"],
+	"unitTypes": ["Charmander", "Charizard"],
+	"prerequisites": ["Scratch","Ember"],
 	},
+	//Status
+
+//Dark
+	//Physical
 	{
 	"name": "Assurance", //may need a rework, will never happen though
 	"uniques": ["[+25]% Strength <vs [Wounded] units>"],
@@ -515,58 +624,42 @@
 	"prerequisites": ["Karate Chop","Bite","Pursuit"],
 	},
 	{
-	"name": "Rock Polish",
-	"uniques": ["[+1] Movement","Fastened"],
-	"unitTypes": ["Geodude"],
-	"prerequisites": ["Tackle","Defense Curl"],
+	"name": "Bite",
+	"uniques": ["[+15]% Strength <when attacking>","[+15]% Strength <vs [Psychic] units> <when attacking>","[+15]% Strength <vs [Ghost] units> <when attacking>"],
+	"unitTypes": ["Squirtle","Rattata","Ekans","Meowth","Zubat"],
+	"prerequisites": ["Quick Attack","Water Gun","Poison Sting","Scratch","Astonish","Leech Life","Wrap"],
 	},
 	{
-	"name": "Magnitude",
-	"uniques": ["[+10]% Strength <when attacking> <vs cities>","[+15]% Strength <when attacking> <vs cities> <with [66]% chance>","[+20]% Strength <when attacking> <vs cities> <with [50]% chance>","[+25]% Strength <when attacking> <vs cities> <with [20]% chance>","[+50]% Strength <when attacking> <vs cities> <with [10]% chance>","[+100]% Strength <when attacking> <vs cities> <with [5]% chance>"],
-	"unitTypes": ["Geodude","Sandshrew"],
-	"prerequisites": ["Tackle","Defense Curl","Scratch"],
+	"name": "Pursuit",
+	"uniques": ["[+15]% Strength <vs [Wounded] units>"],
+	"unitTypes": ["Beedrill","Rattata","Spearow"],
+	"prerequisites": ["Rage","Focus Energy","Peck"],
 	},
+	//Special
+	//Status
+
+//Steel
+	//Physical
+	//Special
+	//Status
+
+//Fairy
+	//Physical
+	//Special
 	{
-	"name": "Rock Throw",
-	"uniques": ["[+20]% Strength <vs [Fire] units>","[+20]% Strength <vs [Flying] units>","[+20]% Strength <vs [Ice] units> <when attacking>","[+20]% Strength <vs [Bug] units> <when attacking>"],
-	"unitTypes": ["Geodude"],
-	"prerequisites": ["Tackle","Defense Curl","Scratch"],
+	"name": "Disarming Voice",
+	"uniques": ["[+10]% Strength <when attacking>","[+10]% Strength <vs [Dark] units> <when attacking>","[+10]% Strength <vs [Fighting] units> <when attacking>","[+10]% Strength <vs [Dragon] units> <when attacking>"],
+	"unitTypes": ["Clefairy"],
+	"prerequisites": ["Fairy"],
 	},
+	//Status
 	{
-	"name": "Rock Blast",
-	"uniques": ["[1] additional attacks per turn"],
-	"unitTypes": ["Geodude"],
-	"prerequisites": ["Rock Polish","Magnitude","Rock Throw"],
+	"name": "Moonlight",
+	"uniques": ["[+10] HP when healing"],
+	"prerequisites": ["Sweet Scent","Acid","Defense Curl","Double Slap"], //Clef should get higher tier prerequisites
+	"unitTypes": ["Clefairy","Oddish"],
 	},
-	{
-	"name": "Rollout",
-	"uniques": ["[+5]% Strength","[+5]% Strength <starting from the [First Badge]>","[+5]% Strength <starting from the [Second Badge]>"],
-	"unitTypes": ["Geodude","Sandshrew"],
-	"prerequisites": ["Rock Polish","Magnitude","Rock Throw","Poison Sting"],
-	},
-	{
-	"name": "Foresight", //Removes Normal/Fighting immunity. Will add that status later
-	"uniques": ["Recognises Ghost type Pokemon","Can see invisible [Ghost] units"],
-	"unitTypes": ["Machop"],
-	"prerequisites": ["Focus Energy","Karate Chop"],
-	},
-	{
-	"name": "Revenge", //supposed to be against the same target that has attacked it. Not doable atm
-	"uniques": ["[+25]% Strength <when attacking> <when below [80] HP>"],
-	"unitTypes": ["Machop"],
-	"prerequisites": ["Focus Energy","Karate Chop"],
-	},
-	{
-	"name": "Teleport",
-	"uniques": ["May Paradrop up to [4] tiles from inside friendly territory"],
-	"unitTypes": ["Abra"],
-	"prerequisites": ["Psychic"],
-	},
-	{
-	"name": "Splash",
-	"uniques": ["Comment [Does literally nothing]","Comment [Enables Moves]"],
-	"unitTypes": ["Magikarp"],
-	},
+
 
 //Trainers
 	{

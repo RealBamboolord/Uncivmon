@@ -6,28 +6,28 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Mt Moon Exploration
   rotate: false
-  xy: 1044, 820
+  xy: 1252, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Potion
   rotate: false
-  xy: 1252, 820
+  xy: 1044, 404
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Boulder Badge
   rotate: false
-  xy: 4, 612
+  xy: 212, 404
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Moon Stone
   rotate: false
-  xy: 836, 612
+  xy: 1044, 612
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -615,7 +615,7 @@ UnitIcons/Bellsprout
   index: -1
 UnitIcons/Bug Catcher
   rotate: false
-  xy: 4, 404
+  xy: 212, 196
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -671,7 +671,7 @@ UnitIcons/Egg
   index: -1
 UnitIcons/Fisherman
   rotate: false
-  xy: 212, 196
+  xy: 1044, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -699,7 +699,7 @@ UnitIcons/Pikachu
   index: -1
 UnitIcons/Pokeball
   rotate: false
-  xy: 1044, 612
+  xy: 836, 196
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -739,16 +739,163 @@ UnitIcons/Youngster
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Backpack
+UnitPromotionIcons/Absorb
   rotate: false
   xy: 4, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Bug
+UnitPromotionIcons/Grass
+  rotate: false
+  xy: 4, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Leech Seed
+  rotate: false
+  xy: 4, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Razor Leaf
+  rotate: false
+  xy: 4, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Vine Whip
+  rotate: false
+  xy: 4, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Acid
+  rotate: false
+  xy: 4, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Poison
+  rotate: false
+  xy: 4, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Poison Sting
+  rotate: false
+  xy: 4, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Agility
   rotate: false
   xy: 212, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Confusion
+  rotate: false
+  xy: 212, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Psybeam
+  rotate: false
+  xy: 212, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Psychic
+  rotate: false
+  xy: 212, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Teleport
+  rotate: false
+  xy: 212, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Air Cutter
+  rotate: false
+  xy: 4, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Feather Dance
+  rotate: false
+  xy: 4, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Flying
+  rotate: false
+  xy: 4, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Gust
+  rotate: false
+  xy: 4, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Peck
+  rotate: false
+  xy: 4, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Roost
+  rotate: false
+  xy: 4, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tailwind
+  rotate: false
+  xy: 4, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wing Attack
+  rotate: false
+  xy: 4, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Assurance
+  rotate: false
+  xy: 212, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bite
+  rotate: false
+  xy: 212, 612
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -760,91 +907,364 @@ UnitPromotionIcons/Dark
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Dragon
+UnitPromotionIcons/Pursuit
+  rotate: false
+  xy: 212, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Astonish
   rotate: false
   xy: 420, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Electric
+UnitPromotionIcons/Ghost
+  rotate: false
+  xy: 420, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Backpack
   rotate: false
   xy: 4, 196
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Fairy
-  rotate: false
-  xy: 212, 404
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fighting
+UnitPromotionIcons/Bubble
   rotate: false
   xy: 420, 612
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Fire
+UnitPromotionIcons/Water Gun
+  rotate: false
+  xy: 420, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Watertype
+  rotate: false
+  xy: 420, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Withdraw
+  rotate: false
+  xy: 420, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bug
   rotate: false
   xy: 628, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/FloatingGhost
+UnitPromotionIcons/Leech Life
+  rotate: false
+  xy: 628, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Silver Wind
+  rotate: false
+  xy: 628, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Twineedle
+  rotate: false
+  xy: 628, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Defense Curl
   rotate: false
   xy: 420, 404
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/StridingGhost
+UnitPromotionIcons/Double Slap
   rotate: false
   xy: 420, 404
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Flying
+UnitPromotionIcons/Double Team
   rotate: false
-  xy: 628, 612
+  xy: 420, 404
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Grass
+UnitPromotionIcons/Focus Energy
   rotate: false
-  xy: 836, 820
+  xy: 420, 404
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Ground
+UnitPromotionIcons/Foresight
   rotate: false
-  xy: 420, 196
+  xy: 420, 404
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Ice
+UnitPromotionIcons/Harden
   rotate: false
-  xy: 628, 404
+  xy: 420, 404
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Normal
   rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pay Day
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pound
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Quick Attack
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rage
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Scratch
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Screech
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Slam
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Smokescreen
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Splash
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sweet Scent
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tackle
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tackle M
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tackle S
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Take Down
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wrap
+  rotate: false
+  xy: 420, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Disarming Voice
+  rotate: false
+  xy: 628, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fairy
+  rotate: false
+  xy: 628, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Moonlight
+  rotate: false
+  xy: 628, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Dragon
+  rotate: false
+  xy: 836, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Dragon Rage
+  rotate: false
+  xy: 836, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Electric
+  rotate: false
+  xy: 420, 196
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Electro Ball
+  rotate: false
+  xy: 420, 196
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Thunder Shock
+  rotate: false
+  xy: 420, 196
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Thunderbolt
+  rotate: false
+  xy: 420, 196
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ember
+  rotate: false
+  xy: 628, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fire
+  rotate: false
+  xy: 628, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fighting
+  rotate: false
+  xy: 836, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Karate Chop
+  rotate: false
+  xy: 836, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Low Kick
+  rotate: false
+  xy: 836, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Revenge
+  rotate: false
+  xy: 836, 612
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ground
+  rotate: false
   xy: 628, 196
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Poison
+UnitPromotionIcons/Magnitude
+  rotate: false
+  xy: 628, 196
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice
   rotate: false
   xy: 836, 404
   size: 200, 200
@@ -853,40 +1273,54 @@ UnitPromotionIcons/Poison
   index: -1
 UnitPromotionIcons/Potion
   rotate: false
-  xy: 836, 196
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Psychic
-  rotate: false
-  xy: 1044, 404
+  xy: 1252, 612
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Repel
   rotate: false
-  xy: 1252, 612
+  xy: 1460, 820
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rock
   rotate: false
-  xy: 1460, 820
+  xy: 1044, 196
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Steel
+UnitPromotionIcons/Rock Blast
   rotate: false
   xy: 1044, 196
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Water
+UnitPromotionIcons/Rock Polish
+  rotate: false
+  xy: 1044, 196
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rock Throw
+  rotate: false
+  xy: 1044, 196
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rollout
+  rotate: false
+  xy: 1044, 196
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Steel
   rotate: false
   xy: 1252, 404
   size: 200, 200
