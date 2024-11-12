@@ -3,7 +3,7 @@
 	{
 		"name": "Test Wonder",
 		"isWonder": true,
-		"uniqueTo": Kanto,
+		"uniqueTo": "Kanto",
 		"cost": 1,
 		"uniques": [
 			"Only available <for [Human player]>",
