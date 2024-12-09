@@ -154,7 +154,7 @@
 // Special/Evolution Promotions
 	{
 	"name": "Cocoon Spinning",
-	"uniques": ["[This Unit] upgrades for free including special upgrades","[This Unit] heals [30] HP"],
+	"uniques": ["Comment [WARNING! Picking this will evolve the Pokémon into an immobile Cocoon Pokémon. Make sure to move it to a good location where it can collect XP before doing so]", "[This Unit] upgrades for free including special upgrades","[This Unit] heals [30] HP"],
 	"prerequisites": ["Tackle","Poison Sting"],
 	"unitTypes": ["Caterpie","Weedle"],
 	},
