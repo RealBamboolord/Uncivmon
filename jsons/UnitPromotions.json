@@ -200,6 +200,12 @@
 	"prerequisites": ["Tackle","Tackle S","Focus Energy","Thunder Shock"],
 	},
 	{
+	"name": "Rapid Spin",
+	"uniques": ["Comment [Frees this Pokémon from statuses such as leech side or bind when attacking. Does not work against Ghost Type Pokémon. WIP note: Since Trapping don't give statuses currently and entry hazards don't exist yet this only removes Leech Seed condition.]","[This Unit] loses the [Seeded] status <upon damaging a [non-[Ghost]] unit>","[This Unit] gains [1] movement <upon damaging a [non-[Ghost]] unit>"],
+	"unitTypes": ["Beedrill"],
+	"prerequisites": ["Poison Sting"],
+	},
+	{
 	"name": "Rage",
 	"uniques": ["Comment [Rage activates by attacking an enemy and gives an attack bonus that rises every time this Pokémon is attacked. If this Pokémon doesn't attack an enemy for a whole turn, the built up bonuses are lost. The Rage bonuses are also lost if the Pokémon isn't attacked for 5 turns. Rage stacks up a maximum of 5 times, up to an attack bonus of +100% Strength]","[This Unit] gains the [Rage Active] status for [2] turn(s) <upon damaging a [Pokémon] unit>","No damage penalty for wounded units"],
 	"unitTypes": ["Beedrill"],
