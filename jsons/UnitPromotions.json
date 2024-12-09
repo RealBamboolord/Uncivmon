@@ -202,8 +202,8 @@
 	{
 	"name": "Rapid Spin",
 	"uniques": ["Comment [Frees this Pokémon from statuses such as leech side or bind when attacking. Does not work against Ghost Type Pokémon. WIP note: Since Trapping don't give statuses currently and entry hazards don't exist yet this only removes Leech Seed condition.]","[This Unit] loses the [Seeded] status <upon damaging a [non-[Ghost]] unit>","[This Unit] gains [1] movement <upon damaging a [non-[Ghost]] unit>"],
-	"unitTypes": ["Beedrill"],
-	"prerequisites": ["Poison Sting"],
+	"unitTypes": ["Squirtle","Sandshrew"],
+	"prerequisites": ["Water Gun","Bite","Scratch","Defense Curl"],
 	},
 	{
 	"name": "Rage",
@@ -494,7 +494,7 @@
 	"name": "Rollout",
 	"uniques": ["[+5]% Strength","[+5]% Strength <starting from the [First Badge]>","[+5]% Strength <starting from the [Second Badge]>"],
 	"unitTypes": ["Geodude","Sandshrew"],
-	"prerequisites": ["Rock Polish","Magnitude","Rock Throw","Poison Sting"],
+	"prerequisites": ["Rock Polish","Magnitude","Rock Throw","Poison Sting","Rapid Spin"],
 	},
 	//Special
 	//Status
@@ -633,7 +633,7 @@
 	"name": "Bite",
 	"uniques": ["[+15]% Strength <when attacking>","[+15]% Strength <vs [Psychic] units> <when attacking>","[+15]% Strength <vs [Ghost] units> <when attacking>"],
 	"unitTypes": ["Squirtle","Rattata","Ekans","Meowth","Zubat"],
-	"prerequisites": ["Quick Attack","Water Gun","Poison Sting","Scratch","Astonish","Leech Life","Wrap"],
+	"prerequisites": ["Quick Attack","Bubble","Withdraw","Poison Sting","Scratch","Astonish","Leech Life","Wrap"],
 	},
 	{
 	"name": "Pursuit",
