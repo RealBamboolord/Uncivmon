@@ -138,6 +138,11 @@
     },
 //Pokemon Water
     {
+        "name": "Goldeen",
+        "movementType": "Water",
+        "uniques": ["Pokémon","Watertype"]
+    },
+    {
         "name": "Magikarp",
         "movementType": "Water",
         "uniques": ["Pokémon","Watertype"]

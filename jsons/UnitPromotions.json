@@ -178,9 +178,21 @@
 	//Physical
 	{
 	"name": "Double Slap",
-	"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
+	"uniques": ["[+10]% Strength <when attacking>","[+50]% XP gained from combat"],
 	"unitTypes": ["Clefairy"],
 	"prerequisites": ["Pound","Disarming Voice"],
+	},
+	{
+	"name": "Flail",
+	"uniques": ["[+15]% Strength <when below [32] HP>","[+25]% Strength <when below [16] HP>","[+40]% Strength <when below [8] HP>","[+100]% Strength <when below [4] HP>",],
+	"unitTypes": ["Goldeen","Magikarp"],
+	"prerequisites": ["Peck","Tackle M"],
+	},
+	{
+	"name": "Horn Attack",
+	"uniques": ["[+15]% Strength <when attacking> <vs [non-[Ghost]] units>","[+30]% Strength <when attacking> <vs cities>"],
+	"unitTypes": ["Goldeen"],
+	"prerequisites": ["Peck"],
 	},
 	{
 	"name": "Pay Day",
@@ -367,11 +379,16 @@
 	},
 	//Status
 	{
+	"name": "Aqua Ring",
+	"uniques": ["Unit will heal every turn, even if it performs an action","May heal outside of friendly territory"],
+	"unitTypes": ["Goldeen"],
+	"prerequisites": ["Flail","Horn Attack"],
+	},
+    {
 	"name": "Withdraw",
 	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
 	"unitTypes": ["Squirtle"],
 	},
-
 //Bug
 	//Physical
 	{
@@ -403,7 +420,7 @@
 	{
 	"name": "Peck",
 	"uniques": ["[+15]% Strength <vs [Grass] units>","[+15]% Strength <vs [Fighting] units>","[+15]% Strength <vs [Bug] units>"],
-	"unitTypes": ["Spearow"],
+	"unitTypes": ["Spearow","Goldeen"],
 	},
 	{
 	"name": "Wing Attack",
