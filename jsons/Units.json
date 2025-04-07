@@ -100,7 +100,9 @@
 		"range": 2,
 		"upgradesTo": "Wartortle",
 		"promotions": ["Watertype"],
-		"uniques": ["Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Can only be built <in cities with a [Choose Squirtle]>"],
+		"uniques": [
+            //"Turn this tile into a [ClearWeather] tile <upon ending a turn in a [Desert] tile>", //test              
+            "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "Starter Pokemon", "Can only be built <in cities with a [Choose Squirtle]>"],
 		"replacementTextForUniques": "You can only have a single Starter Pokémon at any given time",
 		"requiredResource": "Starter Limiter",
 		"obsoleteTech": "River Crossing",
@@ -131,6 +133,7 @@
 		"movement": 2,
 		"strength": 5,
 		"upgradesTo": "Metapod",
+        //"uniques": ["Turn this tile into a [Sandstorm] tile <upon ending a turn in a [Desert] tile>"] //test
 		"promotions": ["Bug"],
 		"attackSound": "cannon"
 	},
@@ -588,35 +591,33 @@
 //Gym Leaders
 	{
 		"name": "Brock&Onix",
-		"unitType": "Trainer",
+		"unitType": "Brock",
 		"cost": 500,
 		"movement": 2,
 		"strength": 20,
 		"requiredResource": "Boulder Badge",
 		"uniques": [
 			"[+25]% Strength <when defending>","[-50]% Strength <when attacking>",
-			"Double movement in [Hill]", //Give to Dig later and give free Dig
 			"Unbuildable <without [Boulder Badge]>",
 			"Very Heavy","Limited to [1] per Civilization","Never appears as a Barbarian unit",
 			"[+15]% Strength bonus for [Rock] units within [1] tiles","Can carry [3] [Pokéball] units"
 			]
 		"attackSound": "nonmetalhit"
-		"promotions": ["Rock","Ground"],
+		"promotions": ["Rock","Ground","Dig"], //Rock Tomb once implemented
 	},
 	{
 		"name": "Falkner&Pidgeotto",
-		"unitType": "Trainer",
+		"unitType": "Falkner",
 		"cost": 500,
 		"movement": 3,
 		"strength": 17,
 		"requiredResource": "Zephyr Badge",
 		"uniques": [
-			//"Can move after attacking", Free Quick Attack
 			"Unbuildable <without [Zephyr Badge]>",
 			"Limited to [1] per Civilization","Never appears as a Barbarian unit",
 			"[+10]% Strength bonus for [Flying] units within [2] tiles","Can carry [3] [Pokéball] units"]
 		"attackSound": "nonmetalhit"
-		"promotions": ["Normal","Flying","Quick Attack"],
+		"promotions": ["Normal","Flying","Quick Attack","Roost"],
 	},
 	
 	/* Great people */

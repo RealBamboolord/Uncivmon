@@ -18,7 +18,7 @@
 			"Free [Sandshrew] appears", 
 			"Free [Pikachu] appears", 
 			"Free [Ekans] appears", 
-			"Free [Meowth] appears", 
+			"Free [Meowth] appears",
 			"Free [Mankey] appears",
 			"Free [Geodude] appears",
 			"Free [Clefairy] appears",
@@ -245,8 +245,8 @@
 		"culture": 1,
 		"production": 1,
 		"uniques": [
-			"Gain a free [First Gym] [in this city]",
-			"Provides [1] [First Badge]",
+			"Gain a free [First Gym] [in this city] <hidden from users>",
+			"Provides [1] [First Badge] <hidden from users>",
 			"Provides [1] [Boulder Badge]",
 			"Only available <without [First Badge]>",
 			"Free [Brock&Onix] appears",
@@ -263,14 +263,15 @@
 		"culture": 1,
 		"gold": 1,
 		"uniques": [
-			"Gain a free [First Gym] [in this city]",
-			"Provides [1] [First Badge]",
+			"Gain a free [First Gym] [in this city] <hidden from users>",
+			"Gain a free [TM 51] [in this city]",
+			"Provides [1] [First Badge] <hidden from users>",
 			"Provides [1] [Zephyr Badge]",
 			"Only available <without [First Badge]>",
 			"Free [Falkner&Pidgeotto] appears",
 			"New [Flying] units start with [10] Experience [in this city]",
 			"[+15]% Strength <for [Flying] units> <when attacking>",
-//"Enables you to build TM 51 Roost"
+			"Comment [Enables you to build TM 51 Roost]"
 			   ],
 		"requiredTech": "First Gym"
 	},
@@ -342,8 +343,6 @@
 	},
 
 	//Column 6
-
-	//Column 7
 	{
 		"name": "Sprout Tower",
 		"isWonder": true,
@@ -355,4 +354,58 @@
 		"greatPersonPoints": {"Great Merchant": 1}, //Artist
 		"requiredTech": "Spirituality"
 	},
+	//Column 7
+	{
+		"name": "Cerulean Gym",
+		"isWonder": true,
+		"culture": 1,
+		"production": 1,
+		"uniques": [
+			"Gain a free [First Gym] [in this city] <hidden from users>",
+			"Provides [1] [First Badge] <hidden from users>",
+			"Provides [1] [Boulder Badge]",
+			"Only available <without [First Badge]>",
+			"Free [Brock&Onix] appears",
+			"New [Rock] units start with [10] Experience [in this city]",
+			"[+15]% Strength <for [Rock] units> <when attacking>",
+//"Enables you to build TM 39 Rock Tomb"
+			   ],
+		//"replacementTextForUniques": "\nProvides the Boulder Badge\nFree Brock&Onix appears\nYou can only build one First Gym",
+		"requiredTech": "First Gym"
+	},
+	{
+		"name": "Azalea Gym",
+		"isWonder": true,
+		"culture": 1,
+		"gold": 1,
+		"uniques": [
+			"Gain a free [First Gym] [in this city] <hidden from users>",
+			"Gain a free [TM 51] [in this city]",
+			"Provides [1] [First Badge] <hidden from users>",
+			"Provides [1] [Zephyr Badge]",
+			"Only available <without [First Badge]>",
+			"Free [Falkner&Pidgeotto] appears",
+			"New [Flying] units start with [10] Experience [in this city]",
+			"[+15]% Strength <for [Flying] units> <when attacking>",
+			"Comment [Enables you to build TM 51 Roost]"
+			   ],
+		"requiredTech": "First Gym"
+	},
+	{
+		"name": "First Gym",
+		"cost": 0,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
+	},
+
+
+	//////TMS////////
+	{
+		"name": "TM 51",
+		"uniques": [
+			"All newly-trained [relevant] units [in this city] receive the [Roost] promotion"
+			"TM building",
+			"Only available <if [Violet Gym] is constructed>"
+			   ],
+	},
+	
   ]

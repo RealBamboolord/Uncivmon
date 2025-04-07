@@ -192,6 +192,7 @@
         "uniques": [
 		"[100]% maintenance costs",
 		"Trainer","Pokémon"
+		"Rock","Ground"
 	]
         "movementType": "Land"
     },
@@ -199,7 +200,8 @@
         "name": "Falkner",
         "uniques": [
 		"[100]% maintenance costs",
-		"Trainer","Pokémon"
+		"Trainer","Pokémon",
+		"Flying","Normal"
 	]
         "movementType": "Land"
     },

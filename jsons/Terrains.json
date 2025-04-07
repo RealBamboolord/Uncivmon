@@ -283,6 +283,24 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
+	{
+		"name": "Sandstorm",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"production": 1,
+		"occursOn": ["Desert"],
+		"uniques": ["Weather Condition"]
+	},
+	{
+		"name": "ClearWeather",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"food": 1,
+		"occursOn": ["Desert"],
+		"uniques": ["Weather Condition"]
+	},
 
 	// Natural Wonders
 	{
