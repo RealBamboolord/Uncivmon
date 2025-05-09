@@ -162,7 +162,7 @@
 		"science": 2,
 		"cost": 100,
 		"specialistSlots": {"Lab Assistant": 2},
-		"uniques": ["[+10]% [Science] [in all cities]","New [Pokémon] units start with [10] Experience [in all cities]","Only available <in cities without a [Pokémon Trainer School]>"]
+		"uniques": ["[+10]% [Science] [in all cities]","New [Pokémon] units start with [10] XP [in all cities]","Only available <in cities without a [Pokémon Trainer School]>"]
 		"requiredTech": "Pokedex"
 	},
 	{
@@ -207,7 +207,7 @@
 		"gold": 1,
 		"specialistSlots": {"Pokémon Teacher": 2},
 		"uniques": ["[+10]% [Culture] [in all cities]",
-			    "New [Trainer] units start with [15] Experience [in all cities]",
+			    "New [Trainer] units start with [15] XP [in all cities]",
 			    "Only available <in cities without a [Professor's Lab]>",
 			"Trainer building"],
 		"requiredTech": "Pokemon Centers"
@@ -233,7 +233,7 @@
 		"uniques": [
 			"Must have an owned [Lakes] within [3] tiles","Creates a [Fishing Pier] improvement on a specific tile",
 			"Comment [Enables construction of Lake Fishable units]","New [Lake Fishable] units start with [10] Experience [in this city]",
-			"New [Magikarp] units start with [5] Experience [in this city]","[+1 Gold] from [Fishing Boats] tiles [in this city]"
+			"New [Magikarp] units start with [5] XP [in this city]","[+1 Gold] from [Fishing Boats] tiles [in this city]"
 			],
 		"requiredTech": "Basic Fishing"
 	},
@@ -250,7 +250,7 @@
 			"Provides [1] [Boulder Badge]",
 			"Only available <without [First Badge]>",
 			"Free [Brock&Onix] appears",
-			"New [Rock] units start with [10] Experience [in this city]",
+			"New [Rock] units start with [10] XP [in this city]",
 			"[+15]% Strength <for [Rock] units> <when attacking>",
 //"Enables you to build TM 39 Rock Tomb"
 			   ],
@@ -269,7 +269,7 @@
 			"Provides [1] [Zephyr Badge]",
 			"Only available <without [First Badge]>",
 			"Free [Falkner&Pidgeotto] appears",
-			"New [Flying] units start with [10] Experience [in this city]",
+			"New [Flying] units start with [10] XP [in this city]",
 			"[+15]% Strength <for [Flying] units> <when attacking>",
 			"Comment [Enables you to build TM 51 Roost]"
 			   ],
@@ -366,7 +366,7 @@
 			"Provides [1] [Cascade Badge]",
 			"Only available <without [Second Badge]>",
 			"Free [Misty&Starmie] appears",
-			"New [Watertype] units start with [10] Experience [in this city]",
+			"New [Watertype] units start with [10] XP [in this city]",
 			"[+15]% Strength <for [Watertype] units> <when fighting in [Water] tiles>",
 //"Enables you to build TM 03 Water Pulse"
 			   ],
@@ -385,7 +385,7 @@
 			"Provides [1] [Hive Badge]",
 			"Only available <without [Second Badge]>",
 			"Free [Bugsy&Scyther] appears",
-			"New [Bug] units start with [10] Experience [in this city]",
+			"New [Bug] units start with [10] XP [in this city]",
 			"[+15]% Strength <for [Bug] units> <when defending>",
 //"Comment [Enables you to build TM 89 U-turn]"
 			   ],
