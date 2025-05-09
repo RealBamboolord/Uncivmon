@@ -619,6 +619,37 @@
 		"attackSound": "nonmetalhit"
 		"promotions": ["Normal","Flying","Quick Attack","Roost"],
 	},
+	{
+		"name": "Misty&Starmie",
+		"unitType": "Trainer",
+		"cost": 500,
+		"movement": 3,
+		"strength": 12,
+		"rangedStrength": 16,
+		"range": 2,
+		"requiredResource": "Cascade Badge",
+		"uniques": [
+			"Unbuildable <without [Cascade Badge]>",
+			"Limited to [1] per Civilization","Never appears as a Barbarian unit",
+			"May travel on Water tiles without embarking",
+			"[+10]% Strength bonus for [Watertype] units within [2] tiles","Can carry [3] [Pokéball] units"]
+		"attackSound": "nonmetalhit"
+		"promotions": ["Water","Psychic","Rapid Spin"], //Water Pulse
+	},
+	{
+		"name": "Bugsy&Scyther",
+		"unitType": "Trainer",
+		"cost": 500,
+		"movement": 3,
+		"strength": 20,
+		"requiredResource": "Hive Badge",
+		"uniques": [
+			"Unbuildable <without [Hive Badge]>",
+			"Limited to [1] per Civilization","Never appears as a Barbarian unit",
+			"[+10]% Strength bonus for [Bug] units within [2] tiles","Can carry [3] [Pokéball] units"]
+		"attackSound": "nonmetalhit"
+		"promotions": ["Bug","Flying","Quick Attack"], //U-Turn
+	},
 	
 	/* Great people */
 

@@ -571,6 +571,21 @@
 		"resourceType": "Strategic",
     		"uniques": ["Cannot be traded","Not shown on world screen","Will not be displayed in Civilopedia"]
 	},
+  	{
+		"name": "Second Badge",
+		"resourceType": "Luxury",
+    		"uniques": ["Cannot be traded","Not shown on world screen","Will not be displayed in Civilopedia"]
+	},
+  	{
+		"name": "Cascade Badge",
+		"resourceType": "Strategic",
+    		"uniques": ["Cannot be traded","Not shown on world screen","Will not be displayed in Civilopedia"]
+	},
+  	{
+		"name": "Hive Badge",
+		"resourceType": "Strategic",
+    		"uniques": ["Cannot be traded","Not shown on world screen","Will not be displayed in Civilopedia"]
+	},
 
 // Other Limiters
   	{

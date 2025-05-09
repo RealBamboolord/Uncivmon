@@ -6,7 +6,7 @@
 		"uniqueTo": "Kanto",
 		"cost": 1,
 		"uniques": [
-			"Only available <for [Human player]>",
+			"Only available <for [Human player] Civilizations>",
 			"Free [Bulbasaur] appears", 
 			"Free [Charmander] appears", 
 			"Free [Squirtle] appears", 
@@ -174,7 +174,7 @@
 			"Comment [Enables collecting caught Pokémon Data]",
 			"Earn [10]% of killed [Pokémon] unit's [Strength] as [Science]",
 			"[+20]% XP gained from combat",
-			"Hidden when [Pokedex] Victory is disabled",
+			"Only available <when [Pokedex] Victory is enabled>",
 			"Only available <if [Professor's Lab] is constructed>"
 			]
 		"requiredTech": "Pokedex"
@@ -359,40 +359,40 @@
 		"name": "Cerulean Gym",
 		"isWonder": true,
 		"culture": 1,
-		"production": 1,
+		"happiness": 1,
 		"uniques": [
-			"Gain a free [First Gym] [in this city] <hidden from users>",
-			"Provides [1] [First Badge] <hidden from users>",
-			"Provides [1] [Boulder Badge]",
-			"Only available <without [First Badge]>",
-			"Free [Brock&Onix] appears",
-			"New [Rock] units start with [10] Experience [in this city]",
-			"[+15]% Strength <for [Rock] units> <when attacking>",
-//"Enables you to build TM 39 Rock Tomb"
+			"Gain a free [Second Gym] [in this city] <hidden from users>",
+			"Provides [1] [Second Badge] <hidden from users>",
+			"Provides [1] [Cascade Badge]",
+			"Only available <without [Second Badge]>",
+			"Free [Misty&Starmie] appears",
+			"New [Watertype] units start with [10] Experience [in this city]",
+			"[+15]% Strength <for [Watertype] units> <when fighting in [Water] tiles>",
+//"Enables you to build TM 03 Water Pulse"
 			   ],
 		//"replacementTextForUniques": "\nProvides the Boulder Badge\nFree Brock&Onix appears\nYou can only build one First Gym",
-		"requiredTech": "First Gym"
+		"requiredTech": "Second Gym"
 	},
 	{
 		"name": "Azalea Gym",
 		"isWonder": true,
 		"culture": 1,
-		"gold": 1,
+		"science": 1,
 		"uniques": [
-			"Gain a free [First Gym] [in this city] <hidden from users>",
-			"Gain a free [TM 51] [in this city]",
-			"Provides [1] [First Badge] <hidden from users>",
-			"Provides [1] [Zephyr Badge]",
-			"Only available <without [First Badge]>",
-			"Free [Falkner&Pidgeotto] appears",
-			"New [Flying] units start with [10] Experience [in this city]",
-			"[+15]% Strength <for [Flying] units> <when attacking>",
-			"Comment [Enables you to build TM 51 Roost]"
+			"Gain a free [Second Gym] [in this city] <hidden from users>",
+			//"Gain a free [TM 89] [in this city]",
+			"Provides [1] [Second Badge] <hidden from users>",
+			"Provides [1] [Hive Badge]",
+			"Only available <without [Second Badge]>",
+			"Free [Bugsy&Scyther] appears",
+			"New [Bug] units start with [10] Experience [in this city]",
+			"[+15]% Strength <for [Bug] units> <when defending>",
+//"Comment [Enables you to build TM 89 U-turn]"
 			   ],
-		"requiredTech": "First Gym"
+		"requiredTech": "Second Gym"
 	},
 	{
-		"name": "First Gym",
+		"name": "Second Gym",
 		"cost": 0,
 		"uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
 	},
@@ -401,6 +401,7 @@
 	//////TMS////////
 	{
 		"name": "TM 51",
+		"cost": 100,
 		"uniques": [
 			"All newly-trained [relevant] units [in this city] receive the [Roost] promotion"
 			"TM building",
