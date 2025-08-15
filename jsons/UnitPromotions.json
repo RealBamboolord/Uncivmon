@@ -348,7 +348,7 @@
 	{
 	"name": "Leech Seed",
 	"uniques": [
-		"[Target Unit] gains the [Seeded] status for [8] turn(s) <upon damaging a [non-[{Grass} {Seeded}]] unit> <with [90]% chance>",
+		"[Target Unit] gains the [Seeded] status for [8] turn(s) <upon damaging a [{non-[Grass]} {non-[Seeded]}] unit> <with [90]% chance>",
 		"[This Unit] heals [5] HP <upon damaging a [Seeded] unit>"
 			],
 	"unitTypes": ["Bulbasaur"],
