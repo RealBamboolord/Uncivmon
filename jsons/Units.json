@@ -169,7 +169,7 @@
 		"requiredTech": "Forests",
 		"movement": 4,
 		"strength": 15,
-		"rangedStrength": 20,
+		"rangedStrength": 16,
 		"range": 1,
 		"promotions": ["Bug","Flying"],
 		"uniques": ["[-33]% Strength <vs cities> <when attacking>","Unbuildable"],
