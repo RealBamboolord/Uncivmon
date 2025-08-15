@@ -634,7 +634,7 @@
 			"May travel on Water tiles without embarking",
 			"[+10]% Strength bonus for [Watertype] units within [2] tiles","Can carry [3] [Pokéball] units"]
 		"attackSound": "nonmetalhit"
-		"promotions": ["Water","Psychic","Rapid Spin"], //Water Pulse
+		"promotions": ["Watertype","Psychic","Rapid Spin"], //Water Pulse
 	},
 	{
 		"name": "Bugsy&Scyther",
