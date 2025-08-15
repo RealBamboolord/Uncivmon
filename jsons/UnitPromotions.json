@@ -24,7 +24,7 @@
 		],
 	},
 	{
-	"name": "Frozen",
+	"name": "Frozen", //Maybe replace with Legends Arceus Frostbite like all good Rom Hacks do
 	"uniques": [
 		"Only available <for [non-[{Status Effect} {Ice}]] units>","Status Effect",
 		//"Cannot attack", Supposed to make attacks fail with a certain percentage chance
@@ -41,7 +41,7 @@
 		],
 	},
 
-//Stat Buff/Debuff Statuses
+//Stat Buff/Debuff Statuses,
 //Usually active for 5 turns
 	{
 	"name": "Slowed",
@@ -204,7 +204,7 @@
 	{
 	"name": "Pay Day",
 	"uniques": ["Earn [60]% of the damage done to [Pokémon] units as [Gold]"],
-	"unitTypes": ["Meowth"],
+	"unitTypes": ["Meowth"],"Comment [comment]"
 	"prerequisites": ["Screech","Assurance"],
 	},
 	{
@@ -301,6 +301,12 @@
 	"unitTypes": ["Cocoon","Brock"],
 	},
 	{
+	"name": "Scary Face",
+	"uniques": ["[Target Unit] gains the [Slowed] status for [5] turn(s) <upon damaging a [Military] unit>","Unavailable <for [{Rattata} {non-[Raticate]}] units> <hidden from users>","Comment [Not available for unevolved Rattata, currently not available to Machop as it still lacks a tier of promotions in between]"],
+	"unitTypes": ["Charmander","Charizard","Rattata","Machop"],
+	"prerequisites": ["Smokescreen","Dragon Rage","Assurance","Bite"], //Machop should get something like Submission, Vital Throw or Wake Up Slap later
+	},
+	{
 	"name": "Screech",
 	"uniques": ["[Target Unit] gains the [-1 Defense] status for [5] turn(s) <upon damaging a [Military] unit>","[Target Unit] gains the [-2 Defense] status for [5] turn(s) <upon damaging a [Military] unit> <with [20]% chance>"],
 	"unitTypes": ["Ekans","Meowth","Mankey","Brock"],
@@ -357,6 +363,15 @@
 
 //Fire
 	//Physical
+	{
+	"name": "Fire Fang",
+	"uniques": [
+		"[+15]% Strength <vs [Grass] units> <when attacking>","[+15]% Strength <vs [Ice] units> <when attacking>","[+15]% Strength <vs [Bug] units> <when attacking>","[+15]% Strength <vs [Steel] units> <when attacking>",
+		"[Target Unit] gains the [Burned] status for [4] turn(s) <upon damaging a [non-[{Status Effect} {Fire}]] unit> <with [10]% chance>"
+			],
+	"unitTypes": ["Charmander", "Charizard"],
+	"prerequisites": ["Dragon Rage","Smokescreen"],
+	},
 	//Special
 	{
 	"name": "Ember",
