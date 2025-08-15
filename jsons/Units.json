@@ -597,7 +597,7 @@
 		"strength": 20,
 		"requiredResource": "Boulder Badge",
 		"uniques": [
-			"[+25]% Strength <when defending>","[-50]% Strength <when attacking>",
+			"[+20]% Strength <when defending>","[-33]% Strength <when attacking>",
 			"Unbuildable <without [Boulder Badge]>",
 			"Very Heavy","Limited to [1] per Civilization","Never appears as a Barbarian unit",
 			"[+15]% Strength bonus for [Rock] units within [1] tiles","Can carry [3] [Pokéball] units"
@@ -622,7 +622,7 @@
 	{
 		"name": "Misty&Starmie",
 		"unitType": "Trainer",
-		"cost": 500,
+		"cost": 600,
 		"movement": 3,
 		"strength": 12,
 		"rangedStrength": 16,
@@ -639,7 +639,7 @@
 	{
 		"name": "Bugsy&Scyther",
 		"unitType": "Trainer",
-		"cost": 500,
+		"cost": 600,
 		"movement": 3,
 		"strength": 20,
 		"requiredResource": "Hive Badge",
