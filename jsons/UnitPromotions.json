@@ -3,14 +3,14 @@
 	{
 	"name": "Poisoned", //usually 6 turns
 	"uniques": [
-		"Only available <for [non-[{Status Effect} {Poison}]] units>","Status Effect",
+		"Only available <for [{non-[Status Effect]} {non-[Poison]} {non-[Steel]}] units>","Status Effect",
 		"[This Unit] takes [8] damage <upon turn end>"
 		],
 	},
 	{
 	"name": "Burned", //usually 4 turns
 	"uniques": [
-		"Only available <for [non-[{Status Effect} {Fire}]] units>","Status Effect",
+		"Only available <for [{non-[Status Effect]} {non-[Fire]}] units>","Status Effect",
 		"[This Unit] takes [8] damage <upon turn end>",
 		"[-25]% Strength <for [Melee] units> <when attacking>",
 		],
@@ -18,7 +18,7 @@
 	{
 	"name": "Paralyzed", //usually 6 turns
 	"uniques": [
-		"Only available <for [non-[{Status Effect} {Electric}]] units>","Status Effect",
+		"Only available <for [{non-[Status Effect]} {non-[Electric]}] units>","Status Effect",
 		"[-25]% Strength <with [30]% chance>",
 		"[-1] Movement", "Slowed"
 		],
@@ -26,7 +26,7 @@
 	{
 	"name": "Frozen", //Maybe replace with Legends Arceus Frostbite like all good Rom Hacks do
 	"uniques": [
-		"Only available <for [non-[{Status Effect} {Ice}]] units>","Status Effect",
+		"Only available <for [{non-[Status Effect]} {non-[Ice]}] units>","Status Effect",
 		//"Cannot attack", Supposed to make attacks fail with a certain percentage chance
 		"Cannot move"
 		],
@@ -179,7 +179,7 @@
 	{
 	"name": "Bind", //eventually come back and make the movement removal fail if the Target has only 1 movement
 			//Will add trapped status later
-			//Identical to Wrap, probably mutually exclusive
+			//Identical to Wrap, probably mutually exclusive,
 	"uniques": ["[Target Unit] loses [1] movement <upon damaging a [non-[{Geodude} {Abra}]] unit>","[Target Unit] loses [1] movement <upon damaging a [{Fastened} {Geodude}] unit>","[Target Unit] loses [1] movement <upon damaging a [{Fastened} {Abra}] unit>","[Target Unit] takes [5] damage <upon damaging a [Military] unit>"],
 	"unitTypes": ["Brock"],
 	},
@@ -190,7 +190,7 @@
 	"prerequisites": ["Pound","Disarming Voice"],
 	},
 	{
-	"name": "Flail",
+	"name": "Flail", //Seems to be pretty bad for Melee units currently, should definately come back later to buff it
 	"uniques": ["[+15]% Strength <when below [32] HP>","[+25]% Strength <when below [16] HP>","[+40]% Strength <when below [8] HP>","[+100]% Strength <when below [4] HP>",],
 	"unitTypes": ["Goldeen","Magikarp"],
 	"prerequisites": ["Peck","Tackle M"],
@@ -204,8 +204,8 @@
 	{
 	"name": "Pay Day",
 	"uniques": ["Earn [60]% of the damage done to [Pokémon] units as [Gold]"],
-	"unitTypes": ["Meowth"],"Comment [comment]"
-	"prerequisites": ["Screech","Assurance"],
+	"unitTypes": ["Meowth"],
+	"prerequisites": ["Screech","Assurance"],2*61
 	},
 	{
 	"name": "Pound",
@@ -226,7 +226,16 @@
 	},
 	{
 	"name": "Rage",
-	"uniques": ["Comment [Rage activates by attacking an enemy and gives an attack bonus that rises every time this Pokémon is attacked. If this Pokémon doesn't attack an enemy for a whole turn, the built up bonuses are lost. The Rage bonuses are also lost if the Pokémon isn't attacked for 5 turns. Rage stacks up a maximum of 5 times, up to an attack bonus of +100% Strength]","[This Unit] gains the [Rage Active] status for [2] turn(s) <upon damaging a [Pokémon] unit>","No damage penalty for wounded units"],
+	"uniques": [
+		"Comment [Rage activates by attacking an enemy and gives an attack bonus that rises every time this Pokémon is attacked. If this Pokémon doesn't attack an enemy for a whole turn, the built up bonuses are lost. The Rage bonuses are also lost if the Pokémon isn't attacked for 5 turns. Rage stacks up a maximum of 5 times, up to an attack bonus of +100% Strength]",
+		"[This Unit] gains the [Rage Active] status for [2] turn(s) <upon damaging a [Pokémon] unit>",
+		"[This Unit] loses the [Rage I] status <upon losing the [Rage Active] status> <hidden from users>",
+		"[This Unit] loses the [Rage II] status <upon losing the [Rage Active] status> <hidden from users>",
+		"[This Unit] loses the [Rage III] status <upon losing the [Rage Active] status> <hidden from users>",
+		"[This Unit] loses the [Rage IV] status <upon losing the [Rage Active] status> <hidden from users>",
+		"[This Unit] loses the [Rage V] status <upon losing the [Rage Active] status> <hidden from users>",
+		"No damage penalty for wounded units",
+		],
 	"unitTypes": ["Beedrill","Brock"],
 	"prerequisites": ["Poison Sting","Tackle","Bind","Harden"],
 	},
@@ -384,7 +393,7 @@
 	"name": "Fire Fang",
 	"uniques": [
 		"[+15]% Strength <vs [Grass] units> <when attacking>","[+15]% Strength <vs [Ice] units> <when attacking>","[+15]% Strength <vs [Bug] units> <when attacking>","[+15]% Strength <vs [Steel] units> <when attacking>",
-		"[Target Unit] gains the [Burned] status for [4] turn(s) <upon damaging a [non-[{Status Effect} {Fire}]] unit> <with [10]% chance>"
+		"[Target Unit] gains the [Burned] status for [4] turn(s) <upon damaging a [{non-[Status Effect]} {non-[Fire]}] unit> <with [10]% chance>"
 			],
 	"unitTypes": ["Charmander", "Charizard"],
 	"prerequisites": ["Dragon Rage","Smokescreen"],
@@ -394,7 +403,7 @@
 	"name": "Ember",
 	"uniques": [
 		"[+10]% Strength <vs [Grass] units>","[+10]% Strength <vs [Ice] units>","[+10]% Strength <vs [Bug] units>","[+10]% Strength <vs [Steel] units>",
-		"[Target Unit] gains the [Burned] status for [4] turn(s) <upon damaging a [non-[{Status Effect} {Fire}]] unit> <with [10]% chance>"
+		"[Target Unit] gains the [Burned] status for [4] turn(s) <upon damaging a [{non-[Status Effect]} {non-[Fire]}] unit> <with [10]% chance>"
 			],
 	"unitTypes": ["Charmander", "Charizard"],
 	"prerequisites": ["Fire"],
@@ -402,7 +411,7 @@
 	//Status
 
 //Water
-	//Physical
+	//Physical<upon losing the [promotion] status>
 	//Special
 	{
 	"name": "Bubble",
@@ -441,7 +450,7 @@
 	},
 	{
 	"name": "Twineedle",
-	"uniques": ["[1] additional attacks per turn","[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [non-[{Status Effect} {Poison}]] unit> <with [20]% chance> <for units without [Poison Sting]>","[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [{non-[Status Effect]} {Steel}] unit> <with [20]% chance> <for units with [Poison Sting]>"],
+	"uniques": ["[1] additional attacks per turn","[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [{non-[Status Effect]} {non-[Poison]} {non-[Steel]}] unit> <with [20]% chance> <for units without [Poison Sting]>","[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [{non-[Status Effect]} {non-[Poison]} {non-[Steel]}] unit> <with [14]% chance> <for units with [Poison Sting]>"], //Effectively 40% with Poison Sting,
 	"unitTypes": ["Beedrill"],
 	"prerequisites": ["Pursuit"],
 	},
@@ -504,7 +513,7 @@
 	//Physical
 	{
 	"name": "Poison Sting",
-	"uniques": ["[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [non-[{Status Effect} {Poison} {Steel}]] unit> <with [30]% chance>"],
+	"uniques": ["[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [{non-[Status Effect]} {non-[Poison]} {non-[Steel]}] unit> <with [30]% chance>"],
 	"unitTypes": ["Weedle","Beedrill","Ekans","Sandshrew"],
 	"prerequisites": ["Tackle","Scratch","Harden","Defense Curl","Withdraw","Poison"],
 	},
@@ -585,7 +594,7 @@
 	"uniques": [
 		"[+10]% Strength <vs [Watertype] units>","[+10]% Strength <vs [Flying] units>",
 		"[+5]% Strength <when attacking>","[-5]% Strength <when attacking> <vs [Ground] units>",
-		"[Target Unit] gains the [Paralyzed] status for [6] turn(s) <upon damaging a [non-[{Status Effect} {Electric} {Ground}]] unit> <with [10]% chance>"
+		"[Target Unit] gains the [Paralyzed] status for [6] turn(s) <upon damaging a [{non-[Status Effect]} {non-[Electric]} {non-[Ground]}] unit> <with [10]% chance>"
 		],
 	"unitTypes": ["Pikachu"],
 	"prerequisites": ["Electric"],
@@ -595,7 +604,7 @@
 	"uniques": [
 		"[+20]% Strength <vs [Watertype] units>","[+20]% Strength <vs [Flying] units>",
 		"[+10]% Strength <when attacking>","[-10]% Strength <when attacking> <vs [Ground] units>",
-		"[Target Unit] gains the [Paralyzed] status for [6] turn(s) <upon damaging a [non-[{Status Effect} {Electric} {Ground}]] unit> <with [10]% chance> <for units without [Thunder Shock]>"
+		"[Target Unit] gains the [Paralyzed] status for [6] turn(s) <upon damaging a [{non-[Status Effect]} {non-[Electric]} {non-[Ground]}] unit> <with [10]% chance> <for units without [Thunder Shock]>"
 		],
 	"unitTypes": ["Pikachu"],
 	"prerequisites": ["Electro Ball","Quick Attack"],
@@ -773,7 +782,7 @@
 //non moves
 	{
 	"name": "Tradeable",
-	"uniques": ["Comment [Can be traded for exclusive Pokémon inside city centers]"],
+	"uniques": ["Comment [Can be traded for exclusive Pokémon inside city centers; Currently not implemented!]"],
 	},
 	{
 		"name": "Ignore terrain cost",
@@ -785,7 +794,7 @@
   	{
 		"name": "Types",
 		"uniques": ["Only available <before discovering [Starter Choosing]>"],
-		"unitTypes": ["Test","Bulbasaur","Squirtle","Charmander","Charizard"],
+		"unitTypes": ["Test"],
 		"replacementTextForUniques": "Not for picking",
 		"row": 2,
         	"column": 0
