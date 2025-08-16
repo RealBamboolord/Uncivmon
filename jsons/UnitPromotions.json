@@ -373,13 +373,13 @@
 	{
 		"name": "Stun Spore",		
 		"uniques": ["Comment [Can activate the spores to apply the Paralysis status condition to the next target attacked within 3 turns. Status the powder is deactivated again when a unit is attacked, even if that unit is immune to the status. The cooldown is applied once the spores are released. Only one powder or spore move can be active at a time and using one will also put all others on cooldown. Keep in mind that not all powder moves have a 100% success chance and will also be lost when the attack misses! Accuracy: 75%, Cooldown: 6 turns]",
-					"[This Unit] gains the [Stun Spore Active] status for [3] turn(s) <for [0] movement> <for units without [Powder Cooldown]> <hidden from users>", 
+					"[This Unit] gains the [Stun Spore Active] status for [3] turn(s) <for [0] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
 					"[This Unit] loses the [Stun Spore Active] status <upon damaging a [All] unit> <hidden from users>"
 					]
 	},
 	{
 		"name": "Stun Spore Active",
-		"uniques": ["[Target Unit] gains the [Stun Spore Active] status for [3] turn(s) <upon damaging a [{non-[Status Effect]} {non-[Electric]}] unit> <with [75]% chance>",
+		"uniques": ["[Target Unit] gains the [Paralyzed] status for [6] turn(s) <upon damaging a [{non-[Status Effect]} {non-[Electric]}] unit> <with [75]% chance>", "Powder Active",
 					"[This Unit] gains the [Powder Cooldown] status for [6] turn(s) <upon damaging a [All] unit> <hidden from users>"],
 	},
 	{
