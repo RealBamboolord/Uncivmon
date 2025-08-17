@@ -205,7 +205,7 @@
 	"name": "Pay Day",
 	"uniques": ["Earn [60]% of the damage done to [Pokémon] units as [Gold]"],
 	"unitTypes": ["Meowth"],
-	"prerequisites": ["Screech","Assurance"],2*61
+	"prerequisites": ["Screech","Assurance"],
 	},
 	{
 	"name": "Pound",
