@@ -32,7 +32,7 @@
 		],
 	},
 	{
-	"name": "Asleep",
+	"name": "Asleep", //usually 3 turns (?)
 	"uniques": [
 		"Only available <for [non-[Status Effect]] units>","Status Effect",
 		"Cannot attack",
@@ -372,8 +372,8 @@
 	//Powder Moves
 	{
 		"name": "Stun Spore",		
-		"uniques": ["Comment [Can activate the spores to apply the Paralysis status condition to the next target attacked within 3 turns. Status the powder is deactivated again when a unit is attacked, even if that unit is immune to the status. The cooldown is applied once the spores are released. Only one powder or spore move can be active at a time and using one will also put all others on cooldown. Keep in mind that not all powder moves have a 100% success chance and will also be lost when the attack misses! Accuracy: 75%, Cooldown: 6 turns]",
-					"[This Unit] gains the [Stun Spore Active] status for [3] turn(s) <for [0] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
+		"uniques": ["Comment [Can activate the spores to apply the Paralysis status condition to the next target attacked within 3 turns. The powder is deactivated again when a unit is attacked, even if that unit is immune to the status. The cooldown is applied once the spores are released. Only one powder or spore move can be active at a time and using one will also put all others on cooldown. Keep in mind that not all powder moves have a 100% success chance and will also be lost when the attack misses! Accuracy: 75%, Cooldown: 6 turns]",
+					"[This Unit] gains the [Stun Spore Active] status for [3] turn(s) <for [1] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
 					"[This Unit] loses the [Stun Spore Active] status <upon damaging a [All] unit> <hidden from users>"
 					]
 	},
@@ -385,6 +385,18 @@
 	{
 		"name": "Powder Cooldown",
 		"uniques": ["Comment [All powder and spore moves are on cooldown]"]
+	},
+	{
+		"name": "Sleep Powder",		
+		"uniques": ["Comment [Can activate the powder to apply the Sleep status condition to the next target attacked within 3 turns. The powder is deactivated again when attacking a unit, even if that unit is immune to the status. The cooldown is applied once the powder is released. Only one powder or spore move can be active at a time and using one will also put all others on cooldown. Keep in mind that not all powder moves have a 100% success chance and will also be lost when the attack misses! Accuracy: 75%, Cooldown: 10 turns]",
+					"[This Unit] gains the [Sleep Powder Active] status for [3] turn(s) <for [1] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
+					"[This Unit] loses the [Sleep Powder Active] status <upon damaging a [All] unit> <hidden from users>"
+					]
+	},
+	{
+		"name": "Sleep Powder Active",
+		"uniques": ["[Target Unit] gains the [Asleep] status for [3] turn(s) <upon damaging a [non-[Status Effect]] unit> <with [75]% chance>", "Powder Active",
+					"[This Unit] gains the [Powder Cooldown] status for [10] turn(s) <upon damaging a [All] unit> <hidden from users>"],
 	},
 
 //Fire
