@@ -337,7 +337,7 @@
 	"unitTypes": ["Magikarp"],
 	},
 	{
-	"name": "Sweet Scent I", //Before Powder Moves for Oddish
+	"name": "Sweet Scent", //Before Powder Moves for Oddish
 	"uniques": ["Can see invisible [Pokémon] units","Boosts Adjacent Pokeballs"],
 	"unitTypes": ["Oddish"],
 	"prerequisites": ["Absorb"],
@@ -387,7 +387,7 @@
 					"[This Unit] loses the [Stun Spore Active] status <upon damaging a [All] unit> <hidden from users>"
 					],
 	"unitTypes": ["Bellsprout","Oddish"],
-	"prerequisites": ["Vine Whip","Acid","Sweet Scent I"],
+	"prerequisites": ["Vine Whip","Acid","Sweet Scent"],
 	},
 	{
 		"name": "Stun Spore Active",
@@ -405,7 +405,7 @@
 					"[This Unit] loses the [Sleep Powder Active] status <upon damaging a [All] unit> <hidden from users>"
 					],
 	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
-	"prerequisites": ["Tackle","Leech Seed","Vine Whip","Acid","Sweet Scent I"],
+	"prerequisites": ["Tackle","Leech Seed","Vine Whip","Acid","Sweet Scent"],
 	},
 	{
 		"name": "Sleep Powder Active",
@@ -418,7 +418,7 @@
 					"[This Unit] loses the [Poison Powder Active] status <upon damaging a [All] unit> <hidden from users>"
 					],
 	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
-	"prerequisites": ["Tackle","Leech Seed","Vine Whip","Acid","Sweet Scent I"],
+	"prerequisites": ["Tackle","Leech Seed","Vine Whip","Acid","Sweet Scent"],
 	},
 	{
 		"name": "Poison Powder Active",
