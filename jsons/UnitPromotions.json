@@ -674,7 +674,7 @@
 	},
 	{
 	"name": "Teleport",
-	"uniques": ["May Paradrop up to [4] tiles from inside friendly territory"],
+	"uniques": ["May Paradrop to [Land] tiles up to [4] tiles away <in [{Friendly} {Land}] tiles>"],
 	"unitTypes": ["Abra"],
 	"prerequisites": ["Psychic"],
 	},
