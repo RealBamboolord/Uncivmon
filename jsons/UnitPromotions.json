@@ -248,7 +248,7 @@
 	"name": "Slam",
 	"uniques": ["[+20]% Strength <when attacking> <with [75]% chance>"],
 	"unitTypes": ["Pikachu","Bellsprout","Brock"],
-	"prerequisites": ["Electro Ball","Quick Attack","Sweet Scent","Razor Leaf","Rock Throw","Rage"],
+	"prerequisites": ["Electro Ball","Quick Attack","Sweet Scent II","Razor Leaf","Rock Throw","Rage"],
 	},
 	{
 	"name": "Tackle",
@@ -337,10 +337,16 @@
 	"unitTypes": ["Magikarp"],
 	},
 	{
-	"name": "Sweet Scent", //Should have no requirements for Oddish; Maybe also make it apply status?
+	"name": "Sweet Scent I", //Before Powder Moves for Oddish
 	"uniques": ["Can see invisible [Pokémon] units","Boosts Adjacent Pokeballs"],
-	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
-	"prerequisites": ["Take Down","Wrap","Absorb","Poison Powder","Sleep Powder","Stun Spore"],
+	"unitTypes": ["Oddish"],
+	"prerequisites": ["Absorb"],
+	},
+	{
+	"name": "Sweet Scent II", //After Powder Moves for Bulb. and Bellsprout
+	"uniques": ["Can see invisible [Pokémon] units","Boosts Adjacent Pokeballs"],
+	"unitTypes": ["Bulbasaur","Bellsprout"],
+	"prerequisites": ["Take Down","Wrap","Poison Powder","Sleep Powder","Stun Spore"],
 	},
 
 //Grass
@@ -381,7 +387,7 @@
 					"[This Unit] loses the [Stun Spore Active] status <upon damaging a [All] unit> <hidden from users>"
 					],
 	"unitTypes": ["Bellsprout","Oddish"],
-	"prerequisites": ["Vine Whip","Acid","Sweet Scent"],
+	"prerequisites": ["Vine Whip","Acid","Sweet Scent I"],
 	},
 	{
 		"name": "Stun Spore Active",
@@ -399,7 +405,7 @@
 					"[This Unit] loses the [Sleep Powder Active] status <upon damaging a [All] unit> <hidden from users>"
 					],
 	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
-	"prerequisites": ["Tackle","Leech Seed","Vine Whip","Acid","Sweet Scent"],
+	"prerequisites": ["Tackle","Leech Seed","Vine Whip","Acid","Sweet Scent I"],
 	},
 	{
 		"name": "Sleep Powder Active",
@@ -412,7 +418,7 @@
 					"[This Unit] loses the [Poison Powder Active] status <upon damaging a [All] unit> <hidden from users>"
 					],
 	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
-	"prerequisites": ["Tackle","Leech Seed","Vine Whip","Acid","Sweet Scent"],
+	"prerequisites": ["Tackle","Leech Seed","Vine Whip","Acid","Sweet Scent I"],
 	},
 	{
 		"name": "Poison Powder Active",
