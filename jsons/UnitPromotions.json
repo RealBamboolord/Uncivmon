@@ -270,7 +270,7 @@
 	"name": "Take Down",
 	"uniques": ["[+33]% Strength <when attacking> <vs [non-[Ghost]] units>","[This Unit] takes [15] damage <upon damaging a [non-[Ghost]] unit>"],
 	"unitTypes": ["Bulbasaur","Starly"],
-	"prerequisites": ["Tackle","Wrap","Leech Seed","Double Team"],
+	"prerequisites": ["Tackle","Vine Whip","Leech Seed","Double Team"],
 	},
 	{
 	"name": "Wrap", //eventually come back and make the movement removal fail if the Target has only 1 movement
@@ -340,7 +340,7 @@
 	"name": "Sweet Scent", //Should have no requirements for Oddish; Maybe also make it apply status?
 	"uniques": ["Can see invisible [Pokémon] units","Comment [Boosts Adjacent Pokeballs]"],
 	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
-	"prerequisites": ["Take Down","Wrap","Absorb"],
+	"prerequisites": ["Take Down","Wrap","Absorb","Poison Powder","Sleep Powder","Stun Spore"],
 	},
 
 //Grass
@@ -349,7 +349,7 @@
 	"name": "Razor Leaf",
 	"uniques": ["[+25]% Strength <with [20]% chance>","[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units>"],
 	"unitTypes": ["Bulbasaur","Bellsprout"],
-	"prerequisites": ["Take Down","Wrap"],
+	"prerequisites": ["Take Down","Wrap","Poison Powder","Sleep Powder","Stun Spore"],
 	},
 	{
 	"name": "Vine Whip",
@@ -380,8 +380,8 @@
 					"[This Unit] gains the [Stun Spore Active] status for [3] turn(s) <for [1] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
 					"[This Unit] loses the [Stun Spore Active] status <upon damaging a [All] unit> <hidden from users>"
 					],
-	"unitTypes": ["Bellsprout"],
-	"prerequisites": ["Vine Whip"],
+	"unitTypes": ["Bellsprout","Oddish"],
+	"prerequisites": ["Vine Whip","Acid","Sweet Scent"],
 	},
 	{
 		"name": "Stun Spore Active",
@@ -398,8 +398,8 @@
 					"[This Unit] gains the [Sleep Powder Active] status for [3] turn(s) <for [1] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
 					"[This Unit] loses the [Sleep Powder Active] status <upon damaging a [All] unit> <hidden from users>"
 					],
-	"unitTypes": ["Bulbasaur","Bellsprout"],
-	"prerequisites": ["Vine Whip"],
+	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
+	"prerequisites": ["Tackle","Leech Seed","Vine Whip","Acid","Sweet Scent"],
 	},
 	{
 		"name": "Sleep Powder Active",
@@ -411,8 +411,8 @@
 					"[This Unit] gains the [Poison Powder Active] status for [3] turn(s) <for [1] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
 					"[This Unit] loses the [Poison Powder Active] status <upon damaging a [All] unit> <hidden from users>"
 					],
-	"unitTypes": ["Bulbasaur","Bellsprout"],
-	"prerequisites": ["Vine Whip"],
+	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
+	"prerequisites": ["Tackle","Leech Seed","Vine Whip","Acid","Sweet Scent"],
 	},
 	{
 		"name": "Poison Powder Active",
@@ -766,7 +766,7 @@
 	{
 	"name": "Moonlight",
 	"uniques": ["[+10] HP when healing"],
-	"prerequisites": ["Sweet Scent","Acid","Defense Curl","Double Slap"], //Clef should get higher tier prerequisites
+	"prerequisites": ["Poison Powder","Sleep Powder","Stun Spore","Defense Curl","Double Slap"], //Clef should get higher tier prerequisites
 	"unitTypes": ["Clefairy","Oddish"],
 	},
 
