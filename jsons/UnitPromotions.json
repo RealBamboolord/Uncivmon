@@ -397,6 +397,17 @@
 		"name": "Sleep Powder Active",
 		"uniques": ["[Target Unit] gains the [Asleep] status for [3] turn(s) <upon damaging a [non-[Status Effect]] unit> <with [75]% chance>", "Powder Active",
 					"[This Unit] gains the [Powder Cooldown] status for [10] turn(s) <upon damaging a [All] unit> <hidden from users>"],
+	},	{
+		"name": "Poison Powder",		
+		"uniques": ["Comment [Can activate the powder to apply the Poisoned status condition to the next target attacked within 3 turns. The powder is deactivated again when attacking a unit, even if that unit is immune to the status. The cooldown is applied once the powder is released. Only one powder or spore move can be active at a time and using one will also put all others on cooldown. Keep in mind that not all powder moves have a 100% success chance and will also be lost when the attack misses! Accuracy: 75%, Cooldown: 6 turns]",
+					"[This Unit] gains the [Poison Powder Active] status for [3] turn(s) <for [1] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
+					"[This Unit] loses the [Poison Powder Active] status <upon damaging a [All] unit> <hidden from users>"
+					]
+	},
+	{
+		"name": "Poison Powder Active",
+		"uniques": ["[Target Unit] gains the [Poisoned] status for [6] turn(s) <upon damaging a [{non-[Status Effect]} {non-[Poison]} {non-[Steel]}] unit> <with [75]% chance>", "Powder Active",
+					"[This Unit] gains the [Powder Cooldown] status for [6] turn(s) <upon damaging a [All] unit> <hidden from users>"],
 	},
 
 //Fire
