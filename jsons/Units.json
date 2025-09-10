@@ -327,7 +327,7 @@
 		"requiredTech": "Side Routes",
 		"movement": 2,
 		"strength": 10,
-		"promotions": ["Poison"],
+		"promotions": ["Poison","[Ekans] ability"],
 		//"uniques": [""],
 		"attackSound": "nonmetalhit"
 	},
