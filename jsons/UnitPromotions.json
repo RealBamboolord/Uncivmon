@@ -275,8 +275,12 @@
 	{
 	"name": "Wrap", //eventually come back and make the movement removal fail if the Target has only 1 movement
 			//Will add trapped status later
+	"prerequisites": ["[Ekans] ability","Vine Whip"],
 	"uniques": ["[Target Unit] loses [1] movement <upon damaging a [non-[{Geodude} {Abra}]] unit>","[Target Unit] loses [1] movement <upon damaging a [{Fastened} {Geodude}] unit>","[Target Unit] loses [1] movement <upon damaging a [{Fastened} {Abra}] unit>","[Target Unit] takes [5] damage <upon damaging a [Military] unit>"],
 	"unitTypes": ["Ekans","Bellsprout"],
+	},
+	{
+	"name": "[Ekans] ability", //Only exists as prerequisite for Wrap
 	},
 	//Special
 	//Status
@@ -336,7 +340,7 @@
 	"name": "Sweet Scent", //Should have no requirements for Oddish; Maybe also make it apply status?
 	"uniques": ["Can see invisible [Pokémon] units","Comment [Boosts Adjacent Pokeballs]"],
 	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
-	"prerequisites": ["Take Down","Vine Whip","Absorb"],
+	"prerequisites": ["Take Down","Wrap","Absorb"],
 	},
 
 //Grass
@@ -345,13 +349,13 @@
 	"name": "Razor Leaf",
 	"uniques": ["[+25]% Strength <with [20]% chance>","[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units>"],
 	"unitTypes": ["Bulbasaur","Bellsprout"],
-	"prerequisites": ["Take Down","Vine Whip"],
+	"prerequisites": ["Take Down","Wrap"],
 	},
 	{
 	"name": "Vine Whip",
 	"uniques": ["[+15]% Strength <vs [Watertype] units> <when attacking>","[+15]% Strength <vs [Ground] units> <when attacking>","[+15]% Strength <vs [Rock] units> <when attacking>"],
 	"unitTypes": ["Bulbasaur","Bellsprout"],
-	"prerequisites": ["Tackle","Wrap","Leech Seed"],
+	"prerequisites": ["Grass"],
 	},
 	//Special
 	{
@@ -375,7 +379,9 @@
 		"uniques": ["Comment [Can activate the spores to apply the Paralysis status condition to the next target attacked within 3 turns. The powder is deactivated again when a unit is attacked, even if that unit is immune to the status. The cooldown is applied once the spores are released. Only one powder or spore move can be active at a time and using one will also put all others on cooldown. Keep in mind that not all powder moves have a 100% success chance and will also be lost when the attack misses! Accuracy: 75%, Cooldown: 6 turns]",
 					"[This Unit] gains the [Stun Spore Active] status for [3] turn(s) <for [1] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
 					"[This Unit] loses the [Stun Spore Active] status <upon damaging a [All] unit> <hidden from users>"
-					]
+					],
+	"unitTypes": ["Bellsprout"],
+	"prerequisites": ["Vine Whip"],
 	},
 	{
 		"name": "Stun Spore Active",
@@ -391,7 +397,9 @@
 		"uniques": ["Comment [Can activate the powder to apply the Sleep status condition to the next target attacked within 3 turns. The powder is deactivated again when attacking a unit, even if that unit is immune to the status. The cooldown is applied once the powder is released. Only one powder or spore move can be active at a time and using one will also put all others on cooldown. Keep in mind that not all powder moves have a 100% success chance and will also be lost when the attack misses! Accuracy: 75%, Cooldown: 10 turns]",
 					"[This Unit] gains the [Sleep Powder Active] status for [3] turn(s) <for [1] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
 					"[This Unit] loses the [Sleep Powder Active] status <upon damaging a [All] unit> <hidden from users>"
-					]
+					],
+	"unitTypes": ["Bulbasaur","Bellsprout"],
+	"prerequisites": ["Vine Whip"],
 	},
 	{
 		"name": "Sleep Powder Active",
@@ -402,7 +410,9 @@
 		"uniques": ["Comment [Can activate the powder to apply the Poisoned status condition to the next target attacked within 3 turns. The powder is deactivated again when attacking a unit, even if that unit is immune to the status. The cooldown is applied once the powder is released. Only one powder or spore move can be active at a time and using one will also put all others on cooldown. Keep in mind that not all powder moves have a 100% success chance and will also be lost when the attack misses! Accuracy: 75%, Cooldown: 6 turns]",
 					"[This Unit] gains the [Poison Powder Active] status for [3] turn(s) <for [1] movement> <for units without [Powder Cooldown]> <for [non-[Powder Active]] units> <hidden from users>", 
 					"[This Unit] loses the [Poison Powder Active] status <upon damaging a [All] unit> <hidden from users>"
-					]
+					],
+	"unitTypes": ["Bulbasaur","Bellsprout"],
+	"prerequisites": ["Vine Whip"],
 	},
 	{
 		"name": "Poison Powder Active",
