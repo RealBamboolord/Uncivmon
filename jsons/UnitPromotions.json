@@ -338,7 +338,7 @@
 	},
 	{
 	"name": "Sweet Scent", //Should have no requirements for Oddish; Maybe also make it apply status?
-	"uniques": ["Can see invisible [Pokémon] units","Comment [Boosts Adjacent Pokeballs]"],
+	"uniques": ["Can see invisible [Pokémon] units","Boosts Adjacent Pokeballs"],
 	"unitTypes": ["Bulbasaur","Bellsprout","Oddish"],
 	"prerequisites": ["Take Down","Wrap","Absorb","Poison Powder","Sleep Powder","Stun Spore"],
 	},
