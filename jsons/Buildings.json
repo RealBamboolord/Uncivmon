@@ -342,7 +342,17 @@
 		"requiredTech": "River Crossing"
 	},
 
-	//Column 6
+	//Column 6,
+	{
+		"name": "Charcoal Kiln",
+		"uniqueTo": "Johto",
+		"production": 1,
+		"uniques": [
+			"[+1 Culture] from [Forest] tiles [in this city]","Must be next to [Forest]",
+			   ],
+		"specialistSlots": {"Traditional Artisan": 1},
+		"requiredTech": "Lumber Industry"
+	},
 	{
 		"name": "Sprout Tower",
 		"isWonder": true,
@@ -403,7 +413,7 @@
 		"name": "TM 51",
 		"cost": 100,
 		"uniques": [
-			"All newly-trained [relevant] units [in this city] receive the [Roost] promotion"
+			"All newly-trained [relevant] units [in this city] receive the [Roost] promotion",
 			"TM building",
 			"Only available <if [Violet Gym] is constructed>"
 			   ],
