@@ -341,6 +341,13 @@
 		"greatPersonPoints": {"Great Merchant": 1}, //Merchant
 		"requiredTech": "River Crossing"
 	},
+	{
+		"name": "Sea Cottage",
+		"uniqueTo": "Kanto",
+		"science": 2,
+		"uniques": ["Must be next to [Coast]"], //something something trading, eevee
+		"requiredTech": "River Crossing"
+	},
 
 	//Column 6,
 	{
