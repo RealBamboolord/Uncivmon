@@ -24,4 +24,11 @@
 		"greatPersonPoints": {"Great Merchant":4},
 		"color": [255,215,0]
 	},
+	{
+		"name":"Traditional Artisan",
+		"culture":2,
+		"production":1,
+		"greatPersonPoints": {"Great Merchant":1},
+		"color": [255,215,0]
+	},
 ]
