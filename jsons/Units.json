@@ -599,7 +599,7 @@
 		"strength": 20,
 		"requiredResource": "Boulder Badge",
 		"uniques": [
-			"[+20]% Strength <when defending>","[-33]% Strength <when attacking>",
+			"[+4] Strength <when defending>","[-9] Strength <when attacking>",
 			"Unbuildable <without [Boulder Badge]>",
 			"Very Heavy","Limited to [1] per Civilization","Never appears as a Barbarian unit",
 			"[+15]% Strength bonus for [Rock] units within [1] tiles","Can carry [3] [Pokéball] units"
@@ -626,7 +626,7 @@
 		"unitType": "Trainer",
 		"cost": 600,
 		"movement": 3,
-		"strength": 12,
+		"strength": 13,
 		"rangedStrength": 16,
 		"range": 2,
 		"requiredResource": "Cascade Badge",
@@ -634,6 +634,7 @@
 			"Unbuildable <without [Cascade Badge]>",
 			"Limited to [1] per Civilization","Never appears as a Barbarian unit",
 			"May travel on Water tiles without embarking",
+			"[-3] Strength <vs [Ranged] units> <when defending>",
 			"[+10]% Strength bonus for [Watertype] units within [2] tiles","Can carry [3] [Pokéball] units"]
 		"attackSound": "nonmetalhit"
 		"promotions": ["Watertype","Psychic","Rapid Spin"], //Water Pulse
@@ -642,11 +643,12 @@
 		"name": "Bugsy&Scyther",
 		"unitType": "Trainer",
 		"cost": 600,
-		"movement": 3,
+		"movement": 4,
 		"strength": 20,
 		"requiredResource": "Hive Badge",
 		"uniques": [
 			"Unbuildable <without [Hive Badge]>",
+			"[-3] Strength <when defending>",
 			"Limited to [1] per Civilization","Never appears as a Barbarian unit",
 			"[+10]% Strength bonus for [Bug] units within [2] tiles","Can carry [3] [Pokéball] units"]
 		"attackSound": "nonmetalhit"
