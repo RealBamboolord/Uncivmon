@@ -1,5 +1,7 @@
 [
-	//No Tech Requirement
+	//Starter Selection
+	
+	//Kanto
 	{
 		"name": "Test Wonder",
 		"isWonder": true,
@@ -31,7 +33,22 @@
 		"replacementTextForUniques": "FOR TESTING PURPOSES ONLY!",
 		"civilopediaText": [
 			{"text":"Here they are"}
-        ]
+        	]
+	},
+	{
+		"name": "Choose Kanto Starter",
+		"cost": 0,
+		"uniqueTo": "Kanto",
+		"uniques": [
+			"Instantly provides [1] [ZZStarter Selection Limiter] <hidden from users>",
+			"Unavailable <when above [0] [ZZStarter Selection Limiter]> <hidden from users>",
+			"Remove [Choose Kanto Starter] [in this city] <hidden from users>",
+			"Triggers a [Starter Choice - Kanto] event",
+			"Comment [Build this (or buy it for free) to select your first starter pokemon!]"
+			],
+		"civilopediaText": [
+			{"text":"Choose your starter Pokémon"}
+        	]
 	},
 	{
 		"name": "Choose Bulbasaur",
@@ -40,15 +57,9 @@
 		"uniques": [
 			"Free [Bulbasaur] appears",
 			"Provides [1] [Starter Limiter] <hidden from users>",
-			"Instantly provides [1] [ZZStarter Selection Limiter] <hidden from users>",
-			"Unavailable <if [Choose Charmander] is constructed> <hidden from users>",
-			"Unavailable <if [Choose Squirtle] is constructed> <hidden from users>",
-			"Unavailable <when above [0] [ZZStarter Selection Limiter]> <hidden from users>",
-			"Comment [You can only build one Starter Wonder per game, even if your capital gets captured!]"
+			"Unavailable <hidden from users>",
+			"Comment [You have chosen Bulbasaur as a starter. As long as you keep control of this city, you can always build a new one if the previous one is defeated or disbanded.]"
 			],
-		"civilopediaText": [
-			{"text":"Choose your starter Pokémon"}
-        ]
 	},
 	{
 		"name": "Choose Charmander",
@@ -57,15 +68,9 @@
 		"uniques": [
 			"Free [Charmander] appears",
 			"Provides [1] [Starter Limiter] <hidden from users>",
-			"Instantly provides [1] [ZZStarter Selection Limiter] <hidden from users>",
-			"Unavailable <if [Choose Squirtle] is constructed> <hidden from users>",
-			"Unavailable <if [Choose Bulbasaur] is constructed> <hidden from users>",
-			"Unavailable <when above [0] [ZZStarter Selection Limiter]> <hidden from users>",
-			"Comment [You can only build one Starter Wonder per game, even if your capital gets captured!]"
+			"Unavailable <hidden from users>",
+			"Comment [You have chosen Charmander as a starter. As long as you keep control of this city, you can always build a new one if the previous one is defeated or disbanded.]"
 			],
-		"civilopediaText": [
-			{"text":"Choose your starter Pokémon"}
-        ]
 	},
 	{
 		"name": "Choose Squirtle",
@@ -74,21 +79,53 @@
 		"uniques": [
 			"Free [Squirtle] appears",
 			"Provides [1] [Starter Limiter] <hidden from users>",
-			"Instantly provides [1] [ZZStarter Selection Limiter] <hidden from users>",
-			"Unavailable <if [Choose Charmander] is constructed> <hidden from users>",
-			"Unavailable <if [Choose Bulbasaur] is constructed> <hidden from users>",
-			"Unavailable <when above [0] [ZZStarter Selection Limiter]> <hidden from users>",
-			"Comment [You can only build one Starter Wonder per game, even if your capital gets captured!]"
+			"Unavailable <hidden from users>",
+			"Comment [You have chosen Squirtle as a starter. As long as you keep control of this city, you can always build a new one if the previous one is defeated or disbanded.]"
 			],
-		"civilopediaText": [
-			{"text":"Choose your starter Pokémon"}
-        ]
 	},
 	{
 		"name": "Starter Wonder",
 		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
 		"replacementTextForUniques": "Unbuildable",
 	},
+	
+	//Johto
+	{
+		"name": "Choose Johto Starter",
+		"cost": 0,
+		"uniqueTo": "Johto",
+		"uniques": [
+			"Instantly provides [1] [ZZStarter Selection Limiter] <hidden from users>",
+			"Unavailable <when above [0] [ZZStarter Selection Limiter]> <hidden from users>",
+			"Remove [Choose Johto Starter] [in this city] <hidden from users>",
+			"Triggers a [Starter Choice - Kanto] event",
+			"Comment [Build this (or buy it for free) to select your first starter pokemon!]",
+			"Comment [Currently provides Kanto starters, the others are a WIP.]"
+			],
+		"civilopediaText": [
+			{"text":"Choose your starter Pokémon"}
+        	]
+	},
+
+	//Hoenn
+	{
+		"name": "Choose Hoenn Starter",
+		"cost": 0,
+		"uniqueTo": "Hoenn",
+		"uniques": [
+			"Instantly provides [1] [ZZStarter Selection Limiter] <hidden from users>",
+			"Unavailable <when above [0] [ZZStarter Selection Limiter]> <hidden from users>",
+			"Remove [Choose Hoenn Starter] [in this city] <hidden from users>",
+			"Triggers a [Starter Choice - Kanto] event",
+			"Comment [Build this (or buy it for free) to select your first starter pokemon!]",
+			"Comment [Currently provides Kanto starters, the others are a WIP.]"
+			],
+		"civilopediaText": [
+			{"text":"Choose your starter Pokémon"}
+        	]
+	},
+
+	//Starting Era
   	{
 		"name": "Palace",
 		"isNationalWonder": true,

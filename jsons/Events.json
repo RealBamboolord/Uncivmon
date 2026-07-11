@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Starter Choice - Kanto",
+		"text": "It is time to receive a starter Pokemon from Professor Oak!",
+		"choices": [
+			{
+				"text": "Choose Bulbasaur",
+				"uniques": ["Gain a free [Choose Bulbasaur] [in capital]"]
+			},
+			{
+				"text": "Choose Charmander",
+				"uniques": ["Gain a free [Choose Charmander] [in capital]"]
+			}
+			{
+				"text": "Choose Squirtle",
+				"uniques": ["Gain a free [Choose Squirtle] [in capital]"]
+			},
+		]
+	}
+]
