@@ -159,7 +159,7 @@
 		"strength": 12,
 		"upgradesTo": "Butterfree",
 		"promotions": ["Bug"],
-		"uniques": ["Slow","Cannot move", "Never appears as a Barbarian unit", "[-66]% Strength <when attacking>","[+50]% XP gained from combat"],
+		"uniques": ["Slow","Cannot move", "Never appears as a Barbarian unit", "[-8] Strength <when attacking>","[+50]% XP gained from combat"],
 		"attackSound": "cannon"
 	},
 	{
@@ -167,12 +167,12 @@
 		"unitType": "Butterfree",
 		"cost": 130, 
 		"requiredTech": "Forests",
-		"movement": 4,
-		"strength": 15,
+		"movement": 3,
+		"strength": 11,
 		"rangedStrength": 16,
 		"range": 1,
 		"promotions": ["Bug","Flying"],
-		"uniques": ["[-33]% Strength <vs cities> <when attacking>","Unbuildable"],
+		"uniques": ["[-5] Strength <vs cities> <when attacking>","Unbuildable"],
 		"attackSound": "cannon"
 	},
 	{
@@ -208,7 +208,7 @@
 		"strength": 12,
 		"upgradesTo": "Beedrill",
 		"promotions": ["Bug","Poison"],
-		"uniques": ["Slow","Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle","Poison"],
+		"uniques": ["Slow","Cannot move","[-8] Strength <when attacking>","[+50]% XP gained from combat","Weedle","Poison"],
 		"attackSound": "cannon"
 	},
 	{
@@ -221,7 +221,7 @@
 		"strength": 12,
 		"upgradesTo": "Beedrill",
 		"promotions": ["Bug","Poison"],
-		"uniques": ["Will not be displayed in Civilopedia","Slow","Cannot move","[-66]% Strength <when attacking>","[+50]% XP gained from combat","Weedle"],
+		"uniques": ["Will not be displayed in Civilopedia","Slow","Cannot move","[-8] Strength <when attacking>","[+50]% XP gained from combat","Weedle"],
 		"attackSound": "cannon"
 	},
 	{
@@ -229,11 +229,11 @@
 		"unitType": "Beedrill",
 		"cost": 130, 
 		"requiredTech": "Forests",
-		"movement": 4,
+		"movement": 3,
 		"strength": 15,
 		"promotions": ["Bug","Poison"],
-		"uniques": ["Never appears as a Barbarian unit","[+33]% Strength <when attacking>","[+33]% Strength <vs [Ranged] units> <when defending>",
-                    "[+15]% Strength <when adjacent to a [Weedle] unit>","Weedle","Unbuildable"],
+		"uniques": ["Never appears as a Barbarian unit","[+4] Strength <when attacking>","[-5] Strength <vs [Melee] units> <when defending>","[+3] Strength <vs [Ranged] units> <when defending>",
+                    "[+10]% Strength <when adjacent to a [Weedle] unit>","Weedle","Unbuildable"],
 		"attackSound": "cannon"
 	},
 	{
@@ -255,7 +255,7 @@
 		"cost": 75,
 		"requiredTech": "Agriculture",
 		"movement": 3,
-		"strength": 15,
+		"strength": 14,
 		//"upgradesTo": "Pidgeot",
 		"promotions": ["Normal","Flying"],
 		"uniques": ["Never appears as a Barbarian unit"],
@@ -270,7 +270,7 @@
 		"movement": 3,
 		"strength": 7,
 		"upgradesTo": "Raticate",
-		"uniques": ["[+50]% to Flank Attack bonuses","[-33]% Strength <when defending>","Never appears as a Barbarian unit"]
+		"uniques": ["[+50]% to Flank Attack bonuses","[-3] Strength <when defending>","Never appears as a Barbarian unit"]
 		"promotions": ["Normal","Ignore terrain cost"],
 		"obsoleteTech": "Second Gym",
 		"attackSound": "nonmetalhit"
@@ -282,7 +282,7 @@
 		"requiredTech": "Second Gym",
 		"movement": 3,
 		"strength": 18,
-		"uniques": ["[+75]% to Flank Attack bonuses","[-20]% Strength <when defending>","Never appears as a Barbarian unit"]
+		"uniques": ["[+50]% to Flank Attack bonuses","[-4] Strength <vs [Melee] units> <when defending>","[-3] Strength <vs [Ranged] units> <when defending>","Never appears as a Barbarian unit"]
 		"promotions": ["Normal","Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -291,11 +291,12 @@
 		"unitType": "Spearow",
 		"uniqueTo": "Barbarians",
 		"replaces": "Pidgey",
-		"cost": 45,
+		"cost": 40,
 		"movement": 3,
 		"strength": 9,
 		"upgradesTo": "Fearow",
 		"promotions": ["Normal","Flying"],
+		"uniques": ["[-3] Strength <when defending>"]
 		//"obsoleteTech": "Second Gym",
 		"attackSound": "nonmetalhit"
 	},
@@ -306,7 +307,7 @@
 		"requiredTech": "Second Gym",
 		"movement": 4,
 		"strength": 16,
-		"uniques": ["[+40]% Strength <when attacking>","Unbuildable"]
+		"uniques": ["[+5] Strength <when attacking>","Unbuildable"]
 		"promotions": ["Normal","Flying"],
 		"attackSound": "nonmetalhit"
 	},
@@ -328,7 +329,7 @@
 		"movement": 2,
 		"strength": 10,
 		"promotions": ["Poison","[Ekans] ability"],
-		//"uniques": [""],
+		"uniques": ["[-3] Strength <vs [Melee] units> <when defending>","[-1] Strength <vs [Ranged] units> <when defending>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -341,7 +342,7 @@
 		"rangedStrength": 8,
 		"range": 2,
 		"promotions": ["Electric"],
-		"uniques": ["Never appears as a Barbarian unit","Limited to [2] per Civilization", "Starter Pokemon"],
+		"uniques": ["Never appears as a Barbarian unit","Limited to [2] per Civilization","[-1] Strength <vs [Ranged] units> <when defending>", "Starter Pokemon"],
 		"attackSound": "Pika"
 	},
 	{
@@ -350,9 +351,9 @@
 		"cost": 45, 
 		"requiredTech": "Side Routes",
 		"movement": 2,
-		"strength": 10,
+		"strength": 11,
 		"promotions": ["Ground"],
-		//"uniques": [""],
+		"uniques": ["[+1] Strength <vs [Melee] units> <when defending>","[-5] Strength <vs [Ranged] units> <when defending>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -362,18 +363,18 @@
 		"requiredTech": "Cave Exploration",
 		"movement": 2,
 		"strength": 8,
-		"rangedStrength": 10,
+		"rangedStrength": 11,
 		"range": 1,
 		"promotions": ["Fairy"],
-		"uniques": ["Never appears as a Barbarian unit","Slow","[-10]% Strength <when attacking>","[+10]% Strength <when defending> <vs [Ranged] units>","[+5] HP when healing","Only available <within [2] tiles of a [Mountain]>"],
+		"uniques": ["Never appears as a Barbarian unit","Slow","[-2] Strength <when attacking>","[+5] HP when healing","Only available <within [2] tiles of a [Mountain]>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Zubat",
 		"unitType": "Zubat",
-		"cost": 35,
+		"cost": 30,
 		"requiredTech": "Cave Exploration",
-		"movement": 4,
+		"movement": 3,
 		"strength": 7,
 		"promotions": ["Poison","Flying"],
 		"uniques": ["[-20]% Strength <when fighting in [Open terrain] tiles>","[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>","Can move after attacking","Only available <within [1] tiles of a [Hill]>",/*"Unavailable <with [0] to [0] neighboring [Mountain] tiles>"*/],
@@ -386,11 +387,11 @@
 		"cost": 55, 
 		"movement": 2,
 		"strength": 7,
-		"rangedStrength": 10,
+		"rangedStrength": 11,
 		"range": 1,
 		//"upgradesTo": "Gloom",
 		"promotions": ["Grass","Poison"],
-		"uniques": ["Never appears as a Barbarian unit","Slow"], //Only available with Red
+		"uniques": ["Never appears as a Barbarian unit","Slow","[-1] Strength <vs [Ranged] units> <when defending>"], //Only available with Red
 		//"obsoleteTech": "HM 01",
 		"attackSound": "nonmetalhit"
 	},
@@ -411,9 +412,9 @@
 		"cost": 45, 
 		"requiredTech": "Side Routes",
 		"movement": 2,
-		"strength": 10,
+		"strength": 12,
 		"promotions": ["Fighting"],
-		"uniques": ["[+15]% Strength <when attacking>","[-10]% Strength <when defending>"],
+		"uniques": ["[+3] Strength <when attacking>","[-5] Strength <vs [Melee] units> <when defending>","[-3] Strength <vs [Ranged] units> <when defending>","No movement cost to pillage"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -426,7 +427,7 @@
 		"rangedStrength": 12,
 		"range": 2,
 		"promotions": ["Psychic"],
-		"uniques": ["Never appears as a Barbarian unit","Withdraws before melee combat <with [20]% chance>","[+66]% Strength <when attacking>"],
+		"uniques": ["Never appears as a Barbarian unit","Withdraws before melee combat <with [20]% chance>","[+8] Strength <when attacking>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -437,7 +438,7 @@
 		"movement": 2,
 		"strength": 12,
 		"promotions": ["Fighting"],
-		"uniques": ["[+20]% Strength <when attacking>"],
+		"uniques": ["[+2] Strength <when attacking>","[-2] Strength <vs [Ranged] units> <when defending>","No damage penalty for wounded units"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -449,7 +450,7 @@
 		"strength": 10,
 		//"upgradesTo": "Weepinbell",
 		"promotions": ["Grass","Poison"],
-		"uniques": ["Never appears as a Barbarian unit","[+20]% Strength <when attacking>"], //Only available with Blue
+		"uniques": ["Never appears as a Barbarian unit","[+4] Strength <when attacking>"], //Only available with Blue
 		//"obsoleteTech": "HM 01",
 		"attackSound": "nonmetalhit"
 	},
@@ -459,9 +460,9 @@
 		"cost": 45, 
 		"requiredTech": "Cave Exploration",
 		"movement": 1,
-		"strength": 12,
+		"strength": 14,
 		"promotions": ["Rock","Ground"],
-		"uniques": ["Slow","[+30]% Strength <when defending>"],
+		"uniques": ["Slow","[+6] Strength <vs [Melee] units> <when defending>","[-6] Strength <vs [Ranged] units> <when defending>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -472,7 +473,7 @@
 		"movement": 3,
 		"strength": 10,
 		"promotions": ["Watertype"],
-		//"uniques": [""],
+		"uniques": ["[-1] Strength <vs [Ranged] units> <when defending>","[+20]% Strength <vs cities> <when attacking>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -480,9 +481,10 @@
 		"unitType": "Magikarp",
 		"cost": 25,
 		"requiredTech": "Optics",
-		"movement": 2,
-		"strength": 5,
+		"movement": 3,
+		"strength": 4,
 		//"upgradesTo": "Gyarados",
+		"uniques": ["[+3] Strength <vs [Melee] units> <when defending>","[+1] Strength <vs [Ranged] units> <when defending>"],
 		"promotions": ["Watertype"],
 		"attackSound": "cannon"
 	},
@@ -494,7 +496,7 @@
 		"movement": 3,
 		"strength": 7,
 		"upgradesTo": "Staravia",
-		"uniques": ["Never appears as a Barbarian unit","[+25]% Strength <when attacking>","[-20]% Strength <when defending>"],
+		"uniques": ["Never appears as a Barbarian unit","[+1] Strength <when attacking>","[-1] Strength <when defending>"],
 		"promotions": ["Normal","Flying"],
 		"obsoleteTech": "First Gym",
 		"attackSound": "nonmetalhit",
@@ -510,7 +512,7 @@
 		"movement": 3,
 		"strength": 14,
 		//"upgradesTo": "Staraptor",
-		"uniques": ["Never appears as a Barbarian unit","[+25]% Strength <when attacking>","[-20]% Strength <when defending>"],
+		"uniques": ["Never appears as a Barbarian unit","[+3] Strength <when attacking>","[-2] Strength <when defending>"],
 		"promotions": ["Normal","Flying"],
 		//"obsoleteTech": "Agriculture",
 		"attackSound": "nonmetalhit"
