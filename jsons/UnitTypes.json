@@ -6,15 +6,11 @@
     },
 
 //Pokemon Land
+	//Kanto
     {
         "name": "Bulbasaur",
         "movementType": "Land",
         "uniques": ["Pokémon","Grass","Poison"]
-    },
-    {
-        "name": "Squirtle",
-        "movementType": "Land",
-        "uniques": ["Pokémon","Watertype"]
     },
     {
         "name": "Charmander",
@@ -25,6 +21,11 @@
         "name": "Charizard",
         "movementType": "Land",
         "uniques": ["Pokémon","Fire","Flying"]
+    },
+    {
+        "name": "Squirtle",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Watertype"]
     },
     {
         "name": "Cocoon",
@@ -131,6 +132,39 @@
         "movementType": "Land",
         "uniques": ["Pokémon","Rock","Ground"]
     },
+	//Johto
+    {
+        "name": "Chikorita",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Grass"]
+    },
+    {
+        "name": "Cyndaquil",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Fire"]
+    },
+    {
+        "name": "Totodile",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Watertype"]
+    },
+	//Hoenn
+    {
+        "name": "Treecko",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Grass"]
+    },
+    {
+        "name": "Torchic",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Fire"]
+    },
+    {
+        "name": "Mudkip",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Watertype"]
+    },
+	//Sinnoh
     {
         "name": "Starly",
         "movementType": "Land",
@@ -191,7 +225,7 @@
         "name": "Brock",
         "uniques": [
 		"[100]% maintenance costs",
-		"Trainer","Pokémon"
+		"Trainer","Pokémon",
 		"Rock","Ground"
 	]
         "movementType": "Land"
