@@ -50,6 +50,18 @@
 		],
 	},
 	{
+	"name": "+1 Attack",
+	"uniques": [
+		"[+20]% Strength <for [Melee] units> <when attacking> <for units without [+2 Attack]>",
+		],
+	},
+	{
+	"name": "+2 Attack",
+	"uniques": [
+		"[+40]% Strength <for [Melee] units> <when attacking>",
+		],
+	},
+	{
 	"name": "-1 Attack",
 	"uniques": [
 		"[-20]% Strength <for [Melee] units> <when attacking> <for units without [-2 Attack]>",
@@ -253,7 +265,7 @@
 	{
 	"name": "Tackle",
 	"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[-15]% Strength <when fighting in [Open terrain] tiles> <vs [Ghost] units>"],
-	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey","Geodude","Brock","Falkner"],
+	"unitTypes": ["Caterpie","Bulbasaur","Squirtle","Rattata","Pidgey","Geodude","Aron","Brock","Falkner"],
 	},
 	{
 	"name": "Tackle M",
@@ -269,8 +281,8 @@
 	{
 	"name": "Take Down",
 	"uniques": ["[+33]% Strength <when attacking> <vs [non-[Ghost]] units>","[This Unit] takes [15] damage <upon damaging a [non-[Ghost]] unit>"],
-	"unitTypes": ["Bulbasaur","Starly"],
-	"prerequisites": ["Tackle","Vine Whip","Leech Seed","Double Team"],
+	"unitTypes": ["Bulbasaur","Starly","Aron"],
+	"prerequisites": ["Tackle","Harden","Vine Whip","Leech Seed","Double Team"],
 	},
 	{
 	"name": "Wrap", //eventually come back and make the movement removal fail if the Target has only 1 movement
@@ -311,7 +323,7 @@
 	{
 	"name": "Harden",
 	"uniques": ["[+15]% Strength <when defending> <vs [Melee] units>"],
-	"unitTypes": ["Cocoon","Brock"],
+	"unitTypes": ["Cocoon","Aron","Brock"],
 	},
 	{
 	"name": "Scary Face",
@@ -697,7 +709,7 @@
 	"prerequisites": ["Fighting"],
 	},
 	{
-	"name": "Revenge", //supposed to be against the same target that has attacked it. Not doable atm
+	"name": "Revenge", //supposed to be against the same target that has attacked it. Unlike previously stated, absolutely doable using status (EoF does something similar)
 	"uniques": ["[+25]% Strength <when attacking> <when below [80] HP>"],
 	"unitTypes": ["Machop"],
 	"prerequisites": ["Focus Energy","Karate Chop"],
@@ -756,6 +768,12 @@
 
 //Steel
 	//Physical
+	{
+	"name": "Metal Claw",
+	"uniques": ["[+15]% Strength <when attacking>","[This Unit] gains the [+1 Attack] status for [5] turn(s) <upon damaging a [Military] unit> <with [10]% chance>"],
+	"unitTypes": ["Aron"],
+	"prerequisites": ["Tackle","Harden"],
+	},
 	//Special
 	//Status
 
