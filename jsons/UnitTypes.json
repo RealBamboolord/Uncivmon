@@ -164,6 +164,11 @@
         "movementType": "Land",
         "uniques": ["Pokémon","Watertype"]
     },
+    {
+        "name": "Aron",
+        "movementType": "Land",
+        "uniques": ["Pokémon","Steel"]
+    },
 	//Sinnoh
     {
         "name": "Starly",
