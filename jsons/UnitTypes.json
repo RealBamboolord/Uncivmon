@@ -167,7 +167,7 @@
     {
         "name": "Aron",
         "movementType": "Land",
-        "uniques": ["Pokémon","Steel"]
+        "uniques": ["Pokémon","Steel","Rock"]
     },
 	//Sinnoh
     {
