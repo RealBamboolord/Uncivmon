@@ -359,6 +359,7 @@
 	{
 		"name": "Clefairy",
 		"unitType": "Clefairy",
+		"uniqueTo": "Kanto",
 		"cost": 55,
 		"requiredTech": "Cave Exploration",
 		"movement": 2,
@@ -488,6 +489,21 @@
 		"promotions": ["Watertype"],
 		"attackSound": "cannon"
 	},
+	//Hoenn
+		{
+		"name": "Aron",
+		"unitType": "Aron",
+		"uniqueTo": "Hoenn",
+		"cost": 55,
+		"requiredTech": "Cave Exploration",
+		"movement": 2,
+		"strength": 12,
+		"promotions": ["Steel","Rock"],
+		"uniques": ["Never appears as a Barbarian unit","Slow","[+5] Strength <vs [Melee] units> <when defending>","[-4] Strength <vs [Ranged] units> <when defending>","Only available <within [2] tiles of a [Mountain]>"],
+		"attackSound": "metalhit"
+	},
+
+	//Sinnoh
 	{
 		"name": "Starly",
 		"unitType": "Starly",
